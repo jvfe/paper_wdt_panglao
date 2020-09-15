@@ -4,11 +4,11 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="John Doe" />
-  <meta name="author" content="Jane Roe" />
+  <meta name="author" content="João Vitor Ferreira Cavalcante" />
+  <meta name="author" content="Tiago Lubiana" />
   <meta name="dcterms.date" content="2020-09-15" />
   <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>Manuscript Title</title>
+  <title>Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -25,10 +25,10 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB" />
+  <meta name="citation_title" content="Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB" />
+  <meta property="og:title" content="Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB" />
+  <meta property="twitter:title" content="Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB" />
   <meta name="dc.date" content="2020-09-15" />
   <meta name="citation_publication_date" content="2020-09-15" />
   <meta name="dc.language" content="en-US" />
@@ -37,23 +37,21 @@
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="João Vitor Ferreira Cavalcante" />
+  <meta name="citation_author_institution" content="Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte" />
+  <meta name="citation_author_orcid" content="0000-0001-7513-7376" />
+  <meta name="citation_author" content="Tiago Lubiana" />
+  <meta name="citation_author_institution" content="Computational Systems Biology Laboratory, University of São Paulo" />
+  <meta name="citation_author_orcid" content="0000-0003-2473-2313" />
   <link rel="canonical" href="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta property="og:url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta property="twitter:url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/06884d42447788331ffb9a4310b49ee15a109423/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/06884d42447788331ffb9a4310b49ee15a109423/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/06884d42447788331ffb9a4310b49ee15a109423/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/87bf6aca1adac5e6186a08a6b9901711368797a2/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/87bf6aca1adac5e6186a08a6b9901711368797a2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/87bf6aca1adac5e6186a08a6b9901711368797a2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,42 +61,144 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Manuscript Title</h1>
+<h1 class="title">Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jvfe.github.io/paper_wdt_panglao/v/06884d42447788331ffb9a4310b49ee15a109423/">permalink</a>)
+(<a href="https://jvfe.github.io/paper_wdt_panglao/v/87bf6aca1adac5e6186a08a6b9901711368797a2/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/06884d42447788331ffb9a4310b49ee15a109423">jvfe/paper_wdt_panglao@06884d4</a>
+from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/87bf6aca1adac5e6186a08a6b9901711368797a2">jvfe/paper_wdt_panglao@87bf6ac</a>
 on September 15, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
-<li><p><strong>John Doe</strong><br>
+<li><p><strong>João Vitor Ferreira Cavalcante</strong><br>
 <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
-<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
+<a href="https://orcid.org/0000-0001-7513-7376">0000-0001-7513-7376</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
-<a href="https://github.com/johndoe">johndoe</a>
-· <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" />
-<a href="https://twitter.com/johndoe">johndoe</a><br>
+<a href="https://github.com/jvfe">jvfe</a><br>
 <small>
-Department of Something, University of Whatever
-· Funded by Grant XXXXXXXX
+Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte
 </small></p></li>
-<li><p><strong>Jane Roe</strong><br>
+<li><p><strong>Tiago Lubiana</strong><br>
 <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
-<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
+<a href="https://orcid.org/0000-0003-2473-2313">0000-0003-2473-2313</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
-<a href="https://github.com/janeroe">janeroe</a><br>
+<a href="https://github.com/lubianat">lubianat</a><br>
 <small>
-Department of Something, University of Whatever; Department of Whatever, University of Something
+Computational Systems Biology Laboratory, University of São Paulo
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
+<h1 id="methods">Methods</h1>
+<p>Histological entities from PanglaoDB, that is, cell types, tissue types and organs, were reconciled with Wikidata items using the reconciler<span class="citation" data-cites="tiAR9KSt">[<a href="#ref-tiAR9KSt" role="doc-biblioref">1</a>]</span>
+python package and an associated Python stemming function from NLTK <span class="citation" data-cites="HvkiunUe">[<a href="#ref-HvkiunUe" role="doc-biblioref">2</a>]</span> for string matching.</p>
+<p>After reconciliation, items were manually checked for false matches - items with the same name but that don‘t represent the same concept. Finally, we obtained the reconciled csv data, and it‘s summary can be seen on Table <a href="#tbl:reconcilesummary">1</a>.</p>
+<p>Depicted in Table <a href="#tbl:reconcilesummary">1</a> are also matches for gene data, which were acquired using manual intersection of both sources, via a Pandas inner merge. This data didn’t go through reconciliation because of it’s size, but since both ends are dealing with identifiers (Gene Symbol), the item matching should work much better than with histological entities, which are described in natural language.</p>
+<div id="tbl:reconcilesummary" class="tablenos">
+<table>
+<caption><span>Table 1:</span> Summary of the matched entities from PanglaoDB.
+</caption>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 18%" />
+<col style="width: 16%" />
+<col style="width: 14%" />
+<col style="width: 25%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;"># of unique matches</th>
+<th style="text-align: right;"># of matched items</th>
+<th style="text-align: right;">% of total items that were matched</th>
+<th style="text-align: right;">% of matches that were perfect</th>
+<th style="text-align: right;">% of matches that don‘t have P31</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Cells</td>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">37.6744</td>
+<td style="text-align: right;">38.8235</td>
+<td style="text-align: right;">55.2941</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tissues</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">32.1138</td>
+<td style="text-align: right;">62.069</td>
+<td style="text-align: right;">37.931</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Organs</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">75.8621</td>
+<td style="text-align: right;">53.3333</td>
+<td style="text-align: right;">46.6667</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Human Genes</td>
+<td style="text-align: right;">35423</td>
+<td style="text-align: right;">35427</td>
+<td style="text-align: right;">60.847533</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mouse Genes</td>
+<td style="text-align: right;">25124</td>
+<td style="text-align: right;">25127</td>
+<td style="text-align: right;">46.704962</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Afterwards, we analysed which types these reconciled items belonged to in Wikidata, which is indicated by their “instance of” (P31) property.
+Most items were missing this information (Figure <a href="#fig:reconciledbar">1</a>).</p>
+<div id="fig:reconciledbar" class="fignos">
+<figure>
+<img src="images/reconciled_item_types.png" alt="" /><figcaption><span>Figure 1:</span> Percentage of reconciled entities, divided by which item type they belong to. Most reconciled items don‘t count with a “instance of” property.</figcaption>
+</figure>
+</div>
+<h1 id="general-ideas">General Ideas</h1>
+<p>Temporary file containing ideas for the project. Interesting references and concepts.</p>
+<p>med2rdf<span class="citation" data-cites="1F3C6U9Lh">[<a href="#ref-1F3C6U9Lh" role="doc-biblioref">3</a>]</span> is a project to migrate biomedical knowledge bases to RDF format,
+facilitating integration with the semantic web.</p>
+<p>15 years ago, in the original Cell Ontology paper, they mention the idea to integrate their knowledge with gene expression databases,
+something not done as far as we know <span class="citation" data-cites="1CCBSogYG">[<a href="#ref-1CCBSogYG" role="doc-biblioref">4</a>]</span></p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
-<div id="refs" role="doc-bibliography">
-
+<div id="refs" class="references hanging-indent" role="doc-bibliography">
+<div id="ref-tiAR9KSt">
+<p>1. <strong>reconciler: Python utility to reconcile Pandas DataFrames</strong> <br />
+João Vitor F. Cavalcante<br />
+<a href="https://github.com/jvfe/reconciler">https://github.com/jvfe/reconciler</a></p>
+</div>
+<div id="ref-HvkiunUe">
+<p>2. <strong>Natural language processing with Python</strong> <br />
+Steven Bird, Ewan Klein, Edward Loper<br />
+<em>O’Reilly</em> (2009) <br />
+ISBN: <a href="https://worldcat.org/isbn/9780596516499">9780596516499</a></p>
+</div>
+<div id="ref-1F3C6U9Lh">
+<p>3. <strong>MED2RDF</strong> <br />
+website<br />
+<a href="http://med2rdf.org/">http://med2rdf.org/</a></p>
+</div>
+<div id="ref-1CCBSogYG">
+<p>4.<strong>:{unav)</strong> <br />
+Jonathan Bard, Seung Y Rhee, Michael Ashburner<br />
+<em>Genome Biology</em> (2005) <a href="https://doi.org/dfxc74">https://doi.org/dfxc74</a> <br />
+DOI: <a href="https://doi.org/10.1186/gb-2005-6-2-r21">10.1186/gb-2005-6-2-r21</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15693950">15693950</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551541">PMC551541</a></p>
+</div>
 </div>
 <!-- default theme -->
 

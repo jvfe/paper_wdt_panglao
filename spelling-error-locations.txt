@@ -1,0 +1,15 @@
+content/03.methods.md:3:Histological
+content/03.methods.md:3:PanglaoDB
+content/03.methods.md:3:reconciler
+content/03.methods.md:3:reconciler
+content/03.methods.md:4:NLTK
+content/03.methods.md:6:csv
+content/03.methods.md:6:reconcilesummary
+content/03.methods.md:8:histological
+content/03.methods.md:8:reconcilesummary
+content/03.methods.md:17:PanglaoDB
+content/03.methods.md:18:reconcilesummary
+content/03.methods.md:20:analysed
+content/03.methods.md:21:reconciledbar
+content/03.methods.md:25:reconciledbar
+content/80.general_ideas.md:5:RDF
