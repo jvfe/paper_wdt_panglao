@@ -1,5 +1,4 @@
-# Automated scholarly manuscripts on GitHub
-
+# Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://jvfe.github.io/paper_wdt_panglao/)
@@ -8,24 +7,9 @@
 [![Travis Build Status](https://travis-ci.com/jvfe/paper_wdt_panglao.svg?branch=master)](https://travis-ci.com/jvfe/paper_wdt_panglao)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
-## Manuscript description
+Wikidata, a freely editable knowledge graph database, presents a great opportunity for the integration of biomedical knowledge, it’s well thought linked data model can improve significantly the handling and distribution of scientific information. On the other hand, Wikidata is still lacking in various aspects, in particular to what pertains to cell type information. This study aims to analyse how cell type knowledge is currently modelled in Wikidata and how it differs from other type of biological information, using, as a reference point, metadata from the well known single cell RNA sequencing database, PanglaoDB.
 
-<!-- usage note: edit this section. -->
-
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
-
-## Manubot
-
-<!-- usage note: do not edit this section -->
-
-Manubot is a system for writing scholarly manuscripts via GitHub.
-Manubot automates citations and references, versions manuscripts using git, and enables collaborative writing via GitHub.
-An [overview manuscript](https://greenelab.github.io/meta-review/ "Open collaborative writing with Manubot") presents the benefits of collaborative writing with Manubot and its unique features.
-The [rootstock repository](https://git.io/fhQH1) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
-See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
-
-Please open [an issue](https://git.io/fhQHM) for questions related to Manubot usage, bug reports, or general inquiries.
+Written using [Manubot](https://github.com/manubot/manubot)
 
 ### Repository directories & files
 
