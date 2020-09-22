@@ -9,7 +9,9 @@
 
 Wikidata, a freely editable knowledge graph database, presents a great opportunity for the integration of biomedical knowledge, it’s well thought linked data model can improve significantly the handling and distribution of scientific information. On the other hand, Wikidata is still lacking in various aspects, in particular to what pertains to cell type information. This study aims to analyse how cell type knowledge is currently modelled in Wikidata and how it differs from other type of biological information, using, as a reference point, metadata from the well known single cell RNA sequencing database, PanglaoDB.
 
-Written using [Manubot](https://github.com/manubot/manubot)
+Written using [Manubot](https://github.com/manubot/manubot). 
+
+See project proposal for this work at [https://github.com/jvfe/project_panglaodb](https://github.com/jvfe/project_panglaodb). 
 
 ### Repository directories & files
 
