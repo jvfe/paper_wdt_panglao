@@ -13,7 +13,7 @@ NLTK
 Norte
 PanglaoDB
 Paulo
-rdf
+RDF
 reconciledbar
 reconciler
 reconcilesummary
