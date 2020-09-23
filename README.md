@@ -4,10 +4,12 @@
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://jvfe.github.io/paper_wdt_panglao/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/jvfe/paper_wdt_panglao/workflows/Manubot/badge.svg)](https://github.com/jvfe/paper_wdt_panglao/actions)
-[![Travis Build Status](https://travis-ci.com/jvfe/paper_wdt_panglao.svg?branch=master)](https://travis-ci.com/jvfe/paper_wdt_panglao)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
-Wikidata, a freely editable knowledge graph database, presents a great opportunity for the integration of biomedical knowledge, it’s well thought linked data model can improve significantly the handling and distribution of scientific information. On the other hand, Wikidata is still lacking in various aspects, in particular to what pertains to cell type information. This study aims to analyse how cell type knowledge is currently modelled in Wikidata and how it differs from other type of biological information, using, as a reference point, metadata from the well known single cell RNA sequencing database, PanglaoDB.
+[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), a freely editable knowledge graph database, presents a great opportunity for the integration of biomedical knowledge, its well thought
+linked data model can improve significantly the handling and distribution of scientific information. On the other hand, Wikidata is still lacking
+in various aspects, in particular to what pertains to cell type information. This study aims to analyse how cell type knowledge is currently modelled 
+in Wikidata and how it differs from other types of biological information, using, as a reference point, metadata from the well known single cell RNA sequencing database, [PanglaoDB](https://panglaodb.se/index.html).
 
 Written using [Manubot](https://github.com/manubot/manubot). 
 
