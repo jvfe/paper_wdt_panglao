@@ -4,8 +4,8 @@ author-meta:
 - Tiago Lubiana
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-23'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"og:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-09-23\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-23\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/8cec85600211ab88982b558b7ce88dcbda439473/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/8cec85600211ab88982b558b7ce88dcbda439473/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/8cec85600211ab88982b558b7ce88dcbda439473/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-09-24'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"og:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-09-24\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-24\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -25,10 +25,10 @@ title: 'Analysing the extent of cell type information present in Wikidata: A cas
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/8cec85600211ab88982b558b7ce88dcbda439473/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@8cec856](https://github.com/jvfe/paper_wdt_panglao/tree/8cec85600211ab88982b558b7ce88dcbda439473)
-on September 23, 2020.
+from [jvfe/paper_wdt_panglao@7f7475f](https://github.com/jvfe/paper_wdt_panglao/tree/7f7475fced0b58d6df7a4115b32083e026d63dc8)
+on September 24, 2020.
 </em></small>
 
 ## Authors
@@ -117,40 +117,48 @@ Table: Metadata statistics for PanglaoDB, gathered from their [last update on Au
 
 ### Data acquisition
 
-Data from Wikidata will be acquired using the Wikidata Query Service [@https://query.wikidata.org/] and associated wrapper packages in Python, 
-such as WikidataIntegrator[@https://pypi.org/project/wikidataintegrator/] and wikidata2df [@https://pypi.org/project/wikidata2df/].
+Gene data from Wikidata was acquired using the Wikidata Query Service [@https://query.wikidata.org/]
+    - <https://w.wiki/bWc> for *Homo sapiens* genes and <https://w.wiki/bWe> for *Mus musculus* genes.
 
-Data from PanglaoDB will be acquired through their [web interface](https://panglaodb.se/index.html) and [metadata database dump repository](https://github.com/oscar-franzen/PanglaoDB).
+Data from PanglaoDB was acquired through their metadata database dump repository[@https://github.com/oscar-franzen/PanglaoDB].
 
-All data used will be handled with commonly used Python data science packages, such as Pandas[@doi:10.5281/zenodo.3630805], Seaborn[@doi:10.5281/zenodo.3767070] and Jupyter[@doi:10.1109/MCSE.2007.53].
+All data used was handled using the Pandas[@doi:10.5281/zenodo.3630805] library, 
+with the Seaborn[@doi:10.5281/zenodo.4019146] and Matplotlib[@doi:10.5281/zenodo.4030140] libraries being used for plotting. 
 
-### Reconciliation
+### Reconciliation and matching
 
-The metadata from PanglaoDB on cell types, genes, tissues (including germ layers) and organs will be matched to Wikidata items using the reconciler[@https://pypi.org/project/reconciler/] Python package, which is itself a wrapper around the well known OpenRefine[@https://openrefine.org/]
-reconciliation service, as well as manual intersections of both data sources. 
-Data from the reconciliation service will be considered a match if the service returns a value of "match" equals to "True". 
+The metadata from PanglaoDB on cell types, tissues (including germ layers) and organs was matched to Wikidata items using the reconciler[@https://pypi.org/project/reconciler/] library, 
+further matching was done using a custom stemming function on the item labels, via PorterStemmer from the NLTK library [@isbn:9780596516499]. 
+Matches were considered perfect if the reconciliation service or the stemming function returned a value of "match" equals to "True". 
+Matches were manually analysed for false matches, such as items with same labels but used for different concepts.
+
+Gene data was matched manually using a Pandas [@doi:10.5281/zenodo.3630805] inner merge, since both data sources contained identifiers, which should be the same.
 
 ### Item quality assessment
 
-Wikidata items will be assessed for their quality by their number of statements, which can be acquired via both the MediaWiki API [@https://www.mediawiki.org/wiki/API:REST_API] and Wikidata's own query service. And also by the presence of external identifiers, such as Ensembl Gene[@doi:10.1093/nar/gkz966] and Entrez Gene[@doi:10.1093/nar/gks1189] IDs for genes, Cell Ontology[@pmid:27377652] IDs for cell types and Uberon[@pmid:22293552] IDs for organs and tissues. 
+Wikidata items were assessed for their quality by their number of statements, 
+which were acquired using a custom wrapper on the MediaWiki API [@https://www.mediawiki.org/wiki/API:REST_API] and, 
+in the case of gene data, via Wikidata's own query service, as stated in the Data acquisition section.
+
+Furthermore, items were also assessed by the presence of external identifiers - all of which are Wikidata properties: 
+Ensembl Gene[@doi:10.1093/nar/gkz966] ([P594](https://www.wikidata.org/wiki/Property:P594)) 
+and Entrez Gene[@doi:10.1093/nar/gks1189] ([P351](https://www.wikidata.org/wiki/Property:P351)) IDs for genes, 
+Cell Ontology[@pmid:27377652] ([P7963](https://www.wikidata.org/wiki/Property:P7963)) IDs for cell types 
+and Uberon[@pmid:22293552] ([P1554](https://www.wikidata.org/wiki/Property:P1554)) IDs for organs and tissues. 
 
 
 # Results
 
-Histological entities from PanglaoDB, that is, cell types, tissue types and organs, were reconciled with Wikidata items using the reconciler[@https://pypi.org/project/reconciler/]
-python package and an associated Python stemming function from NLTK [@isbn:9780596516499] for string matching.  
+Entities from PanglaoDB, that is, cell types, genes, tissue types and organs, were matched with Wikidata items, 
+matching summary can be seen on Table @tbl:reconcilesummary.
 
-After reconciliation, items were manually checked for false matches - items with the same name but that don‘t represent the same concept. Finally, we obtained the reconciled csv data, and it‘s summary can be seen on Table @tbl:reconcilesummary. 
-
-Depicted in Table @tbl:reconcilesummary are also matches for gene data, which were acquired using manual intersection of both sources, via a Pandas inner merge. This data didn't go through reconciliation because of it's size, but since both ends are dealing with identifiers (Gene Symbol), the item matching should work much better than with histological entities, which are described in natural language.
-
-|         |   # of unique matches  |   # of matched items |   % of total items that were matched |   % of matches that were perfect |   % of matches that don‘t have P31 |
-|:--------|-------------------:|-----------------:|---------------:|---------------------------:|------------------:|
-| Cells   |                 81 |               85 |        37.6744 |                    38.8235 |           55.2941 |
-| Tissues |                 79 |               87 |        32.1138 |                    62.069  |           37.931  |
-| Organs  |                 22 |               30 |        75.8621 |                    53.3333 |           46.6667 |
-| Human Genes |                 35423 |               35427 |        60.847533 |                    NA      |           NA      |
-| Mouse Genes  |                 25124 |               25127 |        46.704962 |                    NA      |           NA      |
+|         | # of total items |   # of unique matches  |   # of matched items |   % of total items that were matched |   % of matches that were perfect |   % of matches that don‘t have P31 |
+|:--------|---------:|-------------------:|-----------------:|---------------:|---------------------------:|------------------:|
+| Cells   |      215 |                 81 |               85 |        37.6744% |                    38.8235% |           55.2941% |
+| Tissues |      246 |                 79 |               87 |        32.1138% |                    62.069%  |           37.931%  |
+| Organs  |       29 |                 22 |               30 |        75.8621% |                    53.3333% |           46.6667% |
+| Human Genes |    58216 |                 35423 |               35427 |        60.847533% |                    NA      |           NA      |
+| Mouse Genes  |    53793 |                 25124 |               25127 |        46.704962% |                    NA      |           NA      |
 Table: Summary of the matched entities from PanglaoDB.
 {#tbl:reconcilesummary}
 
