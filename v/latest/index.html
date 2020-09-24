@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="João Vitor Ferreira Cavalcante" />
   <meta name="author" content="Tiago Lubiana" />
-  <meta name="dcterms.date" content="2020-09-23" />
+  <meta name="dcterms.date" content="2020-09-24" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB" />
   <meta property="og:title" content="Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB" />
   <meta property="twitter:title" content="Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB" />
-  <meta name="dc.date" content="2020-09-23" />
-  <meta name="citation_publication_date" content="2020-09-23" />
+  <meta name="dc.date" content="2020-09-24" />
+  <meta name="citation_publication_date" content="2020-09-24" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -49,9 +49,9 @@
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/8cec85600211ab88982b558b7ce88dcbda439473/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/8cec85600211ab88982b558b7ce88dcbda439473/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/8cec85600211ab88982b558b7ce88dcbda439473/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jvfe.github.io/paper_wdt_panglao/v/8cec85600211ab88982b558b7ce88dcbda439473/">permalink</a>)
+(<a href="https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/8cec85600211ab88982b558b7ce88dcbda439473">jvfe/paper_wdt_panglao@8cec856</a>
-on September 23, 2020.
+from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/7f7475fced0b58d6df7a4115b32083e026d63dc8">jvfe/paper_wdt_panglao@7f7475f</a>
+on September 24, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -206,36 +206,46 @@ results <span class="citation" data-cites="lmhCFXiz">[<a href="#ref-lmhCFXiz" ro
 </div>
 <h2 id="methodology">Methodology</h2>
 <h3 id="data-acquisition">Data acquisition</h3>
-<p>Data from Wikidata will be acquired using the Wikidata Query Service <span class="citation" data-cites="2wDsXBwd">[<a href="#ref-2wDsXBwd" role="doc-biblioref">9</a>]</span> and associated wrapper packages in Python,
-such as WikidataIntegrator<span class="citation" data-cites="jE5KdOb1">[<a href="#ref-jE5KdOb1" role="doc-biblioref">10</a>]</span> and wikidata2df <span class="citation" data-cites="VKWfrtR1">[<a href="#ref-VKWfrtR1" role="doc-biblioref">11</a>]</span>.</p>
-<p>Data from PanglaoDB will be acquired through their <a href="https://panglaodb.se/index.html">web interface</a> and <a href="https://github.com/oscar-franzen/PanglaoDB">metadata database dump repository</a>.</p>
-<p>All data used will be handled with commonly used Python data science packages, such as Pandas<span class="citation" data-cites="Se3rrKFw">[<a href="#ref-Se3rrKFw" role="doc-biblioref">12</a>]</span>, Seaborn<span class="citation" data-cites="XhmJ6Ik9">[<a href="#ref-XhmJ6Ik9" role="doc-biblioref">13</a>]</span> and Jupyter<span class="citation" data-cites="Uw8O81dr">[<a href="#ref-Uw8O81dr" role="doc-biblioref">14</a>]</span>.</p>
-<h3 id="reconciliation">Reconciliation</h3>
-<p>The metadata from PanglaoDB on cell types, genes, tissues (including germ layers) and organs will be matched to Wikidata items using the reconciler<span class="citation" data-cites="tiAR9KSt">[<a href="#ref-tiAR9KSt" role="doc-biblioref">15</a>]</span> Python package, which is itself a wrapper around the well known OpenRefine<span class="citation" data-cites="jfPf8lxr">[<a href="#ref-jfPf8lxr" role="doc-biblioref">16</a>]</span>
-reconciliation service, as well as manual intersections of both data sources.
-Data from the reconciliation service will be considered a match if the service returns a value of “match” equals to “True”.</p>
+<p>Gene data from Wikidata was acquired using the Wikidata Query Service <span class="citation" data-cites="2wDsXBwd">[<a href="#ref-2wDsXBwd" role="doc-biblioref">9</a>]</span>
+- <a href="https://w.wiki/bWc" class="uri">https://w.wiki/bWc</a> for <em>Homo sapiens</em> genes and <a href="https://w.wiki/bWe" class="uri">https://w.wiki/bWe</a> for <em>Mus musculus</em> genes.</p>
+<p>Data from PanglaoDB was acquired through their metadata database dump repository<span class="citation" data-cites="meybWiAP">[<a href="#ref-meybWiAP" role="doc-biblioref">10</a>]</span>.</p>
+<p>All data used was handled using the Pandas<span class="citation" data-cites="Se3rrKFw">[<a href="#ref-Se3rrKFw" role="doc-biblioref">11</a>]</span> library,
+with the Seaborn<span class="citation" data-cites="MVQq5ye1">[<a href="#ref-MVQq5ye1" role="doc-biblioref">12</a>]</span> and Matplotlib<span class="citation" data-cites="1GtmSgxte">[<a href="#ref-1GtmSgxte" role="doc-biblioref">13</a>]</span> libraries being used for plotting.</p>
+<h3 id="reconciliation-and-matching">Reconciliation and matching</h3>
+<p>The metadata from PanglaoDB on cell types, tissues (including germ layers) and organs was matched to Wikidata items using the reconciler<span class="citation" data-cites="tiAR9KSt">[<a href="#ref-tiAR9KSt" role="doc-biblioref">14</a>]</span> library,
+further matching was done using a custom stemming function on the item labels, via PorterStemmer from the NLTK library <span class="citation" data-cites="HvkiunUe">[<a href="#ref-HvkiunUe" role="doc-biblioref">15</a>]</span>.
+Matches were considered perfect if the reconciliation service or the stemming function returned a value of “match” equals to “True”.
+Matches were manually analysed for false matches, such as items with same labels but used for different concepts.</p>
+<p>Gene data was matched manually using a Pandas <span class="citation" data-cites="Se3rrKFw">[<a href="#ref-Se3rrKFw" role="doc-biblioref">11</a>]</span> inner merge, since both data sources contained identifiers, which should be the same.</p>
 <h3 id="item-quality-assessment">Item quality assessment</h3>
-<p>Wikidata items will be assessed for their quality by their number of statements, which can be acquired via both the MediaWiki API <span class="citation" data-cites="adfLgClN">[<a href="#ref-adfLgClN" role="doc-biblioref">17</a>]</span> and Wikidata’s own query service. And also by the presence of external identifiers, such as Ensembl Gene<span class="citation" data-cites="oDiClyTE">[<a href="#ref-oDiClyTE" role="doc-biblioref">18</a>]</span> and Entrez Gene<span class="citation" data-cites="d5Tp72yA">[<a href="#ref-d5Tp72yA" role="doc-biblioref">19</a>]</span> IDs for genes, Cell Ontology<span class="citation" data-cites="Z3nPSmXs">[<a href="#ref-Z3nPSmXs" role="doc-biblioref">6</a>]</span> IDs for cell types and Uberon<span class="citation" data-cites="ZimCwChP">[<a href="#ref-ZimCwChP" role="doc-biblioref">20</a>]</span> IDs for organs and tissues.</p>
+<p>Wikidata items were assessed for their quality by their number of statements,
+which were acquired using a custom wrapper on the MediaWiki API <span class="citation" data-cites="adfLgClN">[<a href="#ref-adfLgClN" role="doc-biblioref">16</a>]</span> and,
+in the case of gene data, via Wikidata’s own query service, as stated in the Data acquisition section.</p>
+<p>Furthermore, items were also assessed by the presence of external identifiers - all of which are Wikidata properties:
+Ensembl Gene<span class="citation" data-cites="oDiClyTE">[<a href="#ref-oDiClyTE" role="doc-biblioref">17</a>]</span> (<a href="https://www.wikidata.org/wiki/Property:P594">P594</a>)
+and Entrez Gene<span class="citation" data-cites="d5Tp72yA">[<a href="#ref-d5Tp72yA" role="doc-biblioref">18</a>]</span> (<a href="https://www.wikidata.org/wiki/Property:P351">P351</a>) IDs for genes,
+Cell Ontology<span class="citation" data-cites="Z3nPSmXs">[<a href="#ref-Z3nPSmXs" role="doc-biblioref">6</a>]</span> (<a href="https://www.wikidata.org/wiki/Property:P7963">P7963</a>) IDs for cell types
+and Uberon<span class="citation" data-cites="ZimCwChP">[<a href="#ref-ZimCwChP" role="doc-biblioref">19</a>]</span> (<a href="https://www.wikidata.org/wiki/Property:P1554">P1554</a>) IDs for organs and tissues.</p>
 <h1 id="results">Results</h1>
-<p>Histological entities from PanglaoDB, that is, cell types, tissue types and organs, were reconciled with Wikidata items using the reconciler<span class="citation" data-cites="tiAR9KSt">[<a href="#ref-tiAR9KSt" role="doc-biblioref">15</a>]</span>
-python package and an associated Python stemming function from NLTK <span class="citation" data-cites="HvkiunUe">[<a href="#ref-HvkiunUe" role="doc-biblioref">21</a>]</span> for string matching.</p>
-<p>After reconciliation, items were manually checked for false matches - items with the same name but that don‘t represent the same concept. Finally, we obtained the reconciled csv data, and it‘s summary can be seen on Table <a href="#tbl:reconcilesummary">1</a>.</p>
-<p>Depicted in Table <a href="#tbl:reconcilesummary">1</a> are also matches for gene data, which were acquired using manual intersection of both sources, via a Pandas inner merge. This data didn’t go through reconciliation because of it’s size, but since both ends are dealing with identifiers (Gene Symbol), the item matching should work much better than with histological entities, which are described in natural language.</p>
+<p>Entities from PanglaoDB, that is, cell types, genes, tissue types and organs, were matched with Wikidata items,
+matching summary can be seen on Table <a href="#tbl:reconcilesummary">1</a>.</p>
 <div id="tbl:reconcilesummary" class="tablenos">
-<table>
+<table style="width:100%;">
 <caption><span>Table 1:</span> Summary of the matched entities from PanglaoDB.
 </caption>
 <colgroup>
+<col style="width: 7%" />
 <col style="width: 8%" />
-<col style="width: 18%" />
 <col style="width: 16%" />
-<col style="width: 14%" />
-<col style="width: 25%" />
-<col style="width: 17%" />
+<col style="width: 15%" />
+<col style="width: 13%" />
+<col style="width: 23%" />
+<col style="width: 15%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
+<th style="text-align: right;"># of total items</th>
 <th style="text-align: right;"># of unique matches</th>
 <th style="text-align: right;"># of matched items</th>
 <th style="text-align: right;">% of total items that were matched</th>
@@ -246,41 +256,46 @@ python package and an associated Python stemming function from NLTK <span class=
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Cells</td>
+<td style="text-align: right;">215</td>
 <td style="text-align: right;">81</td>
 <td style="text-align: right;">85</td>
-<td style="text-align: right;">37.6744</td>
-<td style="text-align: right;">38.8235</td>
-<td style="text-align: right;">55.2941</td>
+<td style="text-align: right;">37.6744%</td>
+<td style="text-align: right;">38.8235%</td>
+<td style="text-align: right;">55.2941%</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Tissues</td>
+<td style="text-align: right;">246</td>
 <td style="text-align: right;">79</td>
 <td style="text-align: right;">87</td>
-<td style="text-align: right;">32.1138</td>
-<td style="text-align: right;">62.069</td>
-<td style="text-align: right;">37.931</td>
+<td style="text-align: right;">32.1138%</td>
+<td style="text-align: right;">62.069%</td>
+<td style="text-align: right;">37.931%</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Organs</td>
+<td style="text-align: right;">29</td>
 <td style="text-align: right;">22</td>
 <td style="text-align: right;">30</td>
-<td style="text-align: right;">75.8621</td>
-<td style="text-align: right;">53.3333</td>
-<td style="text-align: right;">46.6667</td>
+<td style="text-align: right;">75.8621%</td>
+<td style="text-align: right;">53.3333%</td>
+<td style="text-align: right;">46.6667%</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Human Genes</td>
+<td style="text-align: right;">58216</td>
 <td style="text-align: right;">35423</td>
 <td style="text-align: right;">35427</td>
-<td style="text-align: right;">60.847533</td>
+<td style="text-align: right;">60.847533%</td>
 <td style="text-align: right;">NA</td>
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Mouse Genes</td>
+<td style="text-align: right;">53793</td>
 <td style="text-align: right;">25124</td>
 <td style="text-align: right;">25127</td>
-<td style="text-align: right;">46.704962</td>
+<td style="text-align: right;">46.704962%</td>
 <td style="text-align: right;">NA</td>
 <td style="text-align: right;">NA</td>
 </tr>
@@ -296,10 +311,10 @@ Most items were missing this information (Figure <a href="#fig:reconciledbar">1<
 </div>
 <h1 id="general-ideas">General Ideas</h1>
 <p>Temporary file containing ideas for the project. Interesting references and concepts.</p>
-<p>med2rdf<span class="citation" data-cites="1F3C6U9Lh">[<a href="#ref-1F3C6U9Lh" role="doc-biblioref">22</a>]</span> is a project to migrate biomedical knowledge bases to RDF format,
+<p>med2rdf<span class="citation" data-cites="1F3C6U9Lh">[<a href="#ref-1F3C6U9Lh" role="doc-biblioref">20</a>]</span> is a project to migrate biomedical knowledge bases to RDF format,
 facilitating integration with the semantic web.</p>
 <p>15 years ago, in the original Cell Ontology paper, they mention the idea to integrate their knowledge with gene expression databases,
-something not done as far as we know <span class="citation" data-cites="1CCBSogYG">[<a href="#ref-1CCBSogYG" role="doc-biblioref">23</a>]</span></p>
+something not done as far as we know <span class="citation" data-cites="1CCBSogYG">[<a href="#ref-1CCBSogYG" role="doc-biblioref">21</a>]</span></p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
@@ -345,76 +360,68 @@ DOI: <a href="https://doi.org/10.1093/database/baz046">10.1093/database/baz046</
 <div id="ref-2wDsXBwd">
 <p>9. <a href="https://query.wikidata.org/">https://query.wikidata.org/</a></p>
 </div>
-<div id="ref-jE5KdOb1">
-<p>10. <strong>wikidataintegrator: Python package for reading and writing to/from Wikidata</strong> <br />
-Andra Waagmeester Burgstaller-Muehlbacher Greg Stupp, Sebastian<br />
-<a href="https://github.com/sulab/WikidataIntegrator">https://github.com/sulab/WikidataIntegrator</a></p>
-</div>
-<div id="ref-VKWfrtR1">
-<p>11. <strong>wikidata2df: Utility package for easily turning a SPARQL query into a dataframe</strong> <br />
-João Vitor F. Cavalcante<br />
-<a href="https://github.com/jvfe/wikidata2df">https://github.com/jvfe/wikidata2df</a></p>
+<div id="ref-meybWiAP">
+<p>10. <strong>oscar-franzen/PanglaoDB</strong> <br />
+Oscar Franzén<br />
+(2020-09-02) <a href="https://github.com/oscar-franzen/PanglaoDB">https://github.com/oscar-franzen/PanglaoDB</a></p>
 </div>
 <div id="ref-Se3rrKFw">
-<p>12. <strong>pandas-dev/pandas: Pandas 1.0.0</strong> <br />
+<p>11. <strong>pandas-dev/pandas: Pandas 1.0.0</strong> <br />
 Jeff Reback, Wes McKinney, Jbrockmendel, Joris Van Den Bossche, Tom Augspurger, Phillip Cloud, Gfyoung, Sinhrks, Adam Klein, Matthew Roeschke, … Thomas Kluyver<br />
 <em>Zenodo</em> (2020-01-29) <a href="https://doi.org/gg9gtt">https://doi.org/gg9gtt</a> <br />
 DOI: <a href="https://doi.org/10.5281/zenodo.3630805">10.5281/zenodo.3630805</a></p>
 </div>
-<div id="ref-XhmJ6Ik9">
-<p>13. <strong>mwaskom/seaborn: v0.10.1 (April 2020)</strong> <br />
-Michael Waskom, Olga Botvinnik, Joel Ostblom, Maoz Gelbart, Saulius Lukauskas, Paul Hobson, David C Gemperline, Tom Augspurger, Yaroslav Halchenko, John B. Cole, …, Brian<br />
-<em>Zenodo</em> (2020-04-26) <a href="https://doi.org/gg4t5p">https://doi.org/gg4t5p</a> <br />
-DOI: <a href="https://doi.org/10.5281/zenodo.3767070">10.5281/zenodo.3767070</a></p>
+<div id="ref-MVQq5ye1">
+<p>12. <strong>mwaskom/seaborn: v0.11.0 (Sepetmber 2020)</strong> <br />
+Michael Waskom, Olga Botvinnik, Maoz Gelbart, Joel Ostblom, Paul Hobson, Saulius Lukauskas, David C Gemperline, Tom Augspurger, Yaroslav Halchenko, Jordi Warmenhoven, … Thomas Brunner<br />
+<em>Zenodo</em> (2020-09-08) <a href="https://doi.org/ghcq2j">https://doi.org/ghcq2j</a> <br />
+DOI: <a href="https://doi.org/10.5281/zenodo.4019146">10.5281/zenodo.4019146</a></p>
 </div>
-<div id="ref-Uw8O81dr">
-<p>14. <strong>IPython: A System for Interactive Scientific Computing</strong> <br />
-Fernando Perez, Brian E. Granger<br />
-<em>Computing in Science &amp; Engineering</em> (2007) <a href="https://doi.org/dcs6r3">https://doi.org/dcs6r3</a> <br />
-DOI: <a href="https://doi.org/10.1109/mcse.2007.53">10.1109/mcse.2007.53</a></p>
+<div id="ref-1GtmSgxte">
+<p>13. <strong>matplotlib/matplotlib: REL: v3.3.2</strong> <br />
+Thomas A Caswell, Michael Droettboom, Antony Lee, John Hunter, Elliott Sales De Andrade, Eric Firing, Tim Hoffmann, Jody Klymak, David Stansby, Nelle Varoquaux, … Paul Ivanov<br />
+<em>Zenodo</em> (2020-09-15) <a href="https://doi.org/ghcq2k">https://doi.org/ghcq2k</a> <br />
+DOI: <a href="https://doi.org/10.5281/zenodo.4030140">10.5281/zenodo.4030140</a></p>
 </div>
 <div id="ref-tiAR9KSt">
-<p>15. <strong>reconciler: Python utility to reconcile Pandas DataFrames</strong> <br />
+<p>14. <strong>reconciler: Python utility to reconcile Pandas DataFrames</strong> <br />
 João Vitor F. Cavalcante<br />
 <a href="https://github.com/jvfe/reconciler">https://github.com/jvfe/reconciler</a></p>
 </div>
-<div id="ref-jfPf8lxr">
-<p>16. <strong>OpenRefine</strong> <a href="https://openrefine.org/">https://openrefine.org/</a></p>
+<div id="ref-HvkiunUe">
+<p>15. <strong>Natural language processing with Python</strong> <br />
+Steven Bird, Ewan Klein, Edward Loper<br />
+<em>O’Reilly</em> (2009) <br />
+ISBN: <a href="https://worldcat.org/isbn/9780596516499">9780596516499</a></p>
 </div>
 <div id="ref-adfLgClN">
-<p>17. <strong>API:REST API - MediaWiki</strong> <a href="https://www.mediawiki.org/wiki/API:REST_API">https://www.mediawiki.org/wiki/API:REST_API</a></p>
+<p>16. <strong>API:REST API - MediaWiki</strong> <a href="https://www.mediawiki.org/wiki/API:REST_API">https://www.mediawiki.org/wiki/API:REST_API</a></p>
 </div>
 <div id="ref-oDiClyTE">
-<p>18. <strong>Ensembl 2020</strong> <br />
+<p>17. <strong>Ensembl 2020</strong> <br />
 Andrew D Yates, Premanand Achuthan, Wasiu Akanni, James Allen, Jamie Allen, Jorge Alvarez-Jarreta, M Ridwan Amode, Irina M Armean, Andrey G Azov, Ruth Bennett, … Paul Flicek<br />
 <em>Nucleic Acids Research</em> (2019-11-06) <a href="https://doi.org/ggqp72">https://doi.org/ggqp72</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/gkz966">10.1093/nar/gkz966</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31691826">31691826</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145704">PMC7145704</a></p>
 </div>
 <div id="ref-d5Tp72yA">
-<p>19. <strong>Database resources of the National Center for Biotechnology Information</strong> <br />
+<p>18. <strong>Database resources of the National Center for Biotechnology Information</strong> <br />
 NCBI Resource Coordinators<br />
 <em>Nucleic Acids Research</em> (2012-11-26) <a href="https://doi.org/gg9gtr">https://doi.org/gg9gtr</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/gks1189">10.1093/nar/gks1189</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23193264">23193264</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531099">PMC3531099</a></p>
 </div>
 <div id="ref-ZimCwChP">
-<p>20. <strong>Uberon, an integrative multi-species anatomy ontology.</strong> <br />
+<p>19. <strong>Uberon, an integrative multi-species anatomy ontology.</strong> <br />
 Christopher J Mungall, Carlo Torniai, Georgios V Gkoutos, Suzanna E Lewis, Melissa A Haendel<br />
 <em>Genome biology</em> (2012-01-31) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22293552">https://www.ncbi.nlm.nih.gov/pubmed/22293552</a> <br />
 DOI: <a href="https://doi.org/10.1186/gb-2012-13-1-r5">10.1186/gb-2012-13-1-r5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22293552">22293552</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334586">PMC3334586</a></p>
 </div>
-<div id="ref-HvkiunUe">
-<p>21. <strong>Natural language processing with Python</strong> <br />
-Steven Bird, Ewan Klein, Edward Loper<br />
-<em>O’Reilly</em> (2009) <br />
-ISBN: <a href="https://worldcat.org/isbn/9780596516499">9780596516499</a></p>
-</div>
 <div id="ref-1F3C6U9Lh">
-<p>22. <strong>MED2RDF</strong> <br />
+<p>20. <strong>MED2RDF</strong> <br />
 website<br />
 <a href="http://med2rdf.org/">http://med2rdf.org/</a></p>
 </div>
 <div id="ref-1CCBSogYG">
-<p>23.<strong>:{unav)</strong> <br />
+<p>21.<strong>:{unav)</strong> <br />
 Jonathan Bard, Seung Y Rhee, Michael Ashburner<br />
 <em>Genome Biology</em> (2005) <a href="https://doi.org/dfxc74">https://doi.org/dfxc74</a> <br />
 DOI: <a href="https://doi.org/10.1186/gb-2005-6-2-r21">10.1186/gb-2005-6-2-r21</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15693950">15693950</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551541">PMC551541</a></p>
