@@ -4,8 +4,8 @@ author-meta:
 - Tiago Lubiana
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-24'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"og:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-09-24\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-24\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-09-27'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"og:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-09-27\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-27\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/b549428ba524e92a89cdbe7abf32162e0ac9c67d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/b549428ba524e92a89cdbe7abf32162e0ac9c67d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/b549428ba524e92a89cdbe7abf32162e0ac9c67d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -25,10 +25,10 @@ title: 'Analysing the extent of cell type information present in Wikidata: A cas
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/7f7475fced0b58d6df7a4115b32083e026d63dc8/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/b549428ba524e92a89cdbe7abf32162e0ac9c67d/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@7f7475f](https://github.com/jvfe/paper_wdt_panglao/tree/7f7475fced0b58d6df7a4115b32083e026d63dc8)
-on September 24, 2020.
+from [jvfe/paper_wdt_panglao@b549428](https://github.com/jvfe/paper_wdt_panglao/tree/b549428ba524e92a89cdbe7abf32162e0ac9c67d)
+on September 27, 2020.
 </em></small>
 
 ## Authors
@@ -150,25 +150,68 @@ and Uberon[@pmid:22293552] ([P1554](https://www.wikidata.org/wiki/Property:P1554
 # Results
 
 Entities from PanglaoDB, that is, cell types, genes, tissue types and organs, were matched with Wikidata items, 
-matching summary can be seen on Table @tbl:reconcilesummary.
+matching summary can be seen on Table @tbl:reconcilesummary. Only *Homo sapiens* genes and Organs reconciled more than 50%.
+In the case of genes, this is probably due to the Gene Wiki initiative [@doi:10.1093/database/baw015], 
+a long-running project to improve biological information in Wikipedia and its sister-projects, including Wikidata. 
+This is further illustrated by Figure @fig:gene_alt_ids, in which we can see that all *Mus musculus* gene items - 
+and nearly all *Homo sapiens* items - 
+analysed had the Entrez ID alternative identifier present - 
+Most of the data from the Gene Wiki project came from NCBI, creator and maintainer of Entrez. 
+Nevertheless, there are still many gene items without an "Ensembl Gene ID" property, 
+showcasing the need for further work in migrating this important source of information.   
+In the case of Organ data, there was a high number of matches both due to the fact that there were only a few number of items, but also
+since most Organ entities have Wikipedia pages, that are, therefore, cross-linked using Wikidata, requiring the creation of these items. 
+
+Regarding alternative identifiers, what was observed for genes cannot be said for histological entities, 
+while there is significant progress in integrating UBERON IDs, there is near to no items with a Cell Ontology ID property (Figure @fig:histo_alt_ids).
+
+
 
 |         | # of total items |   # of unique matches  |   # of matched items |   % of total items that were matched |   % of matches that were perfect |   % of matches that don‘t have P31 |
 |:--------|---------:|-------------------:|-----------------:|---------------:|---------------------------:|------------------:|
-| Cells   |      215 |                 81 |               85 |        37.6744% |                    38.8235% |           55.2941% |
-| Tissues |      246 |                 79 |               87 |        32.1138% |                    62.069%  |           37.931%  |
-| Organs  |       29 |                 22 |               30 |        75.8621% |                    53.3333% |           46.6667% |
-| Human Genes |    58216 |                 35423 |               35427 |        60.847533% |                    NA      |           NA      |
-| Mouse Genes  |    53793 |                 25124 |               25127 |        46.704962% |                    NA      |           NA      |
+| Cells   |      215 |                 81 |               85 |        37.67% |                    38.82% |           55.29% |
+| Tissues |      246 |                 79 |               87 |        32.11% |                    62.06%  |           37.93%  |
+| Organs  |       29 |                 22 |               30 |        75.86% |                    53.33% |           46.66% |
+| Human Genes |    58216 |                 35423 |               35427 |        60.84% |                    NA      |           NA      |
+| Mouse Genes  |    53793 |                 25124 |               25127 |        46.70% |                    NA      |           NA      |
 Table: Summary of the matched entities from PanglaoDB.
 {#tbl:reconcilesummary}
 
-Afterwards, we analysed which types these reconciled items belonged to in Wikidata, which is indicated by their “instance of” (P31) property. 
-Most items were missing this information (Figure @fig:reconciledbar).
+![
+Percentage of matched histological items that had alternative identifiers,
+UBERON IDs for Tissues and Organs, Cell Ontology IDs for Cell types. 
+](images/histo_alt_ids.png){#fig:histo_alt_ids}
 
 ![
-Percentage of reconciled entities, divided by which item type they belong to. Most reconciled items don‘t count with a “instance of” property.
+Percentage of matched gene items that had alternative identifiers, Entrez ID and Ensembl Gene ID, divided by species. 
+](images/gene_alt_ids.png){#fig:gene_alt_ids}
+
+![
+Percentage of reconciled entities, divided by which item type they belong to. Most reconciled items don‘t count with the P17 property.
 ](images/reconciled_item_types.png){#fig:reconciledbar}
 
+A significant proportion of the matches we could acquire for histological data didn't contain in their data model an "instance of" (P17) property, 
+this illustrates an extremely concerning fact: Although we could still match around 30 percent of the data - 
+in the case of Cell types and Tissues - 
+this data was probably "low-quality", that is, hard to find and even harder to obtain insights from, 
+we can affirm this since the P17 property is the basis for most items in Wikidata, 
+it's the most intuitive way to perform queries against their database and to annotate their items. 
+
+Furthermore, there is a significant disparity between histological data and gene data: 
+while we could only match around 37% of Cell types from PanglaoDB, and of those 55% didn't have P17, 
+we matched 60% of *Homo sapiens* genes, and all of them had P17. 
+This disparity is not clearly shown when looking exclusively at the number of statements for these items 
+(Figures @fig:histo_boxplot and @fig:gene_violin), but it shows there is still a great amount of missing information
+for biological data, in particular in regards to cell types.
+
+![
+The distribution of the number of statements of the matched histological entities. 
+Cell types performed the lowest.
+](images/histo_boxplots.png){#fig:histo_boxplot}
+
+![
+The distribution of the number of statements for matched gene items, divided by species.
+](images/gene_violin.png){#fig:gene_violin}
 
 
 # General Ideas

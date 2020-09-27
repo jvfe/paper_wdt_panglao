@@ -1,12 +1,15 @@
 analyse
 analysed
-Bioinformatics
+bioinformatics
+boxplot
 Cavalcante
 Ensembl
 Entrez
 Ferreira
 Findable
 Grande
+histo
+histological
 interoperable
 João
 jvfe
@@ -18,6 +21,7 @@ mesenchymal
 modelled
 musculus
 myocyte
+NCBI
 NLTK
 Norte
 ontologies
@@ -26,8 +30,7 @@ PanglaoDB
 Paulo
 PorterStemmer
 QID
-rdf
-reconciledbar
+RDF
 reconciler
 reconcilesummary
 repurposing
