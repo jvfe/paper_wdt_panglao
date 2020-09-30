@@ -33,7 +33,7 @@ PanglaoDB
 Paulo
 PorterStemmer
 QID
-rdf
+RDF
 reconciler
 reconcilesummary
 repurposing
@@ -43,7 +43,7 @@ Seaborn
 SPARQL
 TBD
 Tiago
-UBERON
+Uberon
 Vitor
 wdt
 Wikidata’s

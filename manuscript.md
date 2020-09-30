@@ -5,7 +5,7 @@ author-meta:
 bibliography:
 - content/manual-references.json
 date-meta: '2020-09-30'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"og:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-09-30\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-30\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/e6ec4336224d2d3dcd03b9e0fa4f76bcc3e88a21/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/e6ec4336224d2d3dcd03b9e0fa4f76bcc3e88a21/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/e6ec4336224d2d3dcd03b9e0fa4f76bcc3e88a21/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"og:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-09-30\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-30\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/79fc78bf771006fedea5c936f06f367db1a02fd8/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/79fc78bf771006fedea5c936f06f367db1a02fd8/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/79fc78bf771006fedea5c936f06f367db1a02fd8/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -25,9 +25,9 @@ title: 'Wikidata to build 5-star Linked Open biological databases: A case study 
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/e6ec4336224d2d3dcd03b9e0fa4f76bcc3e88a21/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/79fc78bf771006fedea5c936f06f367db1a02fd8/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@e6ec433](https://github.com/jvfe/paper_wdt_panglao/tree/e6ec4336224d2d3dcd03b9e0fa4f76bcc3e88a21)
+from [jvfe/paper_wdt_panglao@79fc78b](https://github.com/jvfe/paper_wdt_panglao/tree/79fc78bf771006fedea5c936f06f367db1a02fd8)
 on September 30, 2020.
 </em></small>
 
@@ -205,19 +205,19 @@ Percentage of matched gene items that had alternative identifiers, Entrez ID and
 ](images/gene_alt_ids.png){#fig:gene_alt_ids}
 
 ![
-Percentage of reconciled entities, divided by which item type they belong to. Most reconciled items don‘t count with the P17 property.
+Percentage of reconciled entities, divided by which item type they belong to. Most reconciled items don‘t count with the P31 property.
 ](images/reconciled_item_types.png){#fig:reconciledbar}
 
-A significant proportion of the matches we could acquire for histological data didn't contain in their data model an "instance of" (P17) property, 
+A significant proportion of the matches we could acquire for histological data didn't contain in their data model an "instance of" (P31) property, 
 this illustrates an extremely concerning fact: Although we could still match around 30 percent of the data - 
 in the case of Cell types and Tissues - 
 this data was probably "low-quality", that is, hard to find and even harder to obtain insights from, 
-we can affirm this since the P17 property is the basis for most items in Wikidata, 
+we can affirm this since the P31 property is the basis for most items in Wikidata, 
 it's the most intuitive way to perform queries against their database and to annotate their items. 
 
 Furthermore, there is a significant disparity between histological data and gene data: 
-while we could only match around 37% of Cell types from PanglaoDB, and of those 55% didn't have P17, 
-we matched 60% of *Homo sapiens* genes, and all of them had P17. 
+while we could only match around 37% of Cell types from PanglaoDB, and of those 55% didn't have P31, 
+we matched 60% of *Homo sapiens* genes, and all of them had P31. 
 This disparity is not clearly shown when looking exclusively at the number of statements for these items 
 (Figures @fig:histo_boxplot and @fig:gene_violin), but it shows there is still a great amount of missing information
 for biological data, in particular in regards to cell types.
@@ -248,6 +248,7 @@ The distribution of the number of statements for matched gene items, divided by 
 
 ## SPARQL endpoint
 - TBD
+
 
 # General Ideas
 
