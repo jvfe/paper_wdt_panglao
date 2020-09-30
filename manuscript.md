@@ -4,8 +4,8 @@ author-meta:
 - Tiago Lubiana
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-27'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"og:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-09-27\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-27\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/b549428ba524e92a89cdbe7abf32162e0ac9c67d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/b549428ba524e92a89cdbe7abf32162e0ac9c67d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/b549428ba524e92a89cdbe7abf32162e0ac9c67d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-09-30'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"og:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-09-30\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-30\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/e6ec4336224d2d3dcd03b9e0fa4f76bcc3e88a21/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/e6ec4336224d2d3dcd03b9e0fa4f76bcc3e88a21/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/e6ec4336224d2d3dcd03b9e0fa4f76bcc3e88a21/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -15,7 +15,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: 'Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB'
+title: 'Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB'
 ...
 
 
@@ -25,10 +25,10 @@ title: 'Analysing the extent of cell type information present in Wikidata: A cas
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/b549428ba524e92a89cdbe7abf32162e0ac9c67d/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/e6ec4336224d2d3dcd03b9e0fa4f76bcc3e88a21/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@b549428](https://github.com/jvfe/paper_wdt_panglao/tree/b549428ba524e92a89cdbe7abf32162e0ac9c67d)
-on September 27, 2020.
+from [jvfe/paper_wdt_panglao@e6ec433](https://github.com/jvfe/paper_wdt_panglao/tree/e6ec4336224d2d3dcd03b9e0fa4f76bcc3e88a21)
+on September 30, 2020.
 </em></small>
 
 ## Authors
@@ -57,37 +57,16 @@ on September 27, 2020.
 
 ## Abstract {.page_break_before}
 
-[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), a freely editable knowledge graph database, presents a great opportunity for the integration of biomedical knowledge, its well thought
-linked data model can improve significantly the handling and distribution of scientific information. On the other hand, Wikidata is still lacking
-in various aspects, in particular to what pertains to cell type information. This study aims to analyse how cell type knowledge is currently modelled 
-in Wikidata and how it differs from other types of biological information, using, as a reference point, metadata from the well known single cell RNA sequencing database, [PanglaoDB](https://panglaodb.se/index.html).
+MOCK IDEAL ABSTRACT
+
+[PanglaoDB](https://panglaodb.se/index.html) is a database of cell type markers widely used for single cell RNA sequencing data analysis. The genes, tissues, organs and cell types mentioned in the database, however, are described by free text and lack identifiers. [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), is a freely editable knowledge graph database useful for the integration of biomedical knowledge. Its linked data model can improve significantly the handling and distribution of scientific information. 
+
+In this study we explore the feasibility of enriching PanglaoDB with Wikidata identifiers. We accessed the state of reconciliation at the beginning of the project, comparing the modelling of genes, tissues, organs and cell types on Wikidata. Taking advantage of the openess of Wikidata, we leveraged our initial analysis to contribute towards Wikidata completeness and enable full reconciliation. As a final product, we released the first SPARQL endpoint for cell marker information, in a 5-star open linked data format. We hope that this study encourages further reconciliations of databases to Wikidata. 
 
 **Keywords**: wikidata, knowledge graph, cell type, ontology.
 
 
 ## Introduction
-
-### Wikidata
-
-Wikidata [@https://www.wikidata.org/wiki/Wikidata:Main_Page] is an open, freely editable, knowledge graph database within the semantic web [@https://www.w3.org/standards/semanticweb/] that stores knowledge across a multitude of domains,
-such as arts, history, chemistry and biology, using an item-property-value linked data model (Figure @fig:wdt-hep). It is easy to use and edit, by both humans and machines, with a rich web user interface and wrapper packages available
-in common programming languages such as R and Python. All the data within Wikidata is linked and inherently public domain, thus, it presents a great opportunity to make scientific data more FAIR (Findable, accessible, interoperable and reusable), as well as provides the necessary tools to curate and develop ontologies. 
-
-![
-Wikidata item example, showing item hepatocyte (Q827450), the labels change according to the user's language, but each item has a universal identifier, called QID.
-](images/wdt_hepatocyte.png){#fig:wdt-hep}
-
-Several advances towards biological data integration and biological data analysis in Wikidata have been made before, yielding positive
-results [@doi:10.1101/031971] [@doi:10.7554/eLife.52614] and showcasing it's potential for bioinformatics-related analyses, such as drug repurposing and ID conversion [@doi:10.7554/eLife.52614]. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties [@doi:10.1016/j.jbi.2019.103292]. However, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as "instances of cell types (Q189118)" (<https://w.wiki/b2w>), of those, only nine have a "Cell Ontology ID"[@pmid:27377652] (P7963) associated, and most have a varying amount of statements (Table @tbl:cell-counts). As an additional problem, there are also 23 items being categorized as "instances of cell (Q7868)" (<https://w.wiki/b2x>), illustrating the absence of any formal data model.
-
-| Cell type Item | Number of statements |
-|:-------------:|:---------------:|
-| red blood cell (Q37187) | 48 |
-| myocyte (Q428914) | 18 |
-| mesenchymal cell (Q66568500) | 2 |
-Table: As of August 2020, Wikidata items regarding cell types have a varying amount of information, with most having very few statements.
-{#tbl:cell-counts}
-
 
 ### PanglaoDB
 
@@ -111,6 +90,38 @@ Table: Database statistics for each species in PanglaoDB, as of 31st of August, 
 |  Genes     | 110292 |
 Table: Metadata statistics for PanglaoDB, gathered from their [last update on August, 2019](https://github.com/oscar-franzen/PanglaoDB/tree/master/data).
 {#tbl:panglao2}
+
+Despite its usefulness for the community, the database is on a 3-star category for Linked Open Data [@url:https://www.w3.org/DesignIssues/LinkedData.html] as it does not use open standards from W3C (RDF and SPARQL). To make it 5-star, it needs to be also linked to external data via common identifiers. 
+
+The OBO Foundry provides a rich collection of linked biological identifiers [@url:http://www.obofoundry.org/]. However, reconciliation to OBO is challenging, as there are many ontologies, each with slightly different contribution guidelines. For that reason, we decided to reconcile PanglaoDB to Wikidata, which allows simple creation of new terms, provided they follow Wikidata`s notability criteria[@url:https://www.wikidata.org/wiki/Wikidata:Notability]. 
+
+### Wikidata
+
+Wikidata [@https://www.wikidata.org/wiki/Wikidata:Main_Page] is an open, freely editable, knowledge graph database within the semantic web [@https://www.w3.org/standards/semanticweb/] that stores knowledge across a multitude of domains,
+such as arts, history, chemistry and biology, using an item-property-value linked data model (Figure @fig:wdt-hep). It is easy to use and edit, by both humans and machines, with a rich web user interface and wrapper packages available
+in common programming languages such as R and Python. All the data within Wikidata is linked and inherently public domain, thus, it presents a great opportunity to make scientific data more FAIR (Findable, accessible, interoperable and reusable), as well as provides the necessary tools to curate and develop ontologies. 
+
+![
+Wikidata item example, showing item hepatocyte (Q827450), the labels change according to the user's language, but each item has a universal identifier, called QID.
+](images/wdt_hepatocyte.png){#fig:wdt-hep}
+
+Several advances towards biological data integration and biological data analysis in Wikidata have been made before, yielding positive
+results [@doi:10.1101/031971] [@doi:10.7554/eLife.52614] and showcasing it's potential for bioinformatics-related analyses, such as drug repurposing and ID conversion [@doi:10.7554/eLife.52614]. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties [@doi:10.1016/j.jbi.2019.103292].
+
+
+ Wikidata, however, is a work in progress, and might need extensive improvement. For example, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as "instances of cell types (Q189118)" (<https://w.wiki/b2w>). Of those, only nine have a "Cell Ontology ID"[@pmid:27377652] (P7963) associated, and most have a varying amount of statements (Table @tbl:cell-counts). As an additional problem, there are also 23 items being categorized as "instances of cell (Q7868)" (<https://w.wiki/b2x>), illustrating the absence of any formal data model.
+
+| Cell type Item | Number of statements |
+|:-------------:|:---------------:|
+| red blood cell (Q37187) | 48 |
+| myocyte (Q428914) | 18 |
+| mesenchymal cell (Q66568500) | 2 |
+Table: As of August 2020, Wikidata items regarding cell types have a varying amount of information, with most having very few statements.
+{#tbl:cell-counts}
+
+
+This work has the dual goal of re-releasing PandlaoDB in a 5-star Linked Open Data Format and improving the modelling of the necessary concepts on Wikidata.
+
 
 
 ## Methodology
@@ -149,10 +160,29 @@ and Uberon[@pmid:22293552] ([P1554](https://www.wikidata.org/wiki/Property:P1554
 
 # Results
 
+## Wikidata reconciliation - initial look
+
 Entities from PanglaoDB, that is, cell types, genes, tissue types and organs, were matched with Wikidata items, 
-matching summary can be seen on Table @tbl:reconcilesummary. Only *Homo sapiens* genes and Organs reconciled more than 50%.
+matching summary can be seen on Table @tbl:reconcilesummary. 
+
+
+
+|         | # of total items |   # of unique matches  |  % of total items that were matched |
+|:--------|---------:|-------------------:|---------------:|
+| Cells   |      215 |                 81 |        37.67% |
+| Tissues |      246 |                 79 |        32.11% |
+| Organs  |       29 |                 22 |        75.86% |
+| Human Genes |    58216 |                 35423 |               35427 |        60.84% |
+| Mouse Genes  |    53793 |                 25124 |               25127 |        46.70% |
+Table: Summary of the matched entities from PanglaoDB.
+{#tbl:reconcilesummary}
+
+## Analysis of item quality - initial look
+
+Only *Homo sapiens* genes and Organs reconciled more than 50%.
 In the case of genes, this is probably due to the Gene Wiki initiative [@doi:10.1093/database/baw015], 
 a long-running project to improve biological information in Wikipedia and its sister-projects, including Wikidata. 
+
 This is further illustrated by Figure @fig:gene_alt_ids, in which we can see that all *Mus musculus* gene items - 
 and nearly all *Homo sapiens* items - 
 analysed had the Entrez ID alternative identifier present - 
@@ -164,18 +194,6 @@ since most Organ entities have Wikipedia pages, that are, therefore, cross-linke
 
 Regarding alternative identifiers, what was observed for genes cannot be said for histological entities, 
 while there is significant progress in integrating UBERON IDs, there is near to no items with a Cell Ontology ID property (Figure @fig:histo_alt_ids).
-
-
-
-|         | # of total items |   # of unique matches  |   # of matched items |   % of total items that were matched |   % of matches that were perfect |   % of matches that don‘t have P31 |
-|:--------|---------:|-------------------:|-----------------:|---------------:|---------------------------:|------------------:|
-| Cells   |      215 |                 81 |               85 |        37.67% |                    38.82% |           55.29% |
-| Tissues |      246 |                 79 |               87 |        32.11% |                    62.06%  |           37.93%  |
-| Organs  |       29 |                 22 |               30 |        75.86% |                    53.33% |           46.66% |
-| Human Genes |    58216 |                 35423 |               35427 |        60.84% |                    NA      |           NA      |
-| Mouse Genes  |    53793 |                 25124 |               25127 |        46.70% |                    NA      |           NA      |
-Table: Summary of the matched entities from PanglaoDB.
-{#tbl:reconcilesummary}
 
 ![
 Percentage of matched histological items that had alternative identifiers,
@@ -213,6 +231,23 @@ Cell types performed the lowest.
 The distribution of the number of statements for matched gene items, divided by species.
 ](images/gene_violin.png){#fig:gene_violin}
 
+## Improving Wikidata
+- TBD
+
+### Adding missing items
+- TBD
+
+### Improving interoperability
+- TBD
+
+## Wikidata reconciliation - final look
+- TBD
+
+## Analysis of item quality - final look
+- TBD
+
+## SPARQL endpoint
+- TBD
 
 # General Ideas
 
