@@ -6,10 +6,9 @@
 [![GitHub Actions Status](https://github.com/jvfe/paper_wdt_panglao/workflows/Manubot/badge.svg)](https://github.com/jvfe/paper_wdt_panglao/actions)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
-[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), a freely editable knowledge graph database, presents a great opportunity for the integration of biomedical knowledge, its well thought
-linked data model can improve significantly the handling and distribution of scientific information. On the other hand, Wikidata is still lacking
-in various aspects, in particular to what pertains to cell type information. This study aims to analyse how cell type knowledge is currently modelled 
-in Wikidata and how it differs from other types of biological information, using, as a reference point, metadata from the well known single cell RNA sequencing database, [PanglaoDB](https://panglaodb.se/index.html).
+[PanglaoDB](https://panglaodb.se/index.html) is a database of cell type markers widely used for single cell RNA sequencing data analysis. The genes, tissues, organs and cell types mentioned in the database, however, are described by free text and lack identifiers. [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), is a freely editable knowledge graph database useful for the integration of biomedical knowledge. Its linked data model can improve significantly the handling and distribution of scientific information. 
+
+In this study we explore the feasibility of enriching PanglaoDB with Wikidata identifiers. We accessed the state of reconciliation at the beginning of the project, comparing the modelling of genes, tissues, organs and cell types on Wikidata. Taking advantage of the openess of Wikidata, we leveraged our initial analysis to contribute towards Wikidata completeness and enable full reconciliation. As a final product, we released the first SPARQL endpoint for cell marker information, in a 5-star open linked data format. We hope that this study encourages further reconciliations of databases to Wikidata. 
 
 Written using [Manubot](https://github.com/manubot/manubot). 
 
