@@ -7,12 +7,12 @@
       "manubot"
     ],
     "lang": "en-US",
-    "date-meta": "2020-09-30",
+    "date-meta": "2020-10-08",
     "author-meta": [
       "João Vitor Ferreira Cavalcante",
       "Tiago Lubiana"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"og:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-09-30\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-30\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"João Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of São Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/79fc78bf771006fedea5c936f06f367db1a02fd8/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/79fc78bf771006fedea5c936f06f367db1a02fd8/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/79fc78bf771006fedea5c936f06f367db1a02fd8/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"og:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-10-08\" />\n<meta name=\"citation_publication_date\" content=\"2020-10-08\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"João Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of São Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/ea224734828566816acd120d3aa13df22177906e/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/ea224734828566816acd120d3aa13df22177906e/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/ea224734828566816acd120d3aa13df22177906e/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -22,7 +22,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "September 30, 2020",
+    "date": "October 8, 2020",
     "authors": [
       {
         "github": "jvfe",
@@ -66,15 +66,15 @@
       "repo_slug": "jvfe/paper_wdt_panglao",
       "repo_owner": "jvfe",
       "repo_name": "paper_wdt_panglao",
-      "commit": "79fc78bf771006fedea5c936f06f367db1a02fd8",
-      "triggering_commit": "79fc78bf771006fedea5c936f06f367db1a02fd8",
-      "build_url": "https://github.com/jvfe/paper_wdt_panglao/commit/79fc78bf771006fedea5c936f06f367db1a02fd8/checks",
+      "commit": "ea224734828566816acd120d3aa13df22177906e",
+      "triggering_commit": "ea224734828566816acd120d3aa13df22177906e",
+      "build_url": "https://github.com/jvfe/paper_wdt_panglao/commit/ea224734828566816acd120d3aa13df22177906e/checks",
       "job_url": "https://github.com/jvfe/paper_wdt_panglao/runs/run3"
     },
     "html_url": "https://jvfe.github.io/paper_wdt_panglao/",
     "pdf_url": "https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf",
-    "html_url_versioned": "https://jvfe.github.io/paper_wdt_panglao/v/79fc78bf771006fedea5c936f06f367db1a02fd8/",
-    "pdf_url_versioned": "https://jvfe.github.io/paper_wdt_panglao/v/79fc78bf771006fedea5c936f06f367db1a02fd8/manuscript.pdf",
+    "html_url_versioned": "https://jvfe.github.io/paper_wdt_panglao/v/ea224734828566816acd120d3aa13df22177906e/",
+    "pdf_url_versioned": "https://jvfe.github.io/paper_wdt_panglao/v/ea224734828566816acd120d3aa13df22177906e/manuscript.pdf",
     "manubot_version": "0.3.1",
     "rootstock_commit": "0964fd7ed7fdc1e3b468b5f4f1234d24de0b14fc",
     "manuscript_stats": {

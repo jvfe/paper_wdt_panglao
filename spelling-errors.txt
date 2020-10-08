@@ -33,7 +33,7 @@ PanglaoDB
 Paulo
 PorterStemmer
 QID
-RDF
+rdf
 reconciler
 reconcilesummary
 repurposing
