@@ -1,5 +1,5 @@
 analysed
-bioinformatics
+Bioinformatics
 boxplot
 Cavalcante
 Ensembl
@@ -33,7 +33,7 @@ PanglaoDB
 Paulo
 PorterStemmer
 QID
-rdf
+RDF
 reconciler
 reconcilesummary
 repurposing
@@ -43,7 +43,7 @@ Seaborn
 SPARQL
 TBD
 Tiago
-Uberon
+UBERON
 Vitor
 wdt
 Wikidata’s
