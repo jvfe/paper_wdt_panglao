@@ -1,4 +1,4 @@
-# Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB
+# Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://jvfe.github.io/paper_wdt_panglao/)
