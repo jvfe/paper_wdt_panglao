@@ -1,21 +1,59 @@
 ---
-author-meta:
-- "Jo\xE3o Vitor Ferreira Cavalcante"
-- Tiago Lubiana
-bibliography:
-- content/manual-references.json
-date-meta: '2020-10-23'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"og:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-10-23\" />\n<meta name=\"citation_publication_date\" content=\"2020-10-23\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/paper_wdt_panglao/v/c99440db8fe4d99be8ae700a223e8dda381efd8e/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/c99440db8fe4d99be8ae700a223e8dda381efd8e/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/paper_wdt_panglao/v/c99440db8fe4d99be8ae700a223e8dda381efd8e/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+title: 'Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB'
 keywords:
 - markdown
 - publishing
 - manubot
 lang: en-US
-manubot-clear-requests-cache: false
+date-meta: '2020-12-25'
+author-meta:
+- João Vitor Ferreira Cavalcante
+- Tiago Lubiana
+header-includes: |-
+  <!--
+  Manubot generated metadata rendered from header-includes-template.html.
+  Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
+  -->
+  <meta name="dc.format" content="text/html" />
+  <meta name="dc.title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
+  <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
+  <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
+  <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
+  <meta name="dc.date" content="2020-12-25" />
+  <meta name="citation_publication_date" content="2020-12-25" />
+  <meta name="dc.language" content="en-US" />
+  <meta name="citation_language" content="en-US" />
+  <meta name="dc.relation.ispartof" content="Manubot" />
+  <meta name="dc.publisher" content="Manubot" />
+  <meta name="citation_journal_title" content="Manubot" />
+  <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="João Vitor Ferreira Cavalcante" />
+  <meta name="citation_author_institution" content="Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte" />
+  <meta name="citation_author_orcid" content="0000-0001-7513-7376" />
+  <meta name="citation_author" content="Tiago Lubiana" />
+  <meta name="citation_author_institution" content="Computational Systems Biology Laboratory, University of São Paulo" />
+  <meta name="citation_author_orcid" content="0000-0003-2473-2313" />
+  <link rel="canonical" href="https://jvfe.github.io/paper_wdt_panglao/" />
+  <meta property="og:url" content="https://jvfe.github.io/paper_wdt_panglao/" />
+  <meta property="twitter:url" content="https://jvfe.github.io/paper_wdt_panglao/" />
+  <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
+  <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/785bd546f8fd2e2feec198b3fcd065f0404cdf64/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/785bd546f8fd2e2feec198b3fcd065f0404cdf64/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/785bd546f8fd2e2feec198b3fcd065f0404cdf64/manuscript.pdf" />
+  <meta property="og:type" content="article" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
+  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
+  <meta name="theme-color" content="#ad1457" />
+  <!-- end Manubot generated metadata -->
+bibliography:
+- content/manual-references.json
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: 'Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB'
+manubot-clear-requests-cache: false
 ...
 
 
@@ -25,10 +63,10 @@ title: 'Wikidata to build 5-star Linked Open biological databases: A case study 
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c99440db8fe4d99be8ae700a223e8dda381efd8e/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/785bd546f8fd2e2feec198b3fcd065f0404cdf64/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@c99440d](https://github.com/jvfe/paper_wdt_panglao/tree/c99440db8fe4d99be8ae700a223e8dda381efd8e)
-on October 23, 2020.
+from [jvfe/paper_wdt_panglao@785bd54](https://github.com/jvfe/paper_wdt_panglao/tree/785bd546f8fd2e2feec198b3fcd065f0404cdf64)
+on December 25, 2020.
 </em></small>
 
 ## Authors
@@ -56,8 +94,6 @@ on October 23, 2020.
 
 
 ## Abstract {.page_break_before}
-
-MOCK IDEAL ABSTRACT
 
 [PanglaoDB](https://panglaodb.se/index.html) is a database of cell type markers widely used for single cell RNA sequencing data analysis. The genes, tissues, organs and cell types mentioned in the database, however, are described by free text and lack identifiers. [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), is a freely editable knowledge graph database useful for the integration of biomedical knowledge. Its linked data model can improve significantly the handling and distribution of scientific information. 
 
@@ -172,8 +208,8 @@ matching summary can be seen on Table @tbl:reconcilesummary.
 | Cells   |      215 |                 81 |        37.67% |
 | Tissues |      246 |                 85 |        34.55% |
 | Organs  |       29 |                 22 |        75.86% |
-| Human Genes |    58216 |                 35423 |               35427 |        60.84% |
-| Mouse Genes  |    53793 |                 25124 |               25127 |        46.70% |
+| Human Genes |    58216 |                 35423 |        60.84% |
+| Mouse Genes  |    53793 |                 25124 |        46.70% |
 Table: Summary of the matched entities from PanglaoDB.
 {#tbl:reconcilesummary}
 
@@ -241,10 +277,34 @@ The distribution of the number of statements for matched gene items, divided by 
 - TBD
 
 ## Wikidata reconciliation - final look
-- TBD
+
+After the aforementioned improvements were made, 
+data from PanglaoDB was reconciled once again, 
+now most cell types had appropriate matches (Table
+@tbl:finallook_summary).
+
+||  # of total items |# of unique matches  |   % of total items that were matched |
+|:-|--------------:|-------------------:|---------------:|
+| Cells     | 215 | 173 |80.4651 |
+| Tissues   |  246 |63 | 25.6097 |
+| Organs    | 29 |18 | 62.0689 |
+| Human Genes | 58216 |35423 | 60.8475 |
+| Mouse Genes |  53793 |25124 |  46.705|
+Table: Summary of matched PanglaoDB entities after improvements were made.
+{#tbl:finallook_summary}
+
+While it may seem that the information for other entity types may have decreased, such as tissues and organs, this is difficult to ascertain, as different items could have been merged for clarity or
+were reclassified as belonging to different types not covered by this study. 
 
 ## Analysis of item quality - final look
-- TBD
+
+As can be gathered from Figure @fig:finallook_reconciledbar, nearly all cell type items have the appropriate "instance of cell type" statement, with only 4 items still missing said statement and one item being classified as an "instance of gland". 
+
+This is a considerable advance in improving the quality of cell type data in Wikidata, as having this simple statement will make these items easier to find and be expanded upon.
+
+![
+Percentage of reconciled entities gathered during the second and final reconciliation, divided by which item type they belong to.
+](images/final_look_reconciled_types.png){#fig:finallook_reconciledbar}
 
 ## SPARQL endpoint
 - TBD

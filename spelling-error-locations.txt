@@ -1,9 +1,9 @@
-content/01.abstract.md:5:panglaodb
+content/01.abstract.md:3:panglaodb
+content/01.abstract.md:3:PanglaoDB
+content/01.abstract.md:5:modelling
+content/01.abstract.md:5:openess
 content/01.abstract.md:5:PanglaoDB
-content/01.abstract.md:7:modelling
-content/01.abstract.md:7:openess
-content/01.abstract.md:7:PanglaoDB
-content/01.abstract.md:7:SPARQL
+content/01.abstract.md:5:SPARQL
 content/02.introduction.md:3:PanglaoDB
 content/02.introduction.md:5:panglao
 content/02.introduction.md:5:panglaodb
@@ -66,6 +66,7 @@ content/04.results.md:39:histological
 content/04.results.md:40:UBERON
 content/04.results.md:44:Ensembl
 content/04.results.md:44:Entrez
+content/04.results.md:49:reconciledbar
 content/04.results.md:51:histological
 content/04.results.md:58:histological
 content/04.results.md:59:PanglaoDB
@@ -74,8 +75,8 @@ content/04.results.md:75:TBD
 content/04.results.md:78:TBD
 content/04.results.md:80:interoperability
 content/04.results.md:81:TBD
-content/04.results.md:84:TBD
-content/04.results.md:87:TBD
-content/04.results.md:89:SPARQL
-content/04.results.md:90:TBD
+content/04.results.md:86:PanglaoDB
+content/04.results.md:97:PanglaoDB
+content/04.results.md:113:SPARQL
+content/04.results.md:114:TBD
 content/80.general_ideas.md:5:RDF

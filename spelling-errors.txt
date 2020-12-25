@@ -1,10 +1,11 @@
 analysed
-Bioinformatics
+bioinformatics
 boxplot
 Cavalcante
 Ensembl
 Entrez
 Ferreira
+finallook
 Findable
 Grande
 histo
@@ -34,6 +35,7 @@ Paulo
 PorterStemmer
 QID
 RDF
+reconciledbar
 reconciler
 reconcilesummary
 repurposing
