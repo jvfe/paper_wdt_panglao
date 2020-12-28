@@ -1,14 +1,16 @@
 acessible
 acessment
 analysed
-Bioinformatics
+bioinformatics
 boxplot
 cajal
 Cavalcante
 CellMarkerDB
+csv
 curation
 dataset
 datasets
+dictionay
 dowloaded
 Ensembl
 Entrez
@@ -37,6 +39,7 @@ musculus
 myocyte
 NCBI
 neurogenesis
+neutrophil
 NLTK
 Norte
 OBO
@@ -65,7 +68,7 @@ Seaborn
 SPARQL
 TBD
 Tiago
-Uberon
+UBERON
 Vitor
 wdt
 Wikidata’s

@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/f093ed5945465e8b598a0d911457f97f27702319/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/f093ed5945465e8b598a0d911457f97f27702319/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/f093ed5945465e8b598a0d911457f97f27702319/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/f093ed5945465e8b598a0d911457f97f27702319/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@6af3fc3](https://github.com/jvfe/paper_wdt_panglao/tree/6af3fc36dec458b2b027d5b12489c64784a15da8)
+from [jvfe/paper_wdt_panglao@f093ed5](https://github.com/jvfe/paper_wdt_panglao/tree/f093ed5945465e8b598a0d911457f97f27702319)
 on December 28, 2020.
 </em></small>
 
@@ -178,7 +178,7 @@ with the Seaborn[@doi:10.5281/zenodo.4019146] and Matplotlib[@doi:10.5281/zenodo
 
 
 
-### Reconciliation and matching
+### Automated matching
 
 The metadata from PanglaoDB on cell types, tissues (including germ layers) and organs was matched to Wikidata items using the reconciler[@https://pypi.org/project/reconciler/] library, 
 further matching was done using a custom stemming function on the item labels, via PorterStemmer from the NLTK library [@isbn:9780596516499]. 
@@ -201,9 +201,21 @@ and Uberon[@pmid:22293552] ([P1554](https://www.wikidata.org/wiki/Property:P1554
 
 ### Class creation on Wikidata
 
-Different from property creation, class creation on Wikidata does not require community approval, and any user can create new classes and add statements. 
+Classes corresponding to species-neutral classes were retrieved from Wikidata manually using Wikidata's Graphic User Interface. The dictionay matching terms in PanglaoDB to Wikidata identifiers were stored in a [reference csv table](https://github.com/jvfe/wikidata_panglaodb/blob/master/improvements/results/cell_type_reference_from_panglao_to_wikidata_31_10_2020.csv). 
 
-Species-neutral cell types were already mostly present on Wikidata. species-specific cell types were created for each human-specific cell type mentioned in PanglaoDB. Class labels and "subclass of" statements (<https://www.wikidata.org/wiki/Q21514624>) were added to a spreadsheet and uploaded to Wikidata via the batch edition tool Quickstatements (<https://quickstatements.toolforge.org/#/>).
+Cell types which were not represented on Wikidata were added to the database via the graphical user interface (https://www.wikidata.org/wiki/Special:NewItem) and logged in the reference table.
+
+Species-specific cell types for human and mouse cell types were created for every entry in the reference table, connected to the species-neutral concept via a "[subclass of](http://www.wikidata.org/entity/P279)" property (e.g. every single "[human neutrophil](http://www.wikidata.org/entity/Q101405102)" is a also "[neutrophil](http://www.wikidata.org/entity/Q188417)" ).
+
+
+The reference sheet for species-neutral concepts was used to obtain the "subclass of" for every newly created item. Each item was labeled either "human " + the label for the neutral cell type, described as "cell type found in Homo sapiens" and tagged with the statement "[found in taxon](http://www.wikidata.org/entity/P703)" [_Homo sapiens_](https://www.wikidata.org/wiki/Q15978631). An analogous framework was used for mouse cell types, assuming that mouse in PanglaoDB meant [_Mus musculus_](http://www.wikidata.org/entity/Q83310). Batch creations were added to Wikidata via the tool Quickstatements (<https://quickstatements.toolforge.org/#/>).
+
+All genes in PanglaoDB either were already present on Wikidata or resolved to multiple entities and thus were excluded. 
+### Property creation on Wikidata
+
+
+
+
 
 ### Integration to Wikidata 
 

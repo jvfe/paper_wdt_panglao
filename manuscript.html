@@ -49,9 +49,9 @@
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/f093ed5945465e8b598a0d911457f97f27702319/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/f093ed5945465e8b598a0d911457f97f27702319/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/f093ed5945465e8b598a0d911457f97f27702319/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/">permalink</a>)
+(<a href="https://jvfe.github.io/paper_wdt_panglao/v/f093ed5945465e8b598a0d911457f97f27702319/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/6af3fc36dec458b2b027d5b12489c64784a15da8">jvfe/paper_wdt_panglao@6af3fc3</a>
+from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/f093ed5945465e8b598a0d911457f97f27702319">jvfe/paper_wdt_panglao@f093ed5</a>
 on December 28, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -215,7 +215,7 @@ results <span class="citation" data-cites="lmhCFXiz">[<a href="#ref-lmhCFXiz" ro
 <p>For the reconciliation, only the columns <code>species</code>, <code>official gene symbol</code> and <code>cell type</code> were used.</p>
 <p>All data used was handled using the Pandas<span class="citation" data-cites="Se3rrKFw">[<a href="#ref-Se3rrKFw" role="doc-biblioref">14</a>]</span> library,
 with the Seaborn<span class="citation" data-cites="MVQq5ye1">[<a href="#ref-MVQq5ye1" role="doc-biblioref">15</a>]</span> and Matplotlib<span class="citation" data-cites="1GtmSgxte">[<a href="#ref-1GtmSgxte" role="doc-biblioref">16</a>]</span> libraries being used for plotting.</p>
-<h3 id="reconciliation-and-matching">Reconciliation and matching</h3>
+<h3 id="automated-matching">Automated matching</h3>
 <p>The metadata from PanglaoDB on cell types, tissues (including germ layers) and organs was matched to Wikidata items using the reconciler<span class="citation" data-cites="tiAR9KSt">[<a href="#ref-tiAR9KSt" role="doc-biblioref">17</a>]</span> library,
 further matching was done using a custom stemming function on the item labels, via PorterStemmer from the NLTK library <span class="citation" data-cites="HvkiunUe">[<a href="#ref-HvkiunUe" role="doc-biblioref">18</a>]</span>.
 Matches were considered perfect if the reconciliation service or the stemming function returned a value of “match” equals to “True”.
@@ -231,8 +231,12 @@ and Entrez Gene<span class="citation" data-cites="d5Tp72yA">[<a href="#ref-d5Tp7
 Cell Ontology<span class="citation" data-cites="Z3nPSmXs">[<a href="#ref-Z3nPSmXs" role="doc-biblioref">11</a>]</span> (<a href="https://www.wikidata.org/wiki/Property:P7963">P7963</a>) IDs for cell types
 and Uberon<span class="citation" data-cites="ZimCwChP">[<a href="#ref-ZimCwChP" role="doc-biblioref">22</a>]</span> (<a href="https://www.wikidata.org/wiki/Property:P1554">P1554</a>) IDs for organs and tissues.</p>
 <h3 id="class-creation-on-wikidata">Class creation on Wikidata</h3>
-<p>Different from property creation, class creation on Wikidata does not require community approval, and any user can create new classes and add statements.</p>
-<p>Species-neutral cell types were already mostly present on Wikidata. species-specific cell types were created for each human-specific cell type mentioned in PanglaoDB. Class labels and “subclass of” statements (<a href="https://www.wikidata.org/wiki/Q21514624" class="uri">https://www.wikidata.org/wiki/Q21514624</a>) were added to a spreadsheet and uploaded to Wikidata via the batch edition tool Quickstatements (<a href="https://quickstatements.toolforge.org/#/" class="uri">https://quickstatements.toolforge.org/#/</a>).</p>
+<p>Classes corresponding to species-neutral classes were retrieved from Wikidata manually using Wikidata’s Graphic User Interface. The dictionay matching terms in PanglaoDB to Wikidata identifiers were stored in a <a href="https://github.com/jvfe/wikidata_panglaodb/blob/master/improvements/results/cell_type_reference_from_panglao_to_wikidata_31_10_2020.csv">reference csv table</a>.</p>
+<p>Cell types which were not represented on Wikidata were added to the database via the graphical user interface (https://www.wikidata.org/wiki/Special:NewItem) and logged in the reference table.</p>
+<p>Species-specific cell types for human and mouse cell types were created for every entry in the reference table, connected to the species-neutral concept via a “<a href="http://www.wikidata.org/entity/P279">subclass of</a>” property (e.g. every single “<a href="http://www.wikidata.org/entity/Q101405102">human neutrophil</a>” is a also “<a href="http://www.wikidata.org/entity/Q188417">neutrophil</a>” ).</p>
+<p>The reference sheet for species-neutral concepts was used to obtain the “subclass of” for every newly created item. Each item was labeled either “human” + the label for the neutral cell type, described as “cell type found in Homo sapiens” and tagged with the statement “<a href="http://www.wikidata.org/entity/P703">found in taxon</a>” <a href="https://www.wikidata.org/wiki/Q15978631"><em>Homo sapiens</em></a>. An analogous framework was used for mouse cell types, assuming that mouse in PanglaoDB meant <a href="http://www.wikidata.org/entity/Q83310"><em>Mus musculus</em></a>. Batch creations were added to Wikidata via the tool Quickstatements (<a href="https://quickstatements.toolforge.org/#/" class="uri">https://quickstatements.toolforge.org/#/</a>).</p>
+<p>All genes in PanglaoDB either were already present on Wikidata or resolved to multiple entities and thus were excluded.
+### Property creation on Wikidata</p>
 <h3 id="integration-to-wikidata">Integration to Wikidata</h3>
 <p>The reconciled dataset was uploaded to Wikidata via the Wikidata Integrator python package (<a href="https://github.com/SuLab/WikidataIntegrator" class="uri">https://github.com/SuLab/WikidataIntegrator</a>), a wrapper for the Wikidata Application Programming Interface. The details of the integration can be seen in the accompanying Jupyter notebook.</p>
 <h2 id="access-to-reconciled-data">Access to reconciled data</h2>
