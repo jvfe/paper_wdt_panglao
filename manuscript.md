@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2020-12-27'
+date-meta: '2020-12-28'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2020-12-27" />
-  <meta name="citation_publication_date" content="2020-12-27" />
+  <meta name="dc.date" content="2020-12-28" />
+  <meta name="citation_publication_date" content="2020-12-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/a82a02c5a85c89104b40a899672f223c4b3828ab/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/a82a02c5a85c89104b40a899672f223c4b3828ab/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/a82a02c5a85c89104b40a899672f223c4b3828ab/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/a82a02c5a85c89104b40a899672f223c4b3828ab/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@a82a02c](https://github.com/jvfe/paper_wdt_panglao/tree/a82a02c5a85c89104b40a899672f223c4b3828ab)
-on December 27, 2020.
+from [jvfe/paper_wdt_panglao@6af3fc3](https://github.com/jvfe/paper_wdt_panglao/tree/6af3fc36dec458b2b027d5b12489c64784a15da8)
+on December 28, 2020.
 </em></small>
 
 ## Authors
@@ -306,8 +306,8 @@ The distribution of the number of statements for matched gene items, divided by 
 
 After the aforementioned improvements were made, 
 data from PanglaoDB was reconciled once again, 
-now most cell types had appropriate matches (Table
-@tbl:finallook_summary).
+the automatic classification method was able to detect most cell types matches for most cell types on PanglaoDB matches (Table
+@tbl:finallook_summary). The non-unique matches are likely due to synonym or very similar aliases used for different cell type concepts. Nevertheless, it is an evidence that our work improved cell type content on Wikidata, and will arguably facilitate the reconciliation of other cell-type related resources.
 
 ||  # of total items |# of unique matches  |   % of total items that were matched |
 |:-|--------------:|-------------------:|---------------:|
@@ -319,8 +319,7 @@ now most cell types had appropriate matches (Table
 Table: Summary of matched PanglaoDB entities after improvements were made.
 {#tbl:finallook_summary}
 
-While it may seem that the information for other entity types may have decreased, such as tissues and organs, this is difficult to ascertain, as different items could have been merged for clarity or
-were reclassified as belonging to different types not covered by this study. 
+Noticeably, the proportion of automatic matches for other entity types (tissues and organs) seems reduced in relation to the first assessment (35% to 25% and 76 to 62%). These entities were not targeted by our work, but as Wikidata is a living resource, modifications in the database, such as reclassification of entities or adding of other similar concepts, may have reduced the performance of our simple reconciler.
 
 ## Analysis of item quality - final look
 

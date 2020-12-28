@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="João Vitor Ferreira Cavalcante" />
   <meta name="author" content="Tiago Lubiana" />
-  <meta name="dcterms.date" content="2020-12-27" />
+  <meta name="dcterms.date" content="2020-12-28" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2020-12-27" />
-  <meta name="citation_publication_date" content="2020-12-27" />
+  <meta name="dc.date" content="2020-12-28" />
+  <meta name="citation_publication_date" content="2020-12-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -49,9 +49,9 @@
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/a82a02c5a85c89104b40a899672f223c4b3828ab/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/a82a02c5a85c89104b40a899672f223c4b3828ab/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/a82a02c5a85c89104b40a899672f223c4b3828ab/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jvfe.github.io/paper_wdt_panglao/v/a82a02c5a85c89104b40a899672f223c4b3828ab/">permalink</a>)
+(<a href="https://jvfe.github.io/paper_wdt_panglao/v/6af3fc36dec458b2b027d5b12489c64784a15da8/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/a82a02c5a85c89104b40a899672f223c4b3828ab">jvfe/paper_wdt_panglao@a82a02c</a>
-on December 27, 2020.
+from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/6af3fc36dec458b2b027d5b12489c64784a15da8">jvfe/paper_wdt_panglao@6af3fc3</a>
+on December 28, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -359,8 +359,8 @@ Cell types performed the lowest.</figcaption>
 <h2 id="wikidata-reconciliation---final-look">Wikidata reconciliation - final look</h2>
 <p>After the aforementioned improvements were made,
 data from PanglaoDB was reconciled once again,
-now most cell types had appropriate matches (Table
-<a href="#tbl:finallook_summary">5</a>).</p>
+the automatic classification method was able to detect most cell types matches for most cell types on PanglaoDB matches (Table
+<a href="#tbl:finallook_summary">5</a>). The non-unique matches are likely due to synonym or very similar aliases used for different cell type concepts. Nevertheless, it is an evidence that our work improved cell type content on Wikidata, and will arguably facilitate the reconciliation of other cell-type related resources.</p>
 <div id="tbl:finallook_summary" class="tablenos">
 <table>
 <caption><span>Table 5:</span> Summary of matched PanglaoDB entities after improvements were made.
@@ -407,8 +407,7 @@ now most cell types had appropriate matches (Table
 </tbody>
 </table>
 </div>
-<p>While it may seem that the information for other entity types may have decreased, such as tissues and organs, this is difficult to ascertain, as different items could have been merged for clarity or
-were reclassified as belonging to different types not covered by this study.</p>
+<p>Noticeably, the proportion of automatic matches for other entity types (tissues and organs) seems reduced in relation to the first assessment (35% to 25% and 76 to 62%). These entities were not targeted by our work, but as Wikidata is a living resource, modifications in the database, such as reclassification of entities or adding of other similar concepts, may have reduced the performance of our simple reconciler.</p>
 <h2 id="analysis-of-item-quality---final-look">Analysis of item quality - final look</h2>
 <p>As can be gathered from Figure <a href="#fig:finallook_reconciledbar">7</a>, nearly all cell type items have the appropriate “instance of cell type” statement, with only 4 items still missing said statement and one item being classified as an “instance of gland”.</p>
 <p>This is a considerable advance in improving the quality of cell type data in Wikidata, as having this simple statement will make these items easier to find and be expanded upon.</p>

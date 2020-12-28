@@ -65,7 +65,7 @@ Seaborn
 SPARQL
 TBD
 Tiago
-UBERON
+Uberon
 Vitor
 wdt
 Wikidata’s
