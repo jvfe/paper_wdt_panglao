@@ -2,7 +2,7 @@ acessible
 acessment
 analysed
 biocurated
-bioinformatics
+Bioinformatics
 boxplot
 cajal
 Cavalcante
@@ -60,7 +60,7 @@ PorterStemmer
 purkinje
 QID
 Quickstatements
-rdf
+RDF
 reconciledbar
 reconciler
 reconcilesummary
@@ -74,6 +74,8 @@ SPARQL
 TBD
 Tiago
 UBERON
+Uniprot
 Vitor
 wdt
 Wikidata’s
+Wikipathways
