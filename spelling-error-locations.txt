@@ -68,11 +68,11 @@ content/03.methods.md:49:PanglaoDB
 content/03.methods.md:49:quickstatements
 content/03.methods.md:49:Quickstatements
 content/03.methods.md:51:PanglaoDB
-content/03.methods.md:60:dataset
-content/03.methods.md:60:Jupyter
-content/03.methods.md:65:RDF
-content/03.methods.md:67:SPARQL
-content/03.methods.md:69:SPARQL
+content/03.methods.md:61:dataset
+content/03.methods.md:61:Jupyter
+content/03.methods.md:66:RDF
+content/03.methods.md:68:SPARQL
+content/03.methods.md:70:SPARQL
 content/04.results.md:5:PanglaoDB
 content/04.results.md:6:reconcilesummary
 content/04.results.md:17:PanglaoDB

@@ -60,7 +60,7 @@ PorterStemmer
 purkinje
 QID
 Quickstatements
-RDF
+rdf
 reconciledbar
 reconciler
 reconcilesummary

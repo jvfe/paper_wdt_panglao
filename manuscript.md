@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/9dffa7b1ecc91216b3e792a36570b27916681052/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/9dffa7b1ecc91216b3e792a36570b27916681052/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/9dffa7b1ecc91216b3e792a36570b27916681052/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/d4132bc5b2461f2ad4937f47f7cebee9a13829da/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/d4132bc5b2461f2ad4937f47f7cebee9a13829da/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/d4132bc5b2461f2ad4937f47f7cebee9a13829da/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/9dffa7b1ecc91216b3e792a36570b27916681052/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/d4132bc5b2461f2ad4937f47f7cebee9a13829da/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@9dffa7b](https://github.com/jvfe/paper_wdt_panglao/tree/9dffa7b1ecc91216b3e792a36570b27916681052)
+from [jvfe/paper_wdt_panglao@d4132bc](https://github.com/jvfe/paper_wdt_panglao/tree/d4132bc5b2461f2ad4937f47f7cebee9a13829da)
 on December 30, 2020.
 </em></small>
 
@@ -142,7 +142,7 @@ Wikidata item example, showing item hepatocyte (Q827450), the labels change acco
 ](images/wdt_hepatocyte.png){#fig:wdt-hep}
 
 Several advances towards biological data integration and biological data analysis in Wikidata have been made before, yielding positive
-results [@doi:10.1101/031971] [@doi:10.7554/eLife.52614] and showcasing it's potential for bioinformatics-related analyses, such as drug repurposing and ID conversion [@doi:10.7554/eLife.52614]. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties [@doi:10.1016/j.jbi.2019.103292].
+results [@doi:10.1101/031971] [@wikidata:Q87830400] and showcasing it's potential for bioinformatics-related analyses, such as drug repurposing and ID conversion [@doi:10.7554/eLife.52614]. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties [@doi:10.1016/j.jbi.2019.103292].
 
 
  Wikidata, however, is a work in progress, and might need extensive improvement. For example, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as "instances of cell types (Q189118)" (<https://w.wiki/b2w>). Of those, only nine have a "Cell Ontology ID"[@pmid:27377652] (P7963) associated, and most have a varying amount of statements (Table @tbl:cell-counts). As an additional problem, there are also 23 items being categorized as "instances of cell (Q7868)" (<https://w.wiki/b2x>), illustrating the absence of any formal data model.
@@ -211,6 +211,7 @@ Species-specific cell types for human and mouse cell types were created for ever
 The reference sheet for species-neutral concepts was used to obtain the "subclass of" for every newly created item. Each item was labeled either "human " + the label for the neutral cell type, described as "cell type found in Homo sapiens" and tagged with the statement "[found in taxon](http://www.wikidata.org/entity/P703)" [_Homo sapiens_](https://www.wikidata.org/wiki/Q15978631). An analogous framework was used for mouse cell types, assuming that mouse in PanglaoDB meant [_Mus musculus_](http://www.wikidata.org/entity/Q83310). Batch creations were added to Wikidata via the tool Quickstatements (<https://quickstatements.toolforge.org/#/>).
 
 All genes in PanglaoDB either were already present on Wikidata or resolved to multiple entities and thus were excluded. 
+
 ### Property creation on Wikidata
 
 
@@ -401,10 +402,10 @@ It is important to note that not all data on PanglaoDB was added to Wikidata. Fi
 Linking biological with Wikidata allows out-of-the-box integrative SPARQL queries, as many biomedical ontologies and datasets have been already integrated to Wikidata, and are available in Wikidata's graph. Besides the well-known advantages of having data linked to the Linked Open Data cloud, the Wikidata integration provides user-friendly interfaces for the data. That includes both navigable html pages of classes and properties (e.g. <https://www.wikidata.org/wiki/Q67801129>) as well as an SPARQL Query Service with user-friendly modifications to ease queries for beginners (<https://query.wikidata.org/>) with helper pages for learning SPARQL (<https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial>) or even requesting queries (<https://www.wikidata.org/wiki/Wikidata:Request_a_query>).   
 
 
-Wikidata also makes it easy for users to contribute. Wikidata allows editions directly in the Graphical User Interface,  acessible for domain experts without programming or ontology training. For those interest in continuous integration, the Python module Wikidata Integrator facilitates for python users to reconcile databases to Wikidata, and it has been used to build bots for several different biological databases [wikidata:Q87830400].
+Wikidata also makes it easy for users to contribute. Wikidata allows editions directly in the Graphical User Interface,  acessible for domain experts without programming or ontology training. For those interest in continuous integration, the Python module Wikidata Integrator facilitates for python users to reconcile databases to Wikidata, and it has been used to build bots for several different biological databases [@wikidata:Q87830400].
 
 
-This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers. It also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and [SHOGoiN/CELLPEDIA](https://stemcellinformatics.org/)[@wikidata]). The approach can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format.  We hope that community will keep improving marker and overall biological content on Wikidata, and that the interlinked marker information will be useful for researchers all over the world.  
+This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers. It also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]). The approach can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format.  We hope that community will keep improving marker and overall biological content on Wikidata, and that the interlinked marker information will be useful for researchers all over the world.  
 
 # General Ideas
 
