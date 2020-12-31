@@ -2,7 +2,7 @@ acessible
 acessment
 analysed
 biocurated
-Bioinformatics
+bioinformatics
 boxplot
 cajal
 Cavalcante
@@ -25,11 +25,13 @@ Grande
 henle
 histo
 histological
+inteoperability
 interoperability
 interoperable
 João
 Jupyter
 jvfe
+knowlegde
 labome
 LOD
 Lubiana
@@ -57,6 +59,7 @@ PanglaoDB’s
 pathophysiology
 Paulo
 PorterStemmer
+publically
 purkinje
 QID
 Quickstatements
@@ -67,13 +70,12 @@ reconcilesummary
 repurposing
 retzius
 São
-scarse
 Seaborn
 SHOGoiN
 SPARQL
 TBD
 Tiago
-UBERON
+Uberon
 Uniprot
 Vitor
 wdt

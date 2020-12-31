@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2020-12-30'
+date-meta: '2020-12-31'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2020-12-30" />
-  <meta name="citation_publication_date" content="2020-12-30" />
+  <meta name="dc.date" content="2020-12-31" />
+  <meta name="citation_publication_date" content="2020-12-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/cc56604529c388dcab09f1ee92d7b19503610d7c/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/cc56604529c388dcab09f1ee92d7b19503610d7c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/cc56604529c388dcab09f1ee92d7b19503610d7c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/4fc1f866c591d974ddabb5265d561f8db0a6bd6f/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/4fc1f866c591d974ddabb5265d561f8db0a6bd6f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/4fc1f866c591d974ddabb5265d561f8db0a6bd6f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/cc56604529c388dcab09f1ee92d7b19503610d7c/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/4fc1f866c591d974ddabb5265d561f8db0a6bd6f/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@cc56604](https://github.com/jvfe/paper_wdt_panglao/tree/cc56604529c388dcab09f1ee92d7b19503610d7c)
-on December 30, 2020.
+from [jvfe/paper_wdt_panglao@4fc1f86](https://github.com/jvfe/paper_wdt_panglao/tree/4fc1f866c591d974ddabb5265d561f8db0a6bd6f)
+on December 31, 2020.
 </em></small>
 
 ## Authors
@@ -106,7 +106,7 @@ In this study we explore the feasibility of enriching PanglaoDB with Wikidata id
 
 ### PanglaoDB
 
-PanglaoDB [@https://panglaodb.se/index.html] [@doi:10.1093/database/baz046] is a public database that contains data and metadata on hundreds of single-cell RNA sequencing experiments, providing extensive information on cell types, genes and tissues, as well as manually and community curated cell type markers (Tables @tbl:panglao and @tbl:panglao2). It also provides a rich web user interface for easy data acquisition, including database dumps for bulk downloads.
+PanglaoDB [@https://panglaodb.se/index.html] [@doi:10.1093/database/baz046] is a publically-available database that contains data and metadata on hundreds of single-cell RNA sequencing experiments, providing extensive information on cell types, genes and tissues, as well as manually and community curated cell type markers (Tables @tbl:panglao and @tbl:panglao2). It also provides a rich web user interface for easy data acquisition, including database dumps for bulk downloads.
 
 |	|Mus musculus 	| Homo sapiens|
 |:--:|:-------------:|:---------------:|
@@ -127,9 +127,10 @@ Table: Database statistics for each species in PanglaoDB, as of 31st of August, 
 Table: Metadata statistics for PanglaoDB, gathered from their [last update on August, 2019](https://github.com/oscar-franzen/PanglaoDB/tree/master/data).
 {#tbl:panglao2}
 
-Despite its usefulness for the community, the database is on a 3-star category for Linked Open Data [@url:https://www.w3.org/DesignIssues/LinkedData.html] as it does not use open standards from W3C (RDF and SPARQL). To make it 5-star, it needs to be also linked to external data via common identifiers. 
+As of 30 December 2020, the article describing PanglaoDB has been cited 88 times. Despite its use by the  the community, the database is on a 3-star category for Linked Open Data [@url:https://www.w3.org/DesignIssues/LinkedData.html] as it does not use the semantic open standards from W3C (RDF and SPARQL) needed for a 4-star rank, neither the links to external data via common identifiers that makes datasets 5-star. Improving the data format toward W3C's gold standards is a valuable step in making biological knowlegde FAIR (Findable, Acessible, Interoperable and Reusable).
 
-The OBO Foundry provides a rich collection of linked biological identifiers [@url:http://www.obofoundry.org/]. However, reconciliation to OBO is challenging, as there are many ontologies, each with slightly different contribution guidelines. For that reason, we decided to reconcile PanglaoDB to Wikidata, which allows simple creation of new terms, provided they follow Wikidata`s notability criteria[@url:https://www.wikidata.org/wiki/Wikidata:Notability]. 
+
+The OBO Foundry provides a rich collection of linked biological identifiers [@url:http://www.obofoundry.org/]. However, reconciliation to OBO is challenging, as there are many ontologies, each with slightly different contribution guidelines. For that reason, we decided to reconcile PanglaoDB to Wikidata, which allows simple creation of new terms, provided they follow Wikidata`s notability criteria [@url:https://www.wikidata.org/wiki/Wikidata:Notability]. 
 
 ### Wikidata
 
@@ -145,7 +146,7 @@ Several advances towards biological data integration and biological data analysi
 results [@doi:10.1101/031971] [@wikidata:Q87830400] and showcasing it's potential for bioinformatics-related analyses, such as drug repurposing and ID conversion [@doi:10.7554/eLife.52614]. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties [@doi:10.1016/j.jbi.2019.103292].
 
 
- Wikidata, however, is a work in progress, and might need extensive improvement. For example, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as "instances of cell types (Q189118)" (<https://w.wiki/b2w>). Of those, only nine have a "Cell Ontology ID"[@pmid:27377652] (P7963) associated, and most have a varying amount of statements (Table @tbl:cell-counts). As an additional problem, there are also 23 items being categorized as "instances of cell (Q7868)" (<https://w.wiki/b2x>), illustrating the absence of any formal data model.
+ Wikidata is nevertheless a collaborative database, and content is available on different levels of quality. For example, as of August 2020, cell type information was still very lacking, with only 264 items being categorized as "instances of cell types (Q189118)" (<https://w.wiki/b2w>), while other projects describe over 2.000 cell types [@wikidata:Q28660708][@wikidata:Q36067763]. Of those, only nine have a "Cell Ontology ID"[@pmid:27377652] (P7963) associated, and most have a varying amount of statements (Table @tbl:cell-counts). As an additional problem, there are also 23 items being categorized as "instances of cell (Q7868)" (<https://w.wiki/b2x>), illustrating the absence of any formal data model.
 
 | Cell type Item | Number of statements |
 |:-------------:|:---------------:|
@@ -156,7 +157,7 @@ Table: As of August 2020, Wikidata items regarding cell types have a varying amo
 {#tbl:cell-counts}
 
 
-This work has the dual goal of re-releasing PandlaoDB in a 5-star Linked Open Data Format and improving the modelling of the necessary concepts on Wikidata.
+This study was motivated by the increasing importance of cell-type concepts in light of the Human Cell Atlas [@wikidata:Q46368626], and the utter need for improved inteoperability of biological data. We aimed, thus, at providing a case study of the  re-release PandlaoDB in a 5-star Linked Open Data Format while improving the modelling of the necessary concepts on Wikidata.
 
 
 
