@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/da4aca4e54eafd65f2ac8c3c4e5481243556d310/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/da4aca4e54eafd65f2ac8c3c4e5481243556d310/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/da4aca4e54eafd65f2ac8c3c4e5481243556d310/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c8ad610eb9067477b6d5a91058715be7e535dd8f/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c8ad610eb9067477b6d5a91058715be7e535dd8f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c8ad610eb9067477b6d5a91058715be7e535dd8f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/da4aca4e54eafd65f2ac8c3c4e5481243556d310/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c8ad610eb9067477b6d5a91058715be7e535dd8f/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@da4aca4](https://github.com/jvfe/paper_wdt_panglao/tree/da4aca4e54eafd65f2ac8c3c4e5481243556d310)
+from [jvfe/paper_wdt_panglao@c8ad610](https://github.com/jvfe/paper_wdt_panglao/tree/c8ad610eb9067477b6d5a91058715be7e535dd8f)
 on January 2, 2021.
 </em></small>
 
@@ -170,7 +170,7 @@ Gene data from Wikidata was acquired using the Wikidata Query Service [@https://
 
 Data for quality acessment from PanglaoDB was acquired through their metadata database dump repository[@https://github.com/oscar-franzen/PanglaoDB].
 
-The markers dataset was dowloaded manually from PanglaoDB's website (https://panglaodb.se/markers/PanglaoDB_markers_27_Mar_2020.tsv.gz). It contains 15 columns and 8256 rows. 
+The markers dataset was dowloaded manually from PanglaoDB's website (<https://panglaodb.se/markers/PanglaoDB_markers_27_Mar_2020.tsv.gz>). It contains 15 columns and 8256 rows.
 
 For the reconciliation, only the columns `species`, `official gene symbol` and 	`cell type` were used. 
 
@@ -204,7 +204,7 @@ and Uberon[@pmid:22293552] ([P1554](https://www.wikidata.org/wiki/Property:P1554
 
 Classes corresponding to species-neutral classes were retrieved from Wikidata manually using Wikidata's Graphic User Interface. The dictionay matching terms in PanglaoDB to Wikidata identifiers were stored in a [reference csv table](https://github.com/jvfe/wikidata_panglaodb/blob/master/improvements/results/cell_type_reference_from_panglao_to_wikidata_31_10_2020.csv). 
 
-Cell types which were not represented on Wikidata were added to the database via the graphical user interface (https://www.wikidata.org/wiki/Special:NewItem) and logged in the reference table.
+Cell types which were not represented on Wikidata were added to the database via the graphical user interface (<https://www.wikidata.org/wiki/Special:NewItem>) and logged in the reference table.
 
 Species-specific cell types for human and mouse cell types were created for every entry in the reference table, connected to the species-neutral concept via a "[subclass of](http://www.wikidata.org/entity/P279)" property (e.g. every single "[human neutrophil](http://www.wikidata.org/entity/Q101405102)" is a also "[neutrophil](http://www.wikidata.org/entity/Q188417)" ). Our approach was analogous to the one taken by the CELDA ontology to create species-specific cell-types, with the difference that they used the `rdfs:subClassOf` class to denothe the subclass relationship [@wikidata:Q21284308].
 
@@ -248,7 +248,7 @@ More details can be in the archived Wikidata:Property proposal page (<https://ww
 
 ### Integration to Wikidata 
 
-The reconciled dataset was uploaded to Wikidata via the Wikidata Integrator python package (<https://github.com/SuLab/WikidataIntegrator>), a wrapper for the Wikidata Application Programming Interface. The details of the integration can be seen in the accompanying Jupyter notebook. 
+The reconciled dataset was uploaded to Wikidata via the WikidataIntegrator python package [@https://github.com/SuLab/WikidataIntegrator], a wrapper for the Wikidata Application Programming Interface. The details of the integration can be seen in the accompanying Jupyter notebook.
 
 ## Access to reconciled data
 ### Wikidata dumps
@@ -258,6 +258,7 @@ Wikidata provides regular dumps in a variety of formats, including RDF dumps: <h
 ### SPARQL queries
 
 Besides the Wikidata Dumps, Wikidata provides an SPARQL endpoint with a Graphical User Interface (<https://query.wikidata.org/>). Updated data was immediately accessible via this endpoint, enabling integrative queries integrated with other database statements.
+
 
 # Results
 
