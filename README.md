@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/jvfe/paper_wdt_panglao/tree/gh-pages) branch hosts the contents of this directory at <https://jvfe.github.io/paper_wdt_panglao/>.
-The permalink for this webpage version is <https://jvfe.github.io/paper_wdt_panglao/v/da4aca4e54eafd65f2ac8c3c4e5481243556d310/>.
+The permalink for this webpage version is <https://jvfe.github.io/paper_wdt_panglao/v/c8ad610eb9067477b6d5a91058715be7e535dd8f/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://jvfe.github.io/paper_wdt_panglao/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`da4aca4e54eafd65f2ac8c3c4e5481243556d310`](https://github.com/jvfe/paper_wdt_panglao/commit/da4aca4e54eafd65f2ac8c3c4e5481243556d310).
+[`c8ad610eb9067477b6d5a91058715be7e535dd8f`](https://github.com/jvfe/paper_wdt_panglao/commit/c8ad610eb9067477b6d5a91058715be7e535dd8f).
