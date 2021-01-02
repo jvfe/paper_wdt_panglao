@@ -6,12 +6,14 @@ Bioinformatics
 boxplot
 cajal
 Cavalcante
+CELDA
 CellFinder
 CellMarker
 CELLPEDIA
 csv
 dataset
 datasets
+denothe
 dictionay
 dowloaded
 Ensembl
@@ -27,7 +29,7 @@ histo
 histological
 inteoperability
 interoperability
-interoperable
+Interoperable
 João
 Jupyter
 jvfe
@@ -36,6 +38,7 @@ labome
 LOD
 Lubiana
 lubianat
+macromolecular
 Matplotlib
 MediaWiki
 mesenchymal

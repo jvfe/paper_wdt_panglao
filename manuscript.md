@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c264a3af04aea766a506f04f04d6bc2a332e64f3/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c264a3af04aea766a506f04f04d6bc2a332e64f3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c264a3af04aea766a506f04f04d6bc2a332e64f3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/da4aca4e54eafd65f2ac8c3c4e5481243556d310/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/da4aca4e54eafd65f2ac8c3c4e5481243556d310/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/da4aca4e54eafd65f2ac8c3c4e5481243556d310/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c264a3af04aea766a506f04f04d6bc2a332e64f3/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/da4aca4e54eafd65f2ac8c3c4e5481243556d310/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@c264a3a](https://github.com/jvfe/paper_wdt_panglao/tree/c264a3af04aea766a506f04f04d6bc2a332e64f3)
+from [jvfe/paper_wdt_panglao@da4aca4](https://github.com/jvfe/paper_wdt_panglao/tree/da4aca4e54eafd65f2ac8c3c4e5481243556d310)
 on January 2, 2021.
 </em></small>
 
@@ -206,7 +206,7 @@ Classes corresponding to species-neutral classes were retrieved from Wikidata ma
 
 Cell types which were not represented on Wikidata were added to the database via the graphical user interface (https://www.wikidata.org/wiki/Special:NewItem) and logged in the reference table.
 
-Species-specific cell types for human and mouse cell types were created for every entry in the reference table, connected to the species-neutral concept via a "[subclass of](http://www.wikidata.org/entity/P279)" property (e.g. every single "[human neutrophil](http://www.wikidata.org/entity/Q101405102)" is a also "[neutrophil](http://www.wikidata.org/entity/Q188417)" ).
+Species-specific cell types for human and mouse cell types were created for every entry in the reference table, connected to the species-neutral concept via a "[subclass of](http://www.wikidata.org/entity/P279)" property (e.g. every single "[human neutrophil](http://www.wikidata.org/entity/Q101405102)" is a also "[neutrophil](http://www.wikidata.org/entity/Q188417)" ). Our approach was analogous to the one taken by the CELDA ontology to create species-specific cell-types, with the difference that they used the `rdfs:subClassOf` class to denothe the subclass relationship [@wikidata:Q21284308].
 
 
 The reference sheet for species-neutral concepts was used to obtain the "subclass of" for every newly created item. Each item was labeled either "human " + the label for the neutral cell type, described as "cell type found in Homo sapiens" and tagged with the statement "[found in taxon](http://www.wikidata.org/entity/P703)" [_Homo sapiens_](https://www.wikidata.org/wiki/Q15978631). An analogous framework was used for mouse cell types, assuming that mouse in PanglaoDB meant [_Mus musculus_](http://www.wikidata.org/entity/Q83310). Batch creations were added to Wikidata via the tool Quickstatements (<https://quickstatements.toolforge.org/#/>).
@@ -215,9 +215,36 @@ All genes in PanglaoDB either were already present on Wikidata or resolved to mu
 
 ### Property creation on Wikidata
 
+Properties on Wikidata need to be supported by the users in a public forum before creation. To represent the cell-type marker relation, we proposed a property called `has marker` to the Wikidata community.  We posted a message in 17th of November presenting the property, domain and range constraints, as well as additional comments.
+
+The proposal was accompanied by the following motivation statement: 
+
+    "Even though the concept of a marker gene/protein is not clear cut, it is very important, and widely used in databases and scientific articles.
+
+    This property will help us to represent that a gene/protein has been reported as a marker by a credible source, and should always contain a reference.
+
+    Some markers are reported as proteins and some as genes. Some genes don`t encode proteins, and some protein markers are actually protein complexes.
+
+    The property would be inclusive to these slightly different markers.
+    Some cell types are marked by absence of expression of genes/proteins/protein expression. As these seem to be less common than positive markers (no organized databases, for example) they are left outside the value range for this property"
 
 
+The proposal contained specifications of the property such as:
 
+- Description:
+  - "a gene or a protein published as a marker of a species-specific cell type"
+- Data type:
+  - [Item](https://www.wikidata.org/wiki/Help:Data_type#wikibase-item) (internal entities in Wikidata)
+- Domain:
+  - ?subject [instance of (P31)](http://www.wikidata.org/entity/P31) [cell type (Q189118)](http://www.wikidata.org/entity/Q189118)
+- Allowed values:
+  - {?object [instance of (P31)](http://www.wikidata.org/entity/P31)  [protein (Q8054)](http://www.wikidata.org/entity/Q8054) .}
+  - UNION {?object [instance of (P31)](http://www.wikidata.org/entity/P31)  [gene (Q7187)](http://www.wikidata.org/entity/Q7187) .}
+  - UNION {?object [instance of (P31)](http://www.wikidata.org/entity/P31)  [macromolecular complex (Q22325163)](http://www.wikidata.org/entity/Q22325163) .}
+- Planned use:
+  - Reconcile knowledge from the PanglaoDB marker database to Wikidata. In the future, expand to other trusted sources of cell type marker information.
+
+More details can be in the archived Wikidata:Property proposal page (<https://www.wikidata.org/wiki/Wikidata:Property_proposal/has_positive_marker>).
 
 ### Integration to Wikidata 
 
