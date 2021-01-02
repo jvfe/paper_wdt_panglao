@@ -145,6 +145,7 @@ content/05.discussion.md:6:SPARQL
 content/05.discussion.md:6:SPARQL
 content/05.discussion.md:6:Wikidata's
 content/05.discussion.md:9:acessible
+content/05.discussion.md:9:knowlegde
 content/05.discussion.md:12:biocurated
 content/05.discussion.md:12:CellFinder
 content/05.discussion.md:12:CellMarker

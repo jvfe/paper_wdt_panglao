@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2020-12-31'
+date-meta: '2021-01-02'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2020-12-31" />
-  <meta name="citation_publication_date" content="2020-12-31" />
+  <meta name="dc.date" content="2021-01-02" />
+  <meta name="citation_publication_date" content="2021-01-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/4fc1f866c591d974ddabb5265d561f8db0a6bd6f/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/4fc1f866c591d974ddabb5265d561f8db0a6bd6f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/4fc1f866c591d974ddabb5265d561f8db0a6bd6f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c264a3af04aea766a506f04f04d6bc2a332e64f3/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c264a3af04aea766a506f04f04d6bc2a332e64f3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c264a3af04aea766a506f04f04d6bc2a332e64f3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/4fc1f866c591d974ddabb5265d561f8db0a6bd6f/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c264a3af04aea766a506f04f04d6bc2a332e64f3/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@4fc1f86](https://github.com/jvfe/paper_wdt_panglao/tree/4fc1f866c591d974ddabb5265d561f8db0a6bd6f)
-on December 31, 2020.
+from [jvfe/paper_wdt_panglao@c264a3a](https://github.com/jvfe/paper_wdt_panglao/tree/c264a3af04aea766a506f04f04d6bc2a332e64f3)
+on January 2, 2021.
 </em></small>
 
 ## Authors
@@ -411,7 +411,7 @@ It is important to note that not all data on PanglaoDB was added to Wikidata. Fi
 Linking biological with Wikidata allows out-of-the-box integrative SPARQL queries, as many biomedical ontologies and datasets have been already integrated to Wikidata, and are available in Wikidata's graph. Besides the well-known advantages of having data linked to the Linked Open Data cloud, the Wikidata integration provides user-friendly interfaces for the data. That includes both navigable html pages of classes and properties (e.g. <https://www.wikidata.org/wiki/Q67801129>) as well as an SPARQL Query Service with user-friendly modifications to ease queries for beginners (<https://query.wikidata.org/>) with helper pages for learning SPARQL (<https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial>) or even requesting queries (<https://www.wikidata.org/wiki/Wikidata:Request_a_query>).   
 
 
-Wikidata also makes it easy for users to contribute. Wikidata allows editions directly in the Graphical User Interface,  acessible for domain experts without programming or ontology training. For those interest in continuous integration, the Python module Wikidata Integrator facilitates for python users to reconcile databases to Wikidata, and it has been used to build bots for several different biological databases [@wikidata:Q87830400].
+Wikidata also makes it easy for users to contribute. Wikidata allows editions directly in the Graphical User Interface, acessible for domain experts without programming or ontology training. In fact,  Wikidata may be the solution for an (at least) 7 year-old gap of an "community-based crowd-sourcing approach" for representing knowlegde about cell types. [@wikidata:Q34026802] For those interest in continuous integration, the Python module Wikidata Integrator facilitates for python users to reconcile databases to Wikidata, and it has been used to build bots for several different biological databases [@wikidata:Q87830400].
 
 
 This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers. It also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]). The approach can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format.  We hope that community will keep improving marker and overall biological content on Wikidata, and that the interlinked marker information will be useful for researchers all over the world.  

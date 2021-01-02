@@ -2,7 +2,7 @@ acessible
 acessment
 analysed
 biocurated
-bioinformatics
+Bioinformatics
 boxplot
 cajal
 Cavalcante
@@ -75,7 +75,7 @@ SHOGoiN
 SPARQL
 TBD
 Tiago
-Uberon
+UBERON
 Uniprot
 Vitor
 wdt
