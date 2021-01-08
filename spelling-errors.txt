@@ -1,4 +1,4 @@
-acessible
+Acessible
 acessment
 analysed
 biocurated
@@ -29,7 +29,7 @@ histo
 histological
 inteoperability
 interoperability
-interoperable
+Interoperable
 João
 Jupyter
 jvfe
@@ -68,7 +68,7 @@ publically
 purkinje
 QID
 Quickstatements
-RDF
+rdf
 reconciledbar
 reconciler
 reconcilesummary

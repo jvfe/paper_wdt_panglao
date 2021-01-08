@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-07'
+date-meta: '2021-01-08'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2021-01-07" />
-  <meta name="citation_publication_date" content="2021-01-07" />
+  <meta name="dc.date" content="2021-01-08" />
+  <meta name="citation_publication_date" content="2021-01-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/7c69e01a10c55116832cc94cbd0b1843da05af57/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/7c69e01a10c55116832cc94cbd0b1843da05af57/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/7c69e01a10c55116832cc94cbd0b1843da05af57/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/bd352374b88e93e7927b7b02a27ddf4267d653ce/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/bd352374b88e93e7927b7b02a27ddf4267d653ce/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/bd352374b88e93e7927b7b02a27ddf4267d653ce/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/7c69e01a10c55116832cc94cbd0b1843da05af57/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/bd352374b88e93e7927b7b02a27ddf4267d653ce/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@7c69e01](https://github.com/jvfe/paper_wdt_panglao/tree/7c69e01a10c55116832cc94cbd0b1843da05af57)
-on January 7, 2021.
+from [jvfe/paper_wdt_panglao@bd35237](https://github.com/jvfe/paper_wdt_panglao/tree/bd352374b88e93e7927b7b02a27ddf4267d653ce)
+on January 8, 2021.
 </em></small>
 
 ## Authors
@@ -197,8 +197,12 @@ with the Seaborn [@doi:10.5281/zenodo.4019146] and Matplotlib [@doi:10.5281/zeno
 
 ### Automated matching
 
-The metadata from PanglaoDB on cell types, tissues (including germ layers) and organs was matched to Wikidata items using the reconciler [@https://pypi.org/project/reconciler/] library, 
-further matching was done using a custom stemming function on the item labels, via PorterStemmer from the NLTK library [@isbn:9780596516499]. 
+The metadata from PanglaoDB on cell types, tissues (including germ layers) and organs was matched to Wikidata items using the reconciler [@https://pypi.org/project/reconciler/] library
+with the Wikidata Reconciliation Service [@https://wikidata.reconci.link/],
+tools that operate under the W3C Reconciliation Service specification [@https://reconciliation-api.github.io/specs/0.1/].
+
+Further matching was done using a custom stemming function on the item labels, via PorterStemmer from the NLTK library [@isbn:9780596516499]. 
+
 Matches were considered perfect if the reconciliation service or the stemming function returned a value of "match" equals to "True". 
 Matches were manually analysed for false matches, such as items with same labels but used for different concepts.
 
