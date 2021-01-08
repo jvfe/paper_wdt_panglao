@@ -1,8 +1,8 @@
-Acessible
+acessible
 acessment
 analysed
 biocurated
-Bioinformatics
+bioinformatics
 boxplot
 cajal
 Cavalcante
