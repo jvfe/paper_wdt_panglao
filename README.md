@@ -13,6 +13,7 @@ In this study we explore the feasibility of enriching PanglaoDB with Wikidata id
 Written using [Manubot](https://github.com/manubot/manubot). 
 
 See project proposal for this work at [https://github.com/jvfe/project_panglaodb](https://github.com/jvfe/project_panglaodb). 
+The source code used for this work is available [here](https://github.com/jvfe/wikidata_panglaodb).
 
 ### Repository directories & files
 
