@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-08'
+date-meta: '2021-01-11'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2021-01-08" />
-  <meta name="citation_publication_date" content="2021-01-08" />
+  <meta name="dc.date" content="2021-01-11" />
+  <meta name="citation_publication_date" content="2021-01-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/0069bc8f9d14ac8612edb11d087504c8e42a788b/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/0069bc8f9d14ac8612edb11d087504c8e42a788b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/0069bc8f9d14ac8612edb11d087504c8e42a788b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/665a3682cdd1a0c3587a895598abf127f51e69bd/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/665a3682cdd1a0c3587a895598abf127f51e69bd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/665a3682cdd1a0c3587a895598abf127f51e69bd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/0069bc8f9d14ac8612edb11d087504c8e42a788b/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/665a3682cdd1a0c3587a895598abf127f51e69bd/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@0069bc8](https://github.com/jvfe/paper_wdt_panglao/tree/0069bc8f9d14ac8612edb11d087504c8e42a788b)
-on January 8, 2021.
+from [jvfe/paper_wdt_panglao@665a368](https://github.com/jvfe/paper_wdt_panglao/tree/665a3682cdd1a0c3587a895598abf127f51e69bd)
+on January 11, 2021.
 </em></small>
 
 ## Authors
@@ -492,6 +492,8 @@ For those interest in continuous integration, the Python module Wikidata Integra
 
 /// Why Wikidata integration is different from Bio2RDF? What are the cons? Maybe mention Wikidata as an easy-to-use middleground that does not require _that_ much domain expertise about the complicated world of semantic technologies, formal description logic and even computer science in general. 
 
+
+/// Wikipedia is a major source for biological knowledge. Data on Wikidata can be easily reused on Wikipedia and enhance the quality of articles about life-science subjects in semi-automated ways (as has been done before for drug-drug interactions)  [@wikidata:Q21503276]  .
 
 This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers. It also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]). 
 The approach can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format. 
