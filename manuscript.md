@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/ed0cc5a0e617cb6b17de8262c539f93088e5c403/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/ed0cc5a0e617cb6b17de8262c539f93088e5c403/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/ed0cc5a0e617cb6b17de8262c539f93088e5c403/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/3a8832f01cc93364ce807ccac54a25d9b0bf97e0/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/3a8832f01cc93364ce807ccac54a25d9b0bf97e0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/3a8832f01cc93364ce807ccac54a25d9b0bf97e0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/ed0cc5a0e617cb6b17de8262c539f93088e5c403/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/3a8832f01cc93364ce807ccac54a25d9b0bf97e0/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@ed0cc5a](https://github.com/jvfe/paper_wdt_panglao/tree/ed0cc5a0e617cb6b17de8262c539f93088e5c403)
+from [jvfe/paper_wdt_panglao@3a8832f](https://github.com/jvfe/paper_wdt_panglao/tree/3a8832f01cc93364ce807ccac54a25d9b0bf97e0)
 on January 14, 2021.
 </em></small>
 

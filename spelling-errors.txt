@@ -1,4 +1,4 @@
-acessible
+Acessible
 acessment
 analysed
 biocurated
@@ -68,7 +68,7 @@ publically
 purkinje
 QID
 Quickstatements
-rdf
+RDF
 reconciledbar
 reconciler
 reconcilesummary
@@ -80,7 +80,7 @@ SHOGoiN
 SPARQL
 TBD
 Tiago
-Uberon
+UBERON
 Uniprot
 Vitor
 wdt
