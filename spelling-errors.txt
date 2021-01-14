@@ -2,7 +2,7 @@ acessible
 acessment
 analysed
 biocurated
-Bioinformatics
+bioinformatics
 boxplot
 cajal
 Cavalcante
@@ -68,7 +68,7 @@ publically
 purkinje
 QID
 Quickstatements
-RDF
+rdf
 reconciledbar
 reconciler
 reconcilesummary
@@ -87,3 +87,4 @@ wdt
 WikidataIntegrator
 Wikidata’s
 Wikipathways
+zenodo

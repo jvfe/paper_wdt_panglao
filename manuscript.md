@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-11'
+date-meta: '2021-01-14'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2021-01-11" />
-  <meta name="citation_publication_date" content="2021-01-11" />
+  <meta name="dc.date" content="2021-01-14" />
+  <meta name="citation_publication_date" content="2021-01-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/665a3682cdd1a0c3587a895598abf127f51e69bd/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/665a3682cdd1a0c3587a895598abf127f51e69bd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/665a3682cdd1a0c3587a895598abf127f51e69bd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/ed0cc5a0e617cb6b17de8262c539f93088e5c403/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/ed0cc5a0e617cb6b17de8262c539f93088e5c403/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/ed0cc5a0e617cb6b17de8262c539f93088e5c403/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/665a3682cdd1a0c3587a895598abf127f51e69bd/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/ed0cc5a0e617cb6b17de8262c539f93088e5c403/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@665a368](https://github.com/jvfe/paper_wdt_panglao/tree/665a3682cdd1a0c3587a895598abf127f51e69bd)
-on January 11, 2021.
+from [jvfe/paper_wdt_panglao@ed0cc5a](https://github.com/jvfe/paper_wdt_panglao/tree/ed0cc5a0e617cb6b17de8262c539f93088e5c403)
+on January 14, 2021.
 </em></small>
 
 ## Authors
@@ -289,6 +289,13 @@ It is possible to also download partial dumps of the database with reduced size 
 
 Besides the Wikidata Dumps, Wikidata provides an SPARQL endpoint with a Graphical User Interface (<https://query.wikidata.org/>). 
 Updated data was immediately accessible via this endpoint, enabling integrative queries integrated with other database statements.
+
+## Source code and data availability
+
+<!-- this can be improved -->
+All source code used for the study and data created during the study are available in a GitHub repository, 
+<https://github.com/jvfe/wikidata_panglaodb>,
+as well as archived in a zenodo repository, <https://doi.org/10.5281/zenodo.4438614>.
 
 
 # Results
