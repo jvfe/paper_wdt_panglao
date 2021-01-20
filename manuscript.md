@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-14'
+date-meta: '2021-01-20'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2021-01-14" />
-  <meta name="citation_publication_date" content="2021-01-14" />
+  <meta name="dc.date" content="2021-01-20" />
+  <meta name="citation_publication_date" content="2021-01-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/3a8832f01cc93364ce807ccac54a25d9b0bf97e0/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/3a8832f01cc93364ce807ccac54a25d9b0bf97e0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/3a8832f01cc93364ce807ccac54a25d9b0bf97e0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c7e327584be8ba45d7aab912f5871507865681ac/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c7e327584be8ba45d7aab912f5871507865681ac/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c7e327584be8ba45d7aab912f5871507865681ac/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/3a8832f01cc93364ce807ccac54a25d9b0bf97e0/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c7e327584be8ba45d7aab912f5871507865681ac/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@3a8832f](https://github.com/jvfe/paper_wdt_panglao/tree/3a8832f01cc93364ce807ccac54a25d9b0bf97e0)
-on January 14, 2021.
+from [jvfe/paper_wdt_panglao@c7e3275](https://github.com/jvfe/paper_wdt_panglao/tree/c7e327584be8ba45d7aab912f5871507865681ac)
+on January 20, 2021.
 </em></small>
 
 ## Authors
@@ -469,6 +469,7 @@ We can check the cell-type to disease relation in both ways. Scientists that stu
 </div>
 </div>
 
+# Discussion
 
 In this work, we re-released the knowledge curated in PanglaoDB on Wikidata, connecting it to the semantic web. 
 Each cell-type/marker statement was added to Wikidata with a pointer to PanglaoDB and a citation of the article, providing proper provenance. 
