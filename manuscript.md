@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-20'
+date-meta: '2021-01-21'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2021-01-20" />
-  <meta name="citation_publication_date" content="2021-01-20" />
+  <meta name="dc.date" content="2021-01-21" />
+  <meta name="citation_publication_date" content="2021-01-21" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c7e327584be8ba45d7aab912f5871507865681ac/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c7e327584be8ba45d7aab912f5871507865681ac/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c7e327584be8ba45d7aab912f5871507865681ac/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c59d2919adad45efafb85a6015685ff2a3515804/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c59d2919adad45efafb85a6015685ff2a3515804/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c59d2919adad45efafb85a6015685ff2a3515804/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c7e327584be8ba45d7aab912f5871507865681ac/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c59d2919adad45efafb85a6015685ff2a3515804/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@c7e3275](https://github.com/jvfe/paper_wdt_panglao/tree/c7e327584be8ba45d7aab912f5871507865681ac)
-on January 20, 2021.
+from [jvfe/paper_wdt_panglao@c59d291](https://github.com/jvfe/paper_wdt_panglao/tree/c59d2919adad45efafb85a6015685ff2a3515804)
+on January 21, 2021.
 </em></small>
 
 ## Authors
@@ -316,7 +316,7 @@ Entities from PanglaoDB, that is, cell types, genes, tissue types and organs, we
 Table: Summary of the matched entities from PanglaoDB.
 {#tbl:reconcilesummary}
 
-## Analysis of item quality - initial look
+## Wikidata overview previous to the study
 
 Only *Homo sapiens* genes and Organs reconciled more than 50%.
 In the case of genes, this is probably due to the Gene Wiki initiative [@doi:10.1093/database/baw015], a long-running project to improve biological information in Wikipedia and its sister-projects, including Wikidata. 
@@ -370,17 +370,6 @@ Cell types performed the lowest.
 ![
 The distribution of the number of statements for matched gene items, divided by species.
 ](images/gene_violin.png){#fig:gene_violin}
-
-## Improving Wikidata
-
-As described in the methods session, we added species-specific terms to Wikidata for cell types of _Homo sapiens_ and _Mus musculus_ described in the PanglaoDB database. The use of species-specific cell-types is necessary because genes in Wikidata are also species-specific, connected to taxon by the "[found in taxon](http://www.wikidata.org/entity/P703)"
-
-### Adding a new property
-### Adding missing items
-- TBD
-
-### Improving interoperability
-- TBD
 
 ## Wikidata reconciliation - final look
 
@@ -522,3 +511,59 @@ something not done as far as we know [@doi:10.1186/gb-2005-6-2-r21]
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
+
+
+# Supplementary text and figures
+
+Only *Homo sapiens* genes and Organs reconciled more than 50%.
+In the case of genes, this is probably due to the Gene Wiki initiative [@doi:10.1093/database/baw015], a long-running project to improve biological information in Wikipedia and its sister-projects, including Wikidata. 
+
+This is further illustrated by Figure @fig:gene_alt_ids, in which we can see that all *Mus musculus* gene items - and nearly all *Homo sapiens* items - analysed had the Entrez ID alternative identifier present.
+Most of the data from the Gene Wiki project came from NCBI, creator and maintainer of Entrez. 
+Nevertheless, there are still many gene items without an "Ensembl Gene ID" property, 
+showcasing the need for further work in migrating this important source of information.   
+In the case of Organ data, there was a high number of matches both due to the fact that there were only a few number of items, but also since most Organ entities have Wikipedia pages, that are, therefore, cross-linked using Wikidata, requiring the creation of these items. 
+
+Regarding alternative identifiers, what was observed for genes cannot be said for histological entities. While there is significant progress in integrating UBERON IDs, there is near to no items with a Cell Ontology ID property (Figure @fig:histo_alt_ids).
+
+
+![
+Percentage of matched histological items that had alternative identifiers,
+UBERON IDs for Tissues and Organs, Cell Ontology IDs for Cell types. 
+](images/histo_alt_ids.png){#fig:histo_alt_ids}
+
+
+![
+Percentage of matched gene items that had alternative identifiers, Entrez ID and Ensembl Gene ID, divided by species. 
+](images/gene_alt_ids.png){#fig:gene_alt_ids}
+
+
+![
+Percentage of reconciled entities, divided by which item type they belong to. Most reconciled items don‘t count with the P31 property.
+](images/reconciled_item_types.png){#fig:reconciledbar}
+
+
+A significant proportion of the matches we could acquire for histological data didn't contain in their data model an "instance of" (P31) property, 
+this illustrates an extremely concerning fact: Although we could still match around 30 percent of the data - 
+in the case of Cell types and Tissues - 
+this data was probably "low-quality", that is, hard to find and even harder to obtain insights from, 
+we can affirm this since the P31 property is the basis for most items in Wikidata, 
+it's the most intuitive way to perform queries against their database and to annotate their items. 
+
+
+Furthermore, there is a significant disparity between histological data and gene data: 
+while we could only match around 37% of Cell types from PanglaoDB, and of those 55% didn't have P31, 
+we matched 60% of *Homo sapiens* genes, and all of them had P31. 
+This disparity is not clearly shown when looking exclusively at the number of statements for these items 
+(Figures @fig:histo_boxplot and @fig:gene_violin), but it shows there is still a great amount of missing information
+for biological data, in particular in regards to cell types.
+
+
+![
+The distribution of the number of statements of the matched histological entities. 
+Cell types performed the lowest.
+](images/histo_boxplots.png){#fig:histo_boxplot}
+
+![
+The distribution of the number of statements for matched gene items, divided by species.
+](images/gene_violin.png){#fig:gene_violin}
