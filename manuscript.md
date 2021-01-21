@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c59d2919adad45efafb85a6015685ff2a3515804/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c59d2919adad45efafb85a6015685ff2a3515804/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c59d2919adad45efafb85a6015685ff2a3515804/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/19d461b32ca8d735f8e1d885537caaa8729e65f5/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/19d461b32ca8d735f8e1d885537caaa8729e65f5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/19d461b32ca8d735f8e1d885537caaa8729e65f5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c59d2919adad45efafb85a6015685ff2a3515804/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/19d461b32ca8d735f8e1d885537caaa8729e65f5/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@c59d291](https://github.com/jvfe/paper_wdt_panglao/tree/c59d2919adad45efafb85a6015685ff2a3515804)
+from [jvfe/paper_wdt_panglao@19d461b](https://github.com/jvfe/paper_wdt_panglao/tree/19d461b32ca8d735f8e1d885537caaa8729e65f5)
 on January 21, 2021.
 </em></small>
 
@@ -300,108 +300,40 @@ as well as archived in a zenodo repository, <https://doi.org/10.5281/zenodo.4438
 
 # Results
 
-## Wikidata reconciliation - initial look
+## Cell Marker information on Wikidata
 
-Entities from PanglaoDB, that is, cell types, genes, tissue types and organs, were matched with Wikidata items, matching summary can be seen on Table @tbl:reconcilesummary. 
-
-
-
-|         | # of total items |   # of unique matches  |  % of total items that were matched |
-|:--------|---------:|-------------------:|---------------:|
-| Cells   |      215 |                 81 |        37.67% |
-| Tissues |      246 |                 85 |        34.55% |
-| Organs  |       29 |                 22 |        75.86% |
-| Human Genes |    58216 |                 35423 |        60.84% |
-| Mouse Genes  |    53793 |                 25124 |        46.70% |
-Table: Summary of the matched entities from PanglaoDB.
-{#tbl:reconcilesummary}
-
-## Wikidata overview previous to the study
-
-Only *Homo sapiens* genes and Organs reconciled more than 50%.
-In the case of genes, this is probably due to the Gene Wiki initiative [@doi:10.1093/database/baw015], a long-running project to improve biological information in Wikipedia and its sister-projects, including Wikidata. 
-
-This is further illustrated by Figure @fig:gene_alt_ids, in which we can see that all *Mus musculus* gene items - and nearly all *Homo sapiens* items - analysed had the Entrez ID alternative identifier present.
-Most of the data from the Gene Wiki project came from NCBI, creator and maintainer of Entrez. 
-Nevertheless, there are still many gene items without an "Ensembl Gene ID" property, 
-showcasing the need for further work in migrating this important source of information.   
-In the case of Organ data, there was a high number of matches both due to the fact that there were only a few number of items, but also since most Organ entities have Wikipedia pages, that are, therefore, cross-linked using Wikidata, requiring the creation of these items. 
-
-Regarding alternative identifiers, what was observed for genes cannot be said for histological entities. While there is significant progress in integrating UBERON IDs, there is near to no items with a Cell Ontology ID property (Figure @fig:histo_alt_ids).
-
+Adding marker information on Wikidata was not possible before this study and became possible after community approval of the property "has marker" (P8872) (see Methods).
+Figure @fig:chat_marker shows 2 of the current markers of "human colinergic neuron"([Q101405051](http://www.wikidata.org/entity/Q101405051)), [CHAT](http://www.wikidata.org/entity/Q14863671) and [ACHE](http://www.wikidata.org/entity/Q407983), as they seen on Wikidata.
+The PanglaoDB is referenced both via URL to the website (<https://panglaodb.se/markers.html>) and a pointer to the PanglaoDB item on Wikidata, [Q99936939](http://www.wikidata.org/entity/Q99936939).  
 
 ![
-Percentage of matched histological items that had alternative identifiers,
-UBERON IDs for Tissues and Organs, Cell Ontology IDs for Cell types. 
-](images/histo_alt_ids.png){#fig:histo_alt_ids}
+Subset of the marker genes for item Q101405051 (human cholinergic neuron )
+](images/chat_marker.png){#fig:chat_marker}
 
 
-![
-Percentage of matched gene items that had alternative identifiers, Entrez ID and Ensembl Gene ID, divided by species. 
-](images/gene_alt_ids.png){#fig:gene_alt_ids}
+Since Wikidata is an open system information about markers will be complemented by user contributions. 
+To date, no other project has systematically integrated cell type markers to Wikidata, and most information is provenient from PanglaoDB. The queries below show an update view of the marker count for cell types of humans and mice on Wikidata.
 
 
-![
-Percentage of reconciled entities, divided by which item type they belong to. Most reconciled items don‘t count with the P31 property.
-](images/reconciled_item_types.png){#fig:reconciledbar}
+<div class="is-hidden" id="three-tab-content">
+<h5 class="title is-5" style="text-align:center;"> Marker information on Wikidata for  cell types found in  <i>Homo sapiens</i> </h5>
+<div class="columns is-centered">
+<p style="text-align: center">
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fcell_type%20%3Fcell_typeLabel%20%28count%28%3Fmarker%29%20as%20%3Fmarker_count%29%0AWHERE%20%0A%7B%0A%20%20%3Fcell_type%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ189118.%0A%20%20%3Fcell_type%20wdt%3AP703%20wd%3AQ15978631.%0A%20%20%3Fcell_type%20wdt%3AP8872%20%3Fmarker.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AGROUP%20BY%20%3Fcell_type%20%3Fcell_typeLabel%0AORDER%20BY%20DESC%28%3Fmarker_count%29%20" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+</p>
+</div>
+</div>
 
+<div class="is-hidden" id="three-tab-content">
+<h5 class="title is-5" style="text-align:center;"> Marker information on Wikidata for  cell types found in  <i>Mus musculus</i> </h5>
+<div class="columns is-centered">
+<p style="text-align: center">
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fcell_type%20%3Fcell_typeLabel%20%28count%28%3Fmarker%29%20as%20%3Fmarker_count%29%0AWHERE%20%0A%7B%0A%20%20%3Fcell_type%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ189118.%0A%20%20%3Fcell_type%20wdt%3AP703%20wd%3AQ83310.%0A%20%20%3Fcell_type%20wdt%3AP8872%20%3Fmarker.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AGROUP%20BY%20%3Fcell_type%20%3Fcell_typeLabel%0AORDER%20BY%20DESC%28%3Fmarker_count%29%20" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+</p>
+</div>
+</div>
 
-A significant proportion of the matches we could acquire for histological data didn't contain in their data model an "instance of" (P31) property, 
-this illustrates an extremely concerning fact: Although we could still match around 30 percent of the data - 
-in the case of Cell types and Tissues - 
-this data was probably "low-quality", that is, hard to find and even harder to obtain insights from, 
-we can affirm this since the P31 property is the basis for most items in Wikidata, 
-it's the most intuitive way to perform queries against their database and to annotate their items. 
-
-
-Furthermore, there is a significant disparity between histological data and gene data: 
-while we could only match around 37% of Cell types from PanglaoDB, and of those 55% didn't have P31, 
-we matched 60% of *Homo sapiens* genes, and all of them had P31. 
-This disparity is not clearly shown when looking exclusively at the number of statements for these items 
-(Figures @fig:histo_boxplot and @fig:gene_violin), but it shows there is still a great amount of missing information
-for biological data, in particular in regards to cell types.
-
-
-![
-The distribution of the number of statements of the matched histological entities. 
-Cell types performed the lowest.
-](images/histo_boxplots.png){#fig:histo_boxplot}
-
-![
-The distribution of the number of statements for matched gene items, divided by species.
-](images/gene_violin.png){#fig:gene_violin}
-
-## Wikidata reconciliation - final look
-
-After the aforementioned improvements were made, 
-data from PanglaoDB was reconciled once again, 
-the automatic classification method was able to detect most cell types matches for most cell types on PanglaoDB matches (Table
-@tbl:finallook_summary). The non-unique matches are likely due to synonym or very similar aliases used for different cell type concepts. Nevertheless, it is an evidence that our work improved cell type content on Wikidata, and will arguably facilitate the reconciliation of other cell-type related resources.
-
-||  # of total items |# of unique matches  |   % of total items that were matched |
-|:-|--------------:|-------------------:|---------------:|
-| Cells     | 215 | 173 |80.4651 |
-| Tissues   |  246 |63 | 25.6097 |
-| Organs    | 29 |18 | 62.0689 |
-| Human Genes | 58216 |35423 | 60.8475 |
-| Mouse Genes |  53793 |25124 |  46.705|
-Table: Summary of matched PanglaoDB entities after improvements were made.
-{#tbl:finallook_summary}
-
-Noticeably, the proportion of automatic matches for other entity types (tissues and organs) seems reduced in relation to the first assessment (35% to 25% and 76 to 62%). These entities were not targeted by our work, but as Wikidata is a living resource, modifications in the database, such as reclassification of entities or adding of other similar concepts, may have reduced the performance of our simple reconciler.
-
-## Analysis of item quality - final look
-
-As can be gathered from Figure @fig:finallook_reconciledbar, nearly all cell type items have the appropriate "instance of cell type" statement, with only 4 items still missing said statement and one item being classified as an "instance of gland". 
-
-This is a considerable advance in improving the quality of cell type data in Wikidata, as having this simple statement will make these items easier to find and be expanded upon.
-
-![
-Percentage of reconciled entities gathered during the second and final reconciliation, divided by which item type they belong to.
-](images/final_look_reconciled_types.png){#fig:finallook_reconciledbar}
-
-
-## Wikidata SPARQL queries enabled by the integration
+# Wikidata SPARQL queries enabled by the integration
 
 Now that the PanglaoDB is released as Linked Open Data, we can make queries that were not possible before, including
 federated queries with other biological databases, such as Uniprot [@https://sparql.uniprot.org/sparql]
@@ -458,6 +390,49 @@ We can check the cell-type to disease relation in both ways. Scientists that stu
 </div>
 </div>
 
+## Improvement of Wikidata data on cell types
+
+To reconcile a database to Wikidata, we need to match names on the databases, often in natural language, to the unique identifiers on Wikidata. We first employed an automatic approach based on Entities from PanglaoDB, that is, cell types,tissue types and organ types, were matched with Wikidata items, matching summary can be seen on Table @tbl:reconcilesummary. 
+
+Of note, Wikidata editors often mix first-order classes such as "cells" and "organs" with second-order classes like "cell types" and "organ types" (Supplementary Information). First-order classes point to real-world individuals, like the "Dolly sheep zygote" (a real-world "cell") and the "brain of Albert Einstein" (a real-world "organ"). Second-order classes point to classes, like "zygote" (a conceptual "cell type") and "brain" (a conceptual "organ type").
+
+|         | PanglaoDB (count) |   automatic matches (count)   | 
+|:--------|---------:|-------------------:|
+| Cell types   |      215 |                 81 (37.67 %) |
+| Tissue types |      246 |                 85 (34.55 %) |
+| Organ types  |       29 |                 22 (75.86%) |
+Table: Summary of the matched entities from PanglaoDB (August 2020).
+{#tbl:reconcilesummary}
+
+
+The difference between first-order classes and second-order classes is notoriously tricky, and biological databases and texts often practice unintentional punning  (the use of the same concept for different levels [@https://www.w3.org/2007/OWL/wiki/Punning]). For adding markers on Wikidata, we assumed that all information in PanglaoDB was about instances of cell types, and not specific cells. 
+
+After marker data from PanglaoDB was added to Wikidata, we tested the automatic classification method was able to detect most cell types matches for most cell types on PanglaoDB matches (Table
+@tbl:finallook_summary). The improvement of 38% to 80% of automatically matched types is an evidence that our work improved cell type content on Wikidata, and will arguably facilitate the reconciliation of other cell-type related resources.
+
+||  PanglaoDB (count) | automatic matches (count)  |
+|:-|--------------:|-------------------:|
+| Cell types  |  215 | 173 (80.46 %) |
+| Tissue types   |  246 |  63  (25.60 %) |
+| Organ types    |   29 |  18 (62.06 %) |
+Table: Summary of matched PanglaoDB entities after improvements were made (December 2020).
+
+{#tbl:finallook_summary}
+
+Noticeably, the proportion of automatic matches for other entity types (tissues and organs) seems reduced in relation to the first assessment (35% to 25% and 76 to 62%). These entities were not targeted by our work, but as Wikidata is a living resource, modifications in the database, such as reclassification of entities or adding of other similar concepts, may have reduced the performance of our simple reconciler.
+
+## Analysis of item quality - final look
+
+As can be gathered from Figure @fig:finallook_reconciledbar, nearly all cell type items have the appropriate "instance of cell type" statement, with only 4 items still missing said statement and one item being classified as an "instance of gland". 
+
+This is a considerable advance in improving the quality of cell type data in Wikidata, as having this simple statement will make these items easier to find and be expanded upon.
+
+![
+Percentage of reconciled entities gathered during the second and final reconciliation, divided by which item type they belong to.
+](images/final_look_reconciled_types.png){#fig:finallook_reconciledbar}
+
+
+
 # Discussion
 
 In this work, we re-released the knowledge curated in PanglaoDB on Wikidata, connecting it to the semantic web. 
@@ -494,7 +469,8 @@ For those interest in continuous integration, the Python module Wikidata Integra
 
 This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers. It also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]). 
 The approach can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format. 
-We hope that community will keep improving marker and overall biological content on Wikidata, and that the interlinked marker information will be useful for researchers all over the world.  
+<!-- A última frase precisa de aprovação rs-->
+We hope that community will keep improving marker and overall biological content on Wikidata, and that the interlinked marker information will be helpful. We invite the reader to improve information on Wikidata for their  favorite cell types, adding markers and a link to the reference works, and make ourselves available for aiding anyone interested in using or editing marker information on Wikidata. 
 
 # General Ideas
 

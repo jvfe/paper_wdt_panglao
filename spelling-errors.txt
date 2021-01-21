@@ -2,7 +2,7 @@ acessible
 acessment
 analysed
 biocurated
-Bioinformatics
+bioinformatics
 boxplot
 cajal
 Cavalcante
@@ -10,6 +10,8 @@ CELDA
 CellFinder
 CellMarker
 CELLPEDIA
+cholinergic
+colinergic
 csv
 dataset
 datasets
@@ -28,7 +30,7 @@ henle
 histo
 histological
 inteoperability
-interoperable
+Interoperable
 João
 Jupyter
 jvfe
@@ -63,11 +65,12 @@ PanglaoDB’s
 pathophysiology
 Paulo
 PorterStemmer
+provenient
 publically
 purkinje
 QID
 Quickstatements
-RDF
+rdf
 reconciledbar
 reconciler
 reconcilesummary
