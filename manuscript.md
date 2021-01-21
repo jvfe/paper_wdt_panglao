@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/19d461b32ca8d735f8e1d885537caaa8729e65f5/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/19d461b32ca8d735f8e1d885537caaa8729e65f5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/19d461b32ca8d735f8e1d885537caaa8729e65f5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/1f0a874b08d765eea62578857dac88e1657be19b/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/1f0a874b08d765eea62578857dac88e1657be19b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/1f0a874b08d765eea62578857dac88e1657be19b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/19d461b32ca8d735f8e1d885537caaa8729e65f5/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/1f0a874b08d765eea62578857dac88e1657be19b/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@19d461b](https://github.com/jvfe/paper_wdt_panglao/tree/19d461b32ca8d735f8e1d885537caaa8729e65f5)
+from [jvfe/paper_wdt_panglao@1f0a874](https://github.com/jvfe/paper_wdt_panglao/tree/1f0a874b08d765eea62578857dac88e1657be19b)
 on January 21, 2021.
 </em></small>
 
@@ -314,6 +314,7 @@ Subset of the marker genes for item Q101405051 (human cholinergic neuron )
 Since Wikidata is an open system information about markers will be complemented by user contributions. 
 To date, no other project has systematically integrated cell type markers to Wikidata, and most information is provenient from PanglaoDB. The queries below show an update view of the marker count for cell types of humans and mice on Wikidata.
 
+<!-- Talvez para uma versão estática role fazer uma figura com isso aqui: https://angryloki.github.io/wikidata-graph-builder/?property=P279&item=Q7868&mode=reverse -->
 
 <div class="is-hidden" id="three-tab-content">
 <h5 class="title is-5" style="text-align:center;"> Marker information on Wikidata for  cell types found in  <i>Homo sapiens</i> </h5>

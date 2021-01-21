@@ -1,8 +1,8 @@
-acessible
+Acessible
 acessment
 analysed
 biocurated
-bioinformatics
+Bioinformatics
 boxplot
 cajal
 Cavalcante
@@ -70,7 +70,7 @@ publically
 purkinje
 QID
 Quickstatements
-rdf
+RDF
 reconciledbar
 reconciler
 reconcilesummary
@@ -81,7 +81,7 @@ Seaborn
 SHOGoiN
 SPARQL
 Tiago
-UBERON
+Uberon
 Uniprot
 Vitor
 wdt
