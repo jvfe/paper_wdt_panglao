@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-21'
+date-meta: '2021-01-22'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2021-01-21" />
-  <meta name="citation_publication_date" content="2021-01-21" />
+  <meta name="dc.date" content="2021-01-22" />
+  <meta name="citation_publication_date" content="2021-01-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/1f0a874b08d765eea62578857dac88e1657be19b/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/1f0a874b08d765eea62578857dac88e1657be19b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/1f0a874b08d765eea62578857dac88e1657be19b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/e22c2c47f95829e73d1ca13a8f05e4664f5ebe3c/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/e22c2c47f95829e73d1ca13a8f05e4664f5ebe3c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/e22c2c47f95829e73d1ca13a8f05e4664f5ebe3c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/1f0a874b08d765eea62578857dac88e1657be19b/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/e22c2c47f95829e73d1ca13a8f05e4664f5ebe3c/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@1f0a874](https://github.com/jvfe/paper_wdt_panglao/tree/1f0a874b08d765eea62578857dac88e1657be19b)
-on January 21, 2021.
+from [jvfe/paper_wdt_panglao@e22c2c4](https://github.com/jvfe/paper_wdt_panglao/tree/e22c2c47f95829e73d1ca13a8f05e4664f5ebe3c)
+on January 22, 2021.
 </em></small>
 
 ## Authors
@@ -397,7 +397,7 @@ To reconcile a database to Wikidata, we need to match names on the databases, of
 
 Of note, Wikidata editors often mix first-order classes such as "cells" and "organs" with second-order classes like "cell types" and "organ types" (Supplementary Information). First-order classes point to real-world individuals, like the "Dolly sheep zygote" (a real-world "cell") and the "brain of Albert Einstein" (a real-world "organ"). Second-order classes point to classes, like "zygote" (a conceptual "cell type") and "brain" (a conceptual "organ type").
 
-|         | PanglaoDB (count) |   automatic matches (count)   | 
+|         | PanglaoDB (count) |   Automatic matches (count)   | 
 |:--------|---------:|-------------------:|
 | Cell types   |      215 |                 81 (37.67 %) |
 | Tissue types |      246 |                 85 (34.55 %) |
@@ -411,13 +411,12 @@ The difference between first-order classes and second-order classes is notorious
 After marker data from PanglaoDB was added to Wikidata, we tested the automatic classification method was able to detect most cell types matches for most cell types on PanglaoDB matches (Table
 @tbl:finallook_summary). The improvement of 38% to 80% of automatically matched types is an evidence that our work improved cell type content on Wikidata, and will arguably facilitate the reconciliation of other cell-type related resources.
 
-||  PanglaoDB (count) | automatic matches (count)  |
+||  PanglaoDB (count) | Automatic matches (count)  |
 |:-|--------------:|-------------------:|
 | Cell types  |  215 | 173 (80.46 %) |
 | Tissue types   |  246 |  63  (25.60 %) |
 | Organ types    |   29 |  18 (62.06 %) |
 Table: Summary of matched PanglaoDB entities after improvements were made (December 2020).
-
 {#tbl:finallook_summary}
 
 Noticeably, the proportion of automatic matches for other entity types (tissues and organs) seems reduced in relation to the first assessment (35% to 25% and 76 to 62%). These entities were not targeted by our work, but as Wikidata is a living resource, modifications in the database, such as reclassification of entities or adding of other similar concepts, may have reduced the performance of our simple reconciler.
