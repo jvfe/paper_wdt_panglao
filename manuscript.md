@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/e22c2c47f95829e73d1ca13a8f05e4664f5ebe3c/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/e22c2c47f95829e73d1ca13a8f05e4664f5ebe3c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/e22c2c47f95829e73d1ca13a8f05e4664f5ebe3c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/651fd2d3c7508e9a99c80dcad4e1ec535120508b/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/651fd2d3c7508e9a99c80dcad4e1ec535120508b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/651fd2d3c7508e9a99c80dcad4e1ec535120508b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/e22c2c47f95829e73d1ca13a8f05e4664f5ebe3c/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/651fd2d3c7508e9a99c80dcad4e1ec535120508b/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@e22c2c4](https://github.com/jvfe/paper_wdt_panglao/tree/e22c2c47f95829e73d1ca13a8f05e4664f5ebe3c)
+from [jvfe/paper_wdt_panglao@651fd2d](https://github.com/jvfe/paper_wdt_panglao/tree/651fd2d3c7508e9a99c80dcad4e1ec535120508b)
 on January 22, 2021.
 </em></small>
 
@@ -464,6 +464,10 @@ For those interest in continuous integration, the Python module Wikidata Integra
 
 /// Why Wikidata integration is different from Bio2RDF? What are the cons? Maybe mention Wikidata as an easy-to-use middleground that does not require _that_ much domain expertise about the complicated world of semantic technologies, formal description logic and even computer science in general. 
 
+The integration of biomedical data into Wikidata differs from other RDF and semantic web migration efforts, 
+such as Bio2RDF[@wikidata:Q56989268], 
+as it not only integrates the data into an RDF linked data model but also provides Wikidata's simple user interface, that can be used and understood with minimal domain expertise.
+Furthermore, as data on Wikidata can easily be reused on Wikipedia, the integration can also enhance the quality of life-science related articles, extending the reach of the information being migrated.
 
 /// Wikipedia is a major source for biological knowledge. Data on Wikidata can be easily reused on Wikipedia and enhance the quality of articles about life-science subjects in semi-automated ways (as has been done before for drug-drug interactions)  [@wikidata:Q21503276]  .
 
