@@ -5,6 +5,7 @@ biocurated
 Bioinformatics
 boxplot
 cajal
+catalogued
 Cavalcante
 CELDA
 CellFinder
@@ -21,6 +22,7 @@ dowloaded
 Ensembl
 Entrez
 Eventhough
+Fallis
 Ferreira
 finallook
 Findable
@@ -43,11 +45,10 @@ macromolecular
 Matplotlib
 MediaWiki
 mesenchymal
-middleground
 modelling
 multifunctional
-multispecies
 musculus
+mutualism
 myocyte
 NCBI
 neurogenesis
@@ -65,6 +66,7 @@ PanglaoDB’s
 pathophysiology
 Paulo
 PorterStemmer
+Protegé
 provenient
 publically
 purkinje

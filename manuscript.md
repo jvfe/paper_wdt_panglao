@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/b04043af3a58d56c7c3e562fc518915bb7ea4858/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/b04043af3a58d56c7c3e562fc518915bb7ea4858/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/b04043af3a58d56c7c3e562fc518915bb7ea4858/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/e497547218d686336bd133fbfae195be9ffdb963/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/e497547218d686336bd133fbfae195be9ffdb963/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/e497547218d686336bd133fbfae195be9ffdb963/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/b04043af3a58d56c7c3e562fc518915bb7ea4858/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/e497547218d686336bd133fbfae195be9ffdb963/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@b04043a](https://github.com/jvfe/paper_wdt_panglao/tree/b04043af3a58d56c7c3e562fc518915bb7ea4858)
+from [jvfe/paper_wdt_panglao@e497547](https://github.com/jvfe/paper_wdt_panglao/tree/e497547218d686336bd133fbfae195be9ffdb963)
 on January 25, 2021.
 </em></small>
 
@@ -445,36 +445,36 @@ Eventhough, these data could be released in RDF format and be connected to indep
 
 As described in the methods session, we added species-specific terms to Wikidata for cell types of _Homo sapiens_ and _Mus musculus_ described in the PanglaoDB database. 
 The use of species-specific cell-types is necessary because genes in Wikidata are also species-specific, connected to their taxon by the "[found in taxon](http://www.wikidata.org/entity/P703)" properties.
-
-/// Add discussions about multispecies / "species-neutral" genes and how biomedical science often uses those
-
-
-/// Add notes about the social aspects: how easy is it to add new items? And properties? Is that easier than traditional OBO tools ? 
-
-Linking biological with Wikidata allows out-of-the-box integrative SPARQL queries, as many biomedical ontologies and datasets have been already integrated to Wikidata, and are available in Wikidata's graph. 
-Besides the well-known advantages of having data linked to the Linked Open Data cloud, the Wikidata integration provides user-friendly interfaces for the data. 
-That includes both navigable html pages of classes and properties (e.g. <https://www.wikidata.org/wiki/Q67801129>) as well as an SPARQL Query Service with user-friendly modifications to ease queries for beginners (<https://query.wikidata.org/>) with helper pages for learning SPARQL (<https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial>) or even requesting queries (<https://www.wikidata.org/wiki/Wikidata:Request_a_query>).   
+In the biomedical literature, however, genes and cell types are sometimes referred to broadly, in a multi-species or species-neutral way. 
+The fuzzy, humane meanings are not always compatible with formalized data models. 
+Thus, the reconciliation endeavor is not merely finding the right match on Wikidata, but largely of crafting coherent interpretations of data. 
 
 
-Wikidata also makes it easy for users to contribute. 
-Wikidata allows editions directly in the Graphical User Interface, acessible for domain experts without programming or ontology training. 
-In fact,  Wikidata may be the solution for an (at least) 7 year-old gap of an "community-based crowd-sourcing approach" for representing knowlegde about cell types. [@wikidata:Q34026802]
-For those interest in continuous integration, the Python module Wikidata Integrator facilitates for python users to reconcile databases to Wikidata, and it has been used to build bots for several different biological databases [@wikidata:Q87830400].
+The complexity of biomedical communication adds to the argument pro-Wikidata. 
+Sometimes, as happened for us, it is just impossible to find a suitable term in an existing ontology. 
+OBO Foundry ontologies are open to contribution, but require a large investment. 
+For starters, one must learn a lot about description logic, a field that is often exotic for biologists and software developers alike. 
+Moreover, to contribute, one needs to acquire the tooling.
+That includes learning to use GitHub (<https://github.com/>) and Protegé (<https://protege.stanford.edu/>), but also learning community conventions and social norms that are slightly different for every single ontology.
+Wikidata bypasses this steep learning curve by providing a web interface which requires little to no previous experience with ontologies and programming. 
+The reconciliation process becomes smoother, as if a concept is not previously catalogued, we can add a new one on the fly.
 
+Additionally, knowledge added to Wikidata is not locked in the ivory tower of academia.
+Data on Wikidata can be easily reused on Wikipedia, a major source of information for scientists and lay people alike.
+Wikipedia's thriving mutualism with academia is well documented. [@wikidata:Q42013239; @wikidata:Q21629969; @wikidata:Q21145331] 
+Wikidata information can enhance the quality of articles about life-science subjects in semi-automated ways (as has been done before [@wikidata:Q21503276]).
+Thus, Wikidata is  directly connected to the well-established science education platform of Wikipedia, a feature unrivaled by any other structured knowledge system. 
 
-/// Why Wikidata integration is different from Bio2RDF? What are the cons? Maybe mention Wikidata as an easy-to-use middleground that does not require _that_ much domain expertise about the complicated world of semantic technologies, formal description logic and even computer science in general. 
+Of course, Wikidata has its limitations.
+Concerns with the reliability of Wikipedia are as old as the encyclopedia itself (for a discussion, see <https://en.wikipedia.org/wiki/Reliability_of_Wikipedia>) and Wikidata likely shares many of such concerns.
+The ontological modelling on Wikidata is often far from perfect, and inconsistencies and logical mistakes abound. [@wikidata:Q27037396].
+It has been argued, though, that bio-ontologies generally lack "strict, explicit and well defined semantics" (at least in 2008 [@wikidata:Q21093639]).
+While a comprehensive analysis of pros and cons of scientific Wikidata is not available, we extend Don Fallis' view on Wikipedia and argue that Wikidata  has a number of "epistemic virtues (e.g., power, speed, and fecundity) that arguably outweigh any deficiency in terms of reliability." [@wikidata:Q101955295]
 
-The integration of biomedical data into Wikidata differs from other RDF and semantic web migration efforts, 
-such as Bio2RDF[@wikidata:Q56989268], 
-as it not only integrates the data into an RDF linked data model but also provides Wikidata's simple user interface, that can be used and understood with minimal domain expertise.
-Furthermore, as data on Wikidata can easily be reused on Wikipedia, the integration can also enhance the quality of life-science related articles, extending the reach of the information being migrated.
+This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers, easily reachable from Wikidata's SPARQL Query Service(<https://query.wikidata.org/>). The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]). 
+The approach we took here can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format. 
 
-/// Wikipedia is a major source for biological knowledge. Data on Wikidata can be easily reused on Wikipedia and enhance the quality of articles about life-science subjects in semi-automated ways (as has been done before for drug-drug interactions)  [@wikidata:Q21503276]  .
-
-This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers. It also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]). 
-The approach can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format. 
-<!-- A última frase precisa de aprovação rs-->
-We hope that community will keep improving marker and overall biological content on Wikidata, and that the interlinked marker information will be helpful. We invite the reader to improve information on Wikidata for their  favorite cell types, adding markers and a link to the reference works, and make ourselves available for aiding anyone interested in using or editing marker information on Wikidata. 
+We hope that community will keep improving marker and overall biological content on Wikidata, and that the interlinked marker information will be helpful. We invite the reader to improve information on Wikidata for their favorite cell types, adding markers and a link to the reference works, and make ourselves available for aiding anyone interested in using or editing marker information on Wikidata. 
 
 # General Ideas
 
