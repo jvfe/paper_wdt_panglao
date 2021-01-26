@@ -21,7 +21,6 @@ dictionay
 dowloaded
 Ensembl
 Entrez
-Eventhough
 Fallis
 Ferreira
 finallook
@@ -83,7 +82,7 @@ Seaborn
 SHOGoiN
 SPARQL
 Tiago
-UBERON
+Uberon
 Uniprot
 Vitor
 wdt

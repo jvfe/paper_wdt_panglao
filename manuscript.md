@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/584bfd1c649e68704984cf7af1e40f282bdea429/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/584bfd1c649e68704984cf7af1e40f282bdea429/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/584bfd1c649e68704984cf7af1e40f282bdea429/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/584bfd1c649e68704984cf7af1e40f282bdea429/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@c1731ff](https://github.com/jvfe/paper_wdt_panglao/tree/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551)
+from [jvfe/paper_wdt_panglao@584bfd1](https://github.com/jvfe/paper_wdt_panglao/tree/584bfd1c649e68704984cf7af1e40f282bdea429)
 on January 26, 2021.
 </em></small>
 
@@ -437,18 +437,19 @@ Percentage of reconciled entities gathered during the second and final reconcili
 
 In this work, we re-released the knowledge curated in PanglaoDB on Wikidata, connecting it to the semantic web. 
 Each cell-type/marker statement was added to Wikidata with a pointer to PanglaoDB and a citation of the article, providing proper provenance. 
-At the same time, we documented the process of database integration to Wikidata, providing a blueprint for future efforts. 
+At the same time, we documented the process of database integration to Wikidata, providing a blueprint for future efforts.
 
 It is important to note that not all data on PanglaoDB was added to Wikidata. 
 Fine-grained, database-specific details were too granular for a general-purpose database like Wikidata (e.g. the sensitivity and specificity attached to each marker-cell type pair). 
-Eventhough, these data could be released in RDF format and be connected to independent SPARQL endpoints (as done in the Bio2RDF effort [@wikidata:Q56989268]), we focused on integration to Wikidata to take advantage of the built-in integration with various types of knowledge, as well as the tooling developed by the Wikidata community.  
+As Wikidata license is very permissive (CC0), content in PanglaoDB that could be protected by copyright (for example, narrative descriptions of cell types) is not suitable for integration.  
+In either case, depending on the goals, these data could be released in RDF format and be connected to independent SPARQL endpoints (as done in the Bio2RDF effort [@wikidata:Q56989268]). 
+In this work, we focused on integration to Wikidata to take advantage of the built-in integration with various types of knowledge, as well as the tooling developed by the Wikidata community.  
 
 As described in the methods session, we added species-specific terms to Wikidata for cell types of _Homo sapiens_ and _Mus musculus_ described in the PanglaoDB database. 
 The use of species-specific cell-types is necessary because genes in Wikidata are also species-specific, connected to their taxon by the "[found in taxon](http://www.wikidata.org/entity/P703)" properties.
 In the biomedical literature, however, genes and cell types are sometimes referred to broadly, in a multi-species or species-neutral way. 
 The fuzzy, humane meanings are not always compatible with formalized data models. 
 Thus, the reconciliation endeavor is not merely finding the right match on Wikidata, but largely of crafting coherent interpretations of data. 
-
 
 The complexity of biomedical communication adds to the argument pro-Wikidata. 
 Sometimes, as happened for us, it is just impossible to find a suitable term in an existing ontology. 
@@ -471,7 +472,11 @@ The ontological modelling on Wikidata is often far from perfect, and inconsisten
 It has been argued, though, that bio-ontologies generally lack "strict, explicit and well defined semantics" (at least in 2008 [@wikidata:Q21093639]).
 While a comprehensive analysis of pros and cons of scientific Wikidata is not available, we extend Don Fallis' view on Wikipedia and argue that Wikidata  has a number of "epistemic virtues (e.g., power, speed, and fecundity) that arguably outweigh any deficiency in terms of reliability." [@wikidata:Q101955295]
 
-This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers, easily reachable from Wikidata's SPARQL Query Service(<https://query.wikidata.org/>). The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]). 
+This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers, easily reachable from Wikidata's SPARQL Query Service(<https://query.wikidata.org/>). 
+It is not first case study of biomedical data integration to Wikidata (see [@wikidata:Q105037759] for example.
+Nevertheless, the differences among the articles in style and scope contribute to a richer ecosystem for possible contributor. 
+])
+The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]). 
 The approach we took here can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format. 
 
 We hope that community will keep improving marker and overall biological content on Wikidata, and that the interlinked marker information will be helpful. We invite the reader to improve information on Wikidata for their favorite cell types, adding markers and a link to the reference works, and make ourselves available for aiding anyone interested in using or editing marker information on Wikidata. 
