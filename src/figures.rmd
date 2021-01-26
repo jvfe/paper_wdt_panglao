@@ -1,0 +1,58 @@
+```{r}
+library(WikidataQueryServiceR)
+
+mm = query_wikidata('SELECT ?cell_type ?cell_typeLabel (count(?marker) as ?marker_count)
+WHERE 
+{
+  ?cell_type wdt:P31/wdt:P279* wd:Q189118.
+  ?cell_type wdt:P703 wd:Q83310.
+  ?cell_type wdt:P8872 ?marker. 
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+GROUP BY ?cell_type ?cell_typeLabel
+')
+
+hs = query_wikidata('SELECT ?cell_type ?cell_typeLabel (count(?marker) as ?marker_count)
+WHERE 
+{
+  ?cell_type wdt:P31/wdt:P279* wd:Q189118.
+  ?cell_type wdt:P703 wd:Q15978631.
+  ?cell_type wdt:P8872 ?marker. 
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+GROUP BY ?cell_type ?cell_typeLabel')
+```
+
+```{r}
+
+marker_count_mouse = data.frame(mm[,"marker_count"], "Mus musculus")
+colnames(marker_count_mouse) = c("marker_count", "species")
+marker_count_human = data.frame(hs[,"marker_count"], "Homo sapiens")
+colnames(marker_count_human) = c("marker_count", "species")
+
+marker_count = rbind(marker_count_human, marker_count_mouse)
+marker_count
+```
+
+```{r}
+library(ggplot2)
+
+p <- ggplot(marker_count, aes(x=species, y=marker_count, colour = species)) +
+  geom_jitter(width = 0.1, height = 0, alpha=0.7) +
+  theme_classic() +
+  scale_color_manual(values=c("purple", "darkorange")) +
+  ylab("Number of markers per cell type") +
+  xlab("Found in taxon") +
+  theme(
+  axis.title = element_text(size = 14),
+  axis.text.y = element_text(size = 11),
+  axis.text = element_text(size = 14, face = "italic")) + 
+  theme(legend.position = "none")  +
+  theme(
+      axis.title.x = element_text(margin = unit(c(7, 0, 0, 0), "mm")),
+      axis.title.y = element_text(margin = unit(c(0, 7, 0, 0), "mm"))
+  )
+  
+ggsave(filename = "markers.pdf", p, height = 5, width = 5)
+```
+
