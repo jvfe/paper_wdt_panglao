@@ -49,9 +49,9 @@
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/584bfd1c649e68704984cf7af1e40f282bdea429/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/584bfd1c649e68704984cf7af1e40f282bdea429/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/584bfd1c649e68704984cf7af1e40f282bdea429/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/">permalink</a>)
+(<a href="https://jvfe.github.io/paper_wdt_panglao/v/584bfd1c649e68704984cf7af1e40f282bdea429/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551">jvfe/paper_wdt_panglao@c1731ff</a>
+from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/584bfd1c649e68704984cf7af1e40f282bdea429">jvfe/paper_wdt_panglao@584bfd1</a>
 on January 26, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -465,7 +465,9 @@ Each cell-type/marker statement was added to Wikidata with a pointer to PanglaoD
 At the same time, we documented the process of database integration to Wikidata, providing a blueprint for future efforts.</p>
 <p>It is important to note that not all data on PanglaoDB was added to Wikidata.
 Fine-grained, database-specific details were too granular for a general-purpose database like Wikidata (e.g. the sensitivity and specificity attached to each marker-cell type pair).
-Eventhough, these data could be released in RDF format and be connected to independent SPARQL endpoints (as done in the Bio2RDF effort <span class="citation" data-cites="P7r8Hnya">[<a href="#ref-P7r8Hnya" role="doc-biblioref">35</a>]</span>), we focused on integration to Wikidata to take advantage of the built-in integration with various types of knowledge, as well as the tooling developed by the Wikidata community.</p>
+As Wikidata license is very permissive (CC0), content in PanglaoDB that could be protected by copyright (for example, narrative descriptions of cell types) is not suitable for integration.<br />
+In either case, depending on the goals, these data could be released in RDF format and be connected to independent SPARQL endpoints (as done in the Bio2RDF effort <span class="citation" data-cites="P7r8Hnya">[<a href="#ref-P7r8Hnya" role="doc-biblioref">35</a>]</span>).
+In this work, we focused on integration to Wikidata to take advantage of the built-in integration with various types of knowledge, as well as the tooling developed by the Wikidata community.</p>
 <p>As described in the methods session, we added species-specific terms to Wikidata for cell types of <em>Homo sapiens</em> and <em>Mus musculus</em> described in the PanglaoDB database.
 The use of species-specific cell-types is necessary because genes in Wikidata are also species-specific, connected to their taxon by the “<a href="http://www.wikidata.org/entity/P703">found in taxon</a>” properties.
 In the biomedical literature, however, genes and cell types are sometimes referred to broadly, in a multi-species or species-neutral way.
@@ -489,15 +491,19 @@ Concerns with the reliability of Wikipedia are as old as the encyclopedia itself
 The ontological modelling on Wikidata is often far from perfect, and inconsistencies and logical mistakes abound. <span class="citation" data-cites="TagEAbdG">[<a href="#ref-TagEAbdG" role="doc-biblioref">40</a>]</span>.
 It has been argued, though, that bio-ontologies generally lack “strict, explicit and well defined semantics” (at least in 2008 <span class="citation" data-cites="DDcSlAUv">[<a href="#ref-DDcSlAUv" role="doc-biblioref">41</a>]</span>).
 While a comprehensive analysis of pros and cons of scientific Wikidata is not available, we extend Don Fallis’ view on Wikipedia and argue that Wikidata has a number of “epistemic virtues (e.g., power, speed, and fecundity) that arguably outweigh any deficiency in terms of reliability.” <span class="citation" data-cites="qMozvNth">[<a href="#ref-qMozvNth" role="doc-biblioref">42</a>]</span></p>
-<p>This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers, easily reachable from Wikidata’s SPARQL Query Service(<a href="https://query.wikidata.org/" class="uri">https://query.wikidata.org/</a>). The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker <span class="citation" data-cites="chGii6yw">[<a href="#ref-chGii6yw" role="doc-biblioref">43</a>]</span>, labome <span class="citation" data-cites="rhRRCtlA">[<a href="#ref-rhRRCtlA" role="doc-biblioref">44</a>]</span>, CellFinder <span class="citation" data-cites="4AEy2xhQ">[<a href="#ref-4AEy2xhQ" role="doc-biblioref">12</a>]</span> and SHOGoiN/CELLPEDIA <span class="citation" data-cites="6uWWsiSq">[<a href="#ref-6uWWsiSq" role="doc-biblioref">45</a>]</span>).
+<p>This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers, easily reachable from Wikidata’s SPARQL Query Service(<a href="https://query.wikidata.org/" class="uri">https://query.wikidata.org/</a>).
+It is not first case study of biomedical data integration to Wikidata (see <span class="citation" data-cites="mPoPwN77">[<a href="#ref-mPoPwN77" role="doc-biblioref">43</a>]</span> for example.
+Nevertheless, the differences among the articles in style and scope contribute to a richer ecosystem for possible contributor.
+])
+The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker <span class="citation" data-cites="chGii6yw">[<a href="#ref-chGii6yw" role="doc-biblioref">44</a>]</span>, labome <span class="citation" data-cites="rhRRCtlA">[<a href="#ref-rhRRCtlA" role="doc-biblioref">45</a>]</span>, CellFinder <span class="citation" data-cites="4AEy2xhQ">[<a href="#ref-4AEy2xhQ" role="doc-biblioref">12</a>]</span> and SHOGoiN/CELLPEDIA <span class="citation" data-cites="6uWWsiSq">[<a href="#ref-6uWWsiSq" role="doc-biblioref">46</a>]</span>).
 The approach we took here can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format.</p>
 <p>We hope that community will keep improving marker and overall biological content on Wikidata, and that the interlinked marker information will be helpful. We invite the reader to improve information on Wikidata for their favorite cell types, adding markers and a link to the reference works, and make ourselves available for aiding anyone interested in using or editing marker information on Wikidata.</p>
 <h1 id="general-ideas">General Ideas</h1>
 <p>Temporary file containing ideas for the project. Interesting references and concepts.</p>
-<p>med2rdf<span class="citation" data-cites="1F3C6U9Lh">[<a href="#ref-1F3C6U9Lh" role="doc-biblioref">46</a>]</span> is a project to migrate biomedical knowledge bases to RDF format,
+<p>med2rdf<span class="citation" data-cites="1F3C6U9Lh">[<a href="#ref-1F3C6U9Lh" role="doc-biblioref">47</a>]</span> is a project to migrate biomedical knowledge bases to RDF format,
 facilitating integration with the semantic web.</p>
 <p>15 years ago, in the original Cell Ontology paper, they mention the idea to integrate their knowledge with gene expression databases,
-something not done as far as we know <span class="citation" data-cites="1CCBSogYG">[<a href="#ref-1CCBSogYG" role="doc-biblioref">47</a>]</span></p>
+something not done as far as we know <span class="citation" data-cites="1CCBSogYG">[<a href="#ref-1CCBSogYG" role="doc-biblioref">48</a>]</span></p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
@@ -710,34 +716,40 @@ Don Fallis<br />
 <em>Journal of the Association for Information Science and Technology</em> (2008-08-01) <a href="https://www.wikidata.org/wiki/Q101955295">https://www.wikidata.org/wiki/Q101955295</a> <br />
 DOI: <a href="https://doi.org/10.1002/asi.20870">10.1002/asi.20870</a></p>
 </div>
+<div id="ref-mPoPwN77">
+<p>43. <strong>A protocol for adding knowledge to Wikidata: aligning resources on human coronaviruses</strong> <br />
+Andra Waagmeester, Egon Willighagen, Andrew I. Su, Martina Summer-Kutmon, José Emilio Labra Gayo, Daniel Fernández-Álvarez, Quentin Groom, Peter J. Schaap, Lisa M. Verhagen, Jasper Koehorst<br />
+<em>BMC Biology</em> (2021-01-22) <a href="https://www.wikidata.org/wiki/Q105037759">https://www.wikidata.org/wiki/Q105037759</a> <br />
+DOI: <a href="https://doi.org/10.1186/s12915-020-00940-y">10.1186/s12915-020-00940-y</a></p>
+</div>
 <div id="ref-chGii6yw">
-<p>43. <strong>CellMarker: a manually curated resource of cell markers in human and mouse</strong> <br />
+<p>44. <strong>CellMarker: a manually curated resource of cell markers in human and mouse</strong> <br />
 Xinxin Zhang, Yujia Lan, Jinyuan Xu, Fei Quan, Erjie Zhao, Chunyu Deng, Tao Luo, Liwen Xu, Gaoming Liao, Min Yan, … Yun Xiao<br />
 <em>Nucleic Acids Research</em> (2019-01-01) <a href="https://www.wikidata.org/wiki/Q56984510">https://www.wikidata.org/wiki/Q56984510</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/gky900">10.1093/nar/gky900</a></p>
 </div>
 <div id="ref-rhRRCtlA">
-<p>44. <strong>Cell Markers</strong> <br />
+<p>45. <strong>Cell Markers</strong> <br />
 Konstantin Yakimchuk<br />
 <em>Materials and Methods</em> (2013-05-02) <a href="https://doi.org/ghq494">https://doi.org/ghq494</a> <br />
 DOI: <a href="https://doi.org/10.13070/mm.en.3.183">10.13070/mm.en.3.183</a></p>
 </div>
 <div id="ref-6uWWsiSq">
-<p>45. <strong>SHOGoiN: Shogoin Human Omics database for the Generation of iPS and Normal cells</strong> <a href="https://stemcellinformatics.org/">https://stemcellinformatics.org/</a></p>
+<p>46. <strong>SHOGoiN: Shogoin Human Omics database for the Generation of iPS and Normal cells</strong> <a href="https://stemcellinformatics.org/">https://stemcellinformatics.org/</a></p>
 </div>
 <div id="ref-1F3C6U9Lh">
-<p>46. <strong>MED2RDF</strong> <br />
+<p>47. <strong>MED2RDF</strong> <br />
 website<br />
 <a href="http://med2rdf.org/">http://med2rdf.org/</a></p>
 </div>
 <div id="ref-1CCBSogYG">
-<p>47.<strong>:(unav)</strong> <br />
+<p>48.<strong>:(unav)</strong> <br />
 Jonathan Bard, Seung Y Rhee, Michael Ashburner<br />
 <em>Genome Biology</em> (2005) <a href="https://doi.org/dfxc74">https://doi.org/dfxc74</a> <br />
 DOI: <a href="https://doi.org/10.1186/gb-2005-6-2-r21">10.1186/gb-2005-6-2-r21</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15693950">15693950</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551541">PMC551541</a></p>
 </div>
 <div id="ref-YU9w9vL3">
-<p>48. <strong>Wikidata as a semantic framework for the Gene Wiki initiative</strong> <br />
+<p>49. <strong>Wikidata as a semantic framework for the Gene Wiki initiative</strong> <br />
 Sebastian Burgstaller-Muehlbacher, Andra Waagmeester, Elvira Mitraka, Julia Turner, Tim Putman, Justin Leong, Chinmay Naik, Paul Pavlidis, Lynn Schriml, Benjamin M Good, Andrew I Su<br />
 <em>Database</em> (2016-03-17) <a href="https://doi.org/f9bbk9">https://doi.org/f9bbk9</a> <br />
 DOI: <a href="https://doi.org/10.1093/database/baw015">10.1093/database/baw015</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26989148">26989148</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4795929">PMC4795929</a></p>
@@ -745,7 +757,7 @@ DOI: <a href="https://doi.org/10.1093/database/baw015">10.1093/database/baw015</
 </div>
 <h1 id="supplementary-text-and-figures">Supplementary text and figures</h1>
 <p>Only <em>Homo sapiens</em> genes and Organs reconciled more than 50%.
-In the case of genes, this is probably due to the Gene Wiki initiative <span class="citation" data-cites="YU9w9vL3">[<a href="#ref-YU9w9vL3" role="doc-biblioref">48</a>]</span>, a long-running project to improve biological information in Wikipedia and its sister-projects, including Wikidata.</p>
+In the case of genes, this is probably due to the Gene Wiki initiative <span class="citation" data-cites="YU9w9vL3">[<a href="#ref-YU9w9vL3" role="doc-biblioref">49</a>]</span>, a long-running project to improve biological information in Wikipedia and its sister-projects, including Wikidata.</p>
 <p>This is further illustrated by Figure <a href="#fig:gene_alt_ids">5</a>, in which we can see that all <em>Mus musculus</em> gene items - and nearly all <em>Homo sapiens</em> items - analysed had the Entrez ID alternative identifier present.
 Most of the data from the Gene Wiki project came from NCBI, creator and maintainer of Entrez.
 Nevertheless, there are still many gene items without an “Ensembl Gene ID” property,
