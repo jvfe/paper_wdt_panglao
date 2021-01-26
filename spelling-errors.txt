@@ -2,7 +2,7 @@ Acessible
 acessment
 analysed
 biocurated
-Bioinformatics
+bioinformatics
 boxplot
 cajal
 catalogued
@@ -72,7 +72,7 @@ publically
 purkinje
 QID
 Quickstatements
-rdf
+RDF
 reconciledbar
 reconciler
 reconcilesummary

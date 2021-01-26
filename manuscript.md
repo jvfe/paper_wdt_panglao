@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-25'
+date-meta: '2021-01-26'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2021-01-25" />
-  <meta name="citation_publication_date" content="2021-01-25" />
+  <meta name="dc.date" content="2021-01-26" />
+  <meta name="citation_publication_date" content="2021-01-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/e497547218d686336bd133fbfae195be9ffdb963/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/e497547218d686336bd133fbfae195be9ffdb963/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/e497547218d686336bd133fbfae195be9ffdb963/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/e497547218d686336bd133fbfae195be9ffdb963/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@e497547](https://github.com/jvfe/paper_wdt_panglao/tree/e497547218d686336bd133fbfae195be9ffdb963)
-on January 25, 2021.
+from [jvfe/paper_wdt_panglao@c1731ff](https://github.com/jvfe/paper_wdt_panglao/tree/c1731ff3c10e0cfad9bd3ba96aad4e931fdc6551)
+on January 26, 2021.
 </em></small>
 
 ## Authors
