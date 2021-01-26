@@ -54,5 +54,73 @@ p <- ggplot(marker_count, aes(x=species, y=marker_count, colour = species)) +
   )
   
 ggsave(filename = "markers.pdf", p, height = 5, width = 5)
+p
+```
+
+
+```{r}
+cts = query_wikidata('SELECT ?cell1Label ?cell2Label
+WHERE 
+{
+  ?cell1 wdt:P31 wd:Q189118.
+  ?cell2 wdt:P31 wd:Q189118.
+  ?cell1 wdt:P279 ?cell2.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}')
+cts
+```
+
+```{r}
+library(network)
+library(sna)
+library(igraph)
+library(intergraph)
+library(ggnetwork)
+cts <- as.matrix(cts) #igraph wants our data in matrix format
+ig_obj <- graph_from_edgelist(cts, directed=TRUE)
+
+
+```
+```{r}
+
+nodes = vertex_attr(ig_obj, name="name")
+
+species_vector = c()
+species = ""
+
+for (name in nodes)
+{
+  
+  if (grepl("human", name, fixed = TRUE)){
+    species = "Homo sapiens"
+  } else if (grepl("mouse", name, fixed = TRUE)){
+    species = "Mus musculus"
+  } else {
+    species = "none"
+  }
+
+  species_vector = c(species_vector, species)
+
+}
+
+```
+
+
+```{r}
+g <- ig_obj %>%
+  set_vertex_attr("species", value = species_vector) 
+
+net_obj <- intergraph::asNetwork(g)
+
+
+n <- ggnetwork(net_obj, layout = "fruchtermanreingold", cell.jitter = 0.75)
+
+p2 <- ggplot(n, aes(x = x, y = y, xend = xend, yend = yend)) +
+  geom_edges(alpha=0.9) +
+  geom_nodes(aes(color = species), alpha=0.9) +
+  theme_blank()+
+  scale_color_manual(values=c("purple", "darkorange","gray50"))
+
+ggsave(filename = "cell_types.pdf", p2, height = 20, width = 20, limitsize = FALSE)
 ```
 
