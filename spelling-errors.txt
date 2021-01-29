@@ -31,7 +31,7 @@ henle
 histo
 histological
 inteoperability
-Interoperable
+interoperable
 João
 Jupyter
 jvfe
@@ -82,7 +82,7 @@ Seaborn
 SHOGoiN
 SPARQL
 Tiago
-Uberon
+UBERON
 Uniprot
 Vitor
 wdt

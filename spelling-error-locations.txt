@@ -162,7 +162,6 @@ content/05.discussion.md:44:CELLPEDIA
 content/05.discussion.md:44:labome
 content/05.discussion.md:44:SHOGoiN
 content/05.discussion.md:45:biocurated
-content/80.general_ideas.md:5:RDF
 content/99.supplementary.md:6:analysed
 content/99.supplementary.md:6:Entrez
 content/99.supplementary.md:6:musculus
