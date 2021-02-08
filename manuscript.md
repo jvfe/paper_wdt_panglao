@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-01-29'
+date-meta: '2021-02-08'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2021-01-29" />
-  <meta name="citation_publication_date" content="2021-01-29" />
+  <meta name="dc.date" content="2021-02-08" />
+  <meta name="citation_publication_date" content="2021-02-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/256b78e38cebbaedbfe91dc9440177273b6ef72e/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/256b78e38cebbaedbfe91dc9440177273b6ef72e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/256b78e38cebbaedbfe91dc9440177273b6ef72e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c95881bc963fd56cdaadaef456f692a56aac9655/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c95881bc963fd56cdaadaef456f692a56aac9655/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c95881bc963fd56cdaadaef456f692a56aac9655/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/256b78e38cebbaedbfe91dc9440177273b6ef72e/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c95881bc963fd56cdaadaef456f692a56aac9655/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@256b78e](https://github.com/jvfe/paper_wdt_panglao/tree/256b78e38cebbaedbfe91dc9440177273b6ef72e)
-on January 29, 2021.
+from [jvfe/paper_wdt_panglao@c95881b](https://github.com/jvfe/paper_wdt_panglao/tree/c95881bc963fd56cdaadaef456f692a56aac9655)
+on February 8, 2021.
 </em></small>
 
 ## Authors
@@ -345,13 +345,19 @@ something that led to the development of an R package, go2cell [@https://github.
 that facilitates interconnection between cell types and GO terms via their markers.
 <!--  -->
 
-PanglaoDB's integration to the Wikidata ecosystem allows us to ask a variety of questions. The next section headers exemplify such questions.
+PanglaoDB's integration to the Wikidata ecosystem allows us to ask a variety of questions (figure @fig:chat_marker). The next section headers exemplify such questions.
+
+![
+Wikidata SPARQL queries bring to light hidden biomedical knowledge
+](images/query_figures.png){#fig:queries}
 
 ### "Which human cell types are related to neurogenesis via their markers?"
 
 As expected, the query below retrieved a series of neuron types, such as "[human purkinje neuron](https://www.wikidata.org/wiki/Q101404913)" and "[human cajal-retzius cell](https://www.wikidata.org/wiki/Q101405091)." It did, however, also retrieved non-neural cell types such as the "[human loop of henle cell](https://www.wikidata.org/wiki/Q101405109), a kidney cell type, and "[human osteoblast](https://www.wikidata.org/wiki/Q101405044). These seemingly unrelated cell types markedly express genes that are involved in neurogenesis, but that does not mean that they are involved with this process. This reinforces the idea that one needs to be careful when using curated pathways to enrich one's analysis, as false positives abound.
 
 The molecular process that gene products take part depends on the cell type. The SPARQL query below enables us to seamlessly compare  Gene Ontology processes with cell marker data, providing a fruitful sandbox for generation of hypothesis and exploration of the biomedical knowledge landscape.
+
+<!-- Mostrar só o top 5-->
 
 <div class="is-hidden" id="three-tab-content">
 <h5 class="title is-5" style="text-align:center;"> Query for cell types related to neurogenesis </h5>
