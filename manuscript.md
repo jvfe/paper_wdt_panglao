@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c95881bc963fd56cdaadaef456f692a56aac9655/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c95881bc963fd56cdaadaef456f692a56aac9655/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c95881bc963fd56cdaadaef456f692a56aac9655/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c95881bc963fd56cdaadaef456f692a56aac9655/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@c95881b](https://github.com/jvfe/paper_wdt_panglao/tree/c95881bc963fd56cdaadaef456f692a56aac9655)
+from [jvfe/paper_wdt_panglao@c762aa1](https://github.com/jvfe/paper_wdt_panglao/tree/c762aa1c1aae17b92395030f33f37852c5661680)
 on February 8, 2021.
 </em></small>
 
@@ -353,49 +353,59 @@ Wikidata SPARQL queries bring to light hidden biomedical knowledge
 
 ### "Which human cell types are related to neurogenesis via their markers?"
 
-As expected, the query below retrieved a series of neuron types, such as "[human purkinje neuron](https://www.wikidata.org/wiki/Q101404913)" and "[human cajal-retzius cell](https://www.wikidata.org/wiki/Q101405091)." It did, however, also retrieved non-neural cell types such as the "[human loop of henle cell](https://www.wikidata.org/wiki/Q101405109), a kidney cell type, and "[human osteoblast](https://www.wikidata.org/wiki/Q101405044). These seemingly unrelated cell types markedly express genes that are involved in neurogenesis, but that does not mean that they are involved with this process. This reinforces the idea that one needs to be careful when using curated pathways to enrich one's analysis, as false positives abound.
+As expected, the query below retrieved a series of neuron types, such as "[human purkinje neuron](https://www.wikidata.org/wiki/Q101404913)" and "[human cajal-retzius cell](https://www.wikidata.org/wiki/Q101405091)." It did, however, also retrieved non-neural cell types such as the "[human loop of henle cell](https://www.wikidata.org/wiki/Q101405109), a kidney cell type, and "[human osteoclast](https://www.wikidata.org/wiki/Q101404928). These seemingly unrelated cell types markedly express genes that are involved in neurogenesis, but that does not mean that they are involved with this process. This reinforces the idea that one needs to be careful when using curated pathways to enrich one's analysis, as false positives abound.
 
 The molecular process that gene products take part depends on the cell type. The SPARQL query below enables us to seamlessly compare  Gene Ontology processes with cell marker data, providing a fruitful sandbox for generation of hypothesis and exploration of the biomedical knowledge landscape.
 
-<!-- Mostrar só o top 5-->
 
-<div class="is-hidden" id="three-tab-content">
-<h5 class="title is-5" style="text-align:center;"> Query for cell types related to neurogenesis </h5>
-<div class="columns is-centered">
-<p style="text-align: center">
-<iframe width=92% height="500" src="https://query.wikidata.org/embed.html#SELECT%20%3FgeneLabel%20%3FcellTypeLabel%0AWHERE%20%0A%7B%0A%20%20%3Fprotein%20wdt%3AP682%20wd%3AQ1456827.%20%23%20protein%20molecular%20process%20neurogenesis%0A%20%20%3Fprotein%20wdt%3AP702%20%3Fgene.%20%20%20%20%20%20%20%23%20protein%20encoded%20by%20gene%0A%20%20%0A%20%20%7B%3Fgene%20wdt%3AP31%20wd%3AQ277338.%7D%20%20%20%20%23%20gene%20is%20an%20instance%20of%20a%20pseudogene%20%0A%20%20UNION%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%23%20or%0A%20%20%7B%3Fgene%20wdt%3AP31%20wd%3AQ7187.%7D%20%20%20%20%20%20%23%20gene%20is%20an%20instance%20of%20a%20gene%0A%20%20%3Fgene%20wdt%3AP703%20wd%3AQ15978631.%20%20%20%23%20gene%20is%20found%20in%20taxon%20Homo%20sapiens%0A%20%20%0A%20%20%3FcellType%20wdt%3AP8872%20%3Fgene.%20%20%20%20%20%23%20cell%20type%20has%20marker%20gene%0A%20%20%0A%20%20%3FcellType%20rdfs%3Alabel%20%3FcellTypeLabel.%0A%20%20%3Fgene%20%20%20rdfs%3Alabel%20%3FgeneLabel.%0A%0A%0A%20%20FILTER%28LANG%28%3FcellTypeLabel%29%20%3D%20%22en%22%29%0A%20%20FILTER%28LANG%28%3FgeneLabel%29%20%3D%20%22en%22%29%0A%0A%7D"></iframe>
-</p>
-</div>
-</div>
+| geneLabel   | cellTypeLabel                   |
+|:------------|:--------------------------------|
+| OMP         | human purkinje neuron           |
+| OMP         | human olfactory epithelial cell |
+| OMP         | human neuron                    |
+| EPHB1       | human oligodendrocyte           |
+| EPHB1       | human osteoclast                |
+| PCSK9       | human delta cell                |
+| PCSK9       | human loop of Henle cell        |
+| CXCR4       | human b cell                    |
+| CXCR4       | human T cell                    |
+| CXCR4       | human nk cell                   |
+
+Table: Top 10 cell types related to neurogenesis via markers (07/02/2020, full query on <https://w.wiki/yQ6>).
+{#tbl:neuro}
 
 ### "Which cell types express markers associated to Parkinson`s disease?"
 
 Besides integration with Gene Ontology, Wikidata reconciliation makes it possible to complement the marker gene info on PanglaoDB with information about diseases. This integration is of biomedical interest, as there is a quest for detailing of mechanisms that link genetic associations and the diseases themselves.
 
-"Disease genes" are often compiled from Genomic Wide Association Studies, which look for sequence variation in the DNA. These studies are commonly blind to the cell types related to the pathophysiology of the disease. In the query below, we can see cell types that are marked by genes genetically associated with Parkinson's disease. Even considering the false positives (as per the previously mentioned multifunctional nature of genes) this kind of overlook can aid domain experts to come up with novel hypothesis.
+"Disease genes" are often compiled from Genomic Wide Association Studies, which look for sequence variation in the DNA. These studies are commonly blind to the cell types related to the pathophysiology of the disease. In the query below, we can see cell types that are marked by genes genetically associated with Parkinson's disease. Even considering the false positives (as per the previously mentioned multifunctional nature of genes) this kind of overlook can aid domain experts to come up with novel hypotheses.
 
-<div class="is-hidden" id="three-tab-content">
-<h5 class="title is-5" style="text-align:center;"> Query for cell types related to Parkinson's disease </h5>
-<div class="columns is-centered">
-<p style="text-align: center">
-<iframe width=92% height="500" src="https://query.wikidata.org/embed.html#SELECT%20%3FcellTypeLabel%20%3FgeneLabel%20%3FdiseaseLabel%20%0AWHERE%20%0A%7B%0A%20%20wd%3AQ11085%20wdt%3AP2293%20%3FdiseaseGene.%20%20%23%20Parkinson%27s%20disease%20--%3E%20genetic%20association%20--%3E%20gene%0A%20%20%3FcellType%20wdt%3AP8872%20%3FdiseaseGene.%20%23%20Cell%20type%20--%3E%20has%20marker%20--%3E%20gene%0A%20%20%0A%20%20%3FcellType%20rdfs%3Alabel%20%3FcellTypeLabel.%0A%20%20wd%3AQ11085%20rdfs%3Alabel%20%3FdiseaseLabel.%0A%20%20%3FdiseaseGene%20%20%20rdfs%3Alabel%20%3FgeneLabel.%0A%0A%20%20FILTER%28LANG%28%3FcellTypeLabel%29%20%3D%20%22en%22%29%0A%20%20FILTER%28LANG%28%3FdiseaseLabel%29%20%3D%20%22en%22%29%0A%20%20FILTER%28LANG%28%3FgeneLabel%29%20%3D%20%22en%22%29%0A%7D"></iframe>
-</p>
-</div>
-</div>
+| geneLabel   | diseaseLabel        | cellTypeLabel    |
+|:------------|:--------------------|:-----------------|
+| BST1        | Parkinson's disease | human b cell     |
+| BST1        | Parkinson's disease | human neutrophil |
+| RIT2        | Parkinson's disease | human neuron     |
+| SH3GL2      | Parkinson's disease | human alpha cell |
+| SH3GL2      | Parkinson's disease | human beta cell  |
+
+Table: Top 5 cell types related to Parkinson's disease via markers (07/02/2020, full query on <https://w.wiki/yQD>).
+{#tbl:parkinson}
+
 
 ### Which diseases are associated with the markers of pancreatic beta cells?
 
 We can check the cell-type to disease relation in both ways. Scientists that study specific cell types (and not necessarily specific diseases) might be interested in knowing which diseases are related to their cell type of interest. In the sample query below, I looked for the diseases linked to the [human pancreatic beta cells](https://www.wikidata.org/wiki/Q101405087), which play an important role in controlling blood sugar levels. Reassuringly, top hits associated with markers included
 [obesity](https://www.wikidata.org/wiki/Q12174) and [type-2 diabetes](https://www.wikidata.org/wiki/Q3025883). Other diseases retrieved, such as [Huntington disease-like 2](https://www.wikidata.org/wiki/Q30990046) don't bear a clear link with sugar function, and might merit a further look by a domain expert to see if there are any hypothesis worth pursuing.
 
-<div class="is-hidden" id="three-tab-content">
-<h5 class="title is-5" style="text-align:center;"> Query for cell types related to Parkinson's disease </h5>
-<div class="columns is-centered">
-<p style="text-align: center">
-<iframe width=92% height="500" src="https://query.wikidata.org/embed.html#SELECT%20%3FcellTypeLabel%20%3FdiseaseLabel%20%0A%28COUNT%28DISTINCT%20%3FdiseaseGene%29%20AS%20%3Fcount%29%20%0A%28GROUP_CONCAT%28DISTINCT%20%3FgeneLabel%3B%20SEPARATOR%3D%22%2C%20%22%29%20AS%20%3Fgenes%29%0AWHERE%20%0A%7B%0A%20%20wd%3AQ101405087%20wdt%3AP8872%20%3FdiseaseGene%20.%20%20%20%20%23%20human%20pancreatic%20beta%20cell%20--%3E%20%20has%20marker%20--%3E%20%20gene%0A%20%20%3Fdisease%20wdt%3AP2293%20%3FdiseaseGene%20.%20%20%20%20%20%20%20%20%20%23%20disease%20--%3E%20genetic%20association%20--%3E%20gene%0A%20%20%0A%20%20wd%3AQ101405087%20rdfs%3Alabel%20%3FcellTypeLabel%20.%0A%20%20%3Fdisease%20rdfs%3Alabel%20%3FdiseaseLabel%20.%0A%20%20%3FdiseaseGene%20%20%20rdfs%3Alabel%20%3FgeneLabel%20.%0A%0A%20%20FILTER%28LANG%28%3FcellTypeLabel%29%20%3D%20%22en%22%29%0A%20%20FILTER%28LANG%28%3FdiseaseLabel%29%20%3D%20%22en%22%29%0A%20%20FILTER%28LANG%28%3FgeneLabel%29%20%3D%20%22en%22%29%0A%20%20%0A%20%7D%0A%0AGROUP%20BY%20%3FdiseaseLabel%20%3FcellTypeLabel%20ORDER%20BY%20DESC%28%3Fcount%29%0A%0A"></iframe>
-</p>
-</div>
-</div>
+| diseaseLabel        | genes                   |   count | cellTypeLabel   |
+|:--------------------|:------------------------|--------:|:----------------|
+| obesity             | PCSK2, ADCYAP1, SLC30A8 |       3 | human beta cell |
+| type 2 diabetes     | SLC30A8, TGFBR3         |       2 | human beta cell |
+| Parkinson's disease | SH3GL2                  |       1 | human beta cell |
+| asthma              | SLC30A8                 |       1 | human beta cell |
+| aniridia            | PAX6                    |       1 | human beta cell |
+Table: Top 5 cell types related to Parkinson's disease via markers (07/02/2020, full query on <https://w.wiki/yQD>).
+{#tbl:beta}
 
 ## Improvement of Wikidata data on cell types
 
@@ -426,17 +436,6 @@ Table: Summary of matched PanglaoDB entities after improvements were made (Decem
 {#tbl:finallook_summary}
 
 Noticeably, the proportion of automatic matches for other entity types (tissues and organs) seems reduced in relation to the first assessment (35% to 25% and 76 to 62%). These entities were not targeted by our work, but as Wikidata is a living resource, modifications in the database, such as reclassification of entities or adding of other similar concepts, may have reduced the performance of our simple reconciler.
-
-## Analysis of item quality - final look
-
-As can be gathered from Figure @fig:finallook_reconciledbar, nearly all cell type items have the appropriate "instance of cell type" statement, with only 4 items still missing said statement and one item being classified as an "instance of gland".
-
-This is a considerable advance in improving the quality of cell type data in Wikidata, as having this simple statement will make these items easier to find and be expanded upon.
-
-![
-Percentage of reconciled entities gathered during the second and final reconciliation, divided by which item type they belong to.
-](images/final_look_reconciled_types.png){#fig:finallook_reconciledbar}
-
 
 
 # Discussion
@@ -548,3 +547,16 @@ Cell types performed the lowest.
 ![
 The distribution of the number of statements for matched gene items, divided by species.
 ](images/gene_violin.png){#fig:gene_violin}
+
+
+
+## Analysis of item quality - final look
+
+As can be gathered from Figure @fig:finallook_reconciledbar, nearly all cell type items have the appropriate "instance of cell type" statement, with only 4 items still missing said statement and one item being classified as an "instance of gland".
+
+This is a considerable advance in improving the quality of cell type data in Wikidata, as having this simple statement will make these items easier to find and be expanded upon.
+
+![
+Percentage of reconciled entities gathered during the second and final reconciliation, divided by which item type they belong to.
+](images/final_look_reconciled_types.png){#fig:finallook_reconciledbar}
+
