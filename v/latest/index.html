@@ -49,9 +49,9 @@
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/9735f017bbd54b8e7ccd94158f2f9f8e9cb9b1e4/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/9735f017bbd54b8e7ccd94158f2f9f8e9cb9b1e4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/9735f017bbd54b8e7ccd94158f2f9f8e9cb9b1e4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/">permalink</a>)
+(<a href="https://jvfe.github.io/paper_wdt_panglao/v/9735f017bbd54b8e7ccd94158f2f9f8e9cb9b1e4/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/550efafe043cff06c13f7b13a93ddf636c6cab57">jvfe/paper_wdt_panglao@550efaf</a>
+from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/9735f017bbd54b8e7ccd94158f2f9f8e9cb9b1e4">jvfe/paper_wdt_panglao@9735f01</a>
 on February 17, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -90,20 +90,20 @@ Computational Systems Biology Laboratory, University of São Paulo
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
-<p><a href="https://panglaodb.se/index.html">PanglaoDB</a> is a database of cell type markers widely used for single cell RNA sequencing data analysis.
-The genes, tissues, organs and cell types mentioned in the database, however, are described by free text and lack identifiers.
-<a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>, is a freely editable knowledge graph database useful for the integration of biomedical knowledge.
-Its linked data model can improve significantly the handling and distribution of scientific information.</p>
-<p>In this study we explore the feasibility of enriching PanglaoDB with Wikidata identifiers.
-We accessed the state of reconciliation at the beginning of the project, comparing the modelling of genes, tissues, organs and cell types on Wikidata.
-Taking advantage of the openess of Wikidata, we leveraged our initial analysis to contribute towards Wikidata completeness and enable full reconciliation.
-As a final product, we released the first SPARQL endpoint for cell marker information, in a 5-star open linked data format.
+<p><a href="https://panglaodb.se/index.html">PanglaoDB</a> is a database of cell type markers widely used for single-cell RNA sequencing data analysis.
+However, genes, tissues, organs, and cell types in the database are encoded by free text and lack identifiers.
+<a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>, is a freely editable knowledge graph database useful for integrating biomedical knowledge.
+Its linked data model can massively improve the handling and distribution of scientific information.</p>
+<p>In this study, we explore the feasibility of enriching PanglaoDB with Wikidata identifiers.
+We accessed the state of reconciliation at the beginning of the project, comparing the modeling of genes, tissues, organs, and cell types on Wikidata.
+Taking advantage of the openness of Wikidata, we leveraged our initial analysis to contribute towards Wikidata completeness and enable full reconciliation.
+As a final product, we released the first SPARQL endpoint for cell marker information directly in Wikidata, in a 5-star open-linked data format.
 We hope that this study encourages further reconciliations of databases to Wikidata.</p>
 <p><strong>Keywords</strong>: wikidata, knowledge graph, cell type, ontology.</p>
 <h2 id="introduction">Introduction</h2>
 <h3 id="panglaodb">PanglaoDB</h3>
 <p>PanglaoDB <span class="citation" data-cites="M0lqRYJb">[<a href="#ref-M0lqRYJb" role="doc-biblioref">1</a>]</span> <span class="citation" data-cites="T3PlZ3Vh">[<a href="#ref-T3PlZ3Vh" role="doc-biblioref">2</a>]</span> is a publically-available database that contains data and metadata on hundreds of single-cell RNA sequencing experiments.
-It provides extensive information on cell types, genes and tissues, as well as manually and community curated cell type markers (Tables <a href="#tbl:panglao">1</a> and <a href="#tbl:panglao2">2</a>).
+It provides extensive information on cell types, genes, and tissues and manually and community curated cell type markers (Tables <a href="#tbl:panglao">1</a> and <a href="#tbl:panglao2">2</a>).
 It also displays a rich web user interface for easy data acquisition, including database dumps for bulk downloads.</p>
 <div id="tbl:panglao" class="tablenos">
 <table>
@@ -175,25 +175,26 @@ It also displays a rich web user interface for easy data acquisition, including 
 </table>
 </div>
 <p>As of 30 December 2020, the article describing PanglaoDB has been cited 88 times.
-Despite its use by the the community, the database is on a 3-star category for Linked Open Data <span class="citation" data-cites="OGXYtGZ8">[<a href="#ref-OGXYtGZ8" role="doc-biblioref">3</a>]</span> as it does not use the semantic open standards from W3C (RDF and SPARQL) needed for a 4-star rank, neither the links to external data via common identifiers that makes datasets 5-star.
-Improving the data format toward W3C’s gold standards is a valuable step in making biological knowlegde FAIR (Findable, Acessible, Interoperable and Reusable).</p>
+Despite its use by the community, the database is on a 3-star category for Linked Open Data <span class="citation" data-cites="OGXYtGZ8">[<a href="#ref-OGXYtGZ8" role="doc-biblioref">3</a>]</span> as it does not use the open semantic standards from W3C (RDF and SPARQL) needed for a 4-star rank, neither the links to external data via standard identifiers that make datasets 5-star.
+Improving the data format toward W3C’s gold standards is a valuable step in making biological knowledge FAIR (Findable, Accessible, Interoperable, and Reusable).</p>
 <p>The OBO Foundry provides a rich collection of linked biological identifiers <span class="citation" data-cites="B9Ej2xAj">[<a href="#ref-B9Ej2xAj" role="doc-biblioref">4</a>]</span>.
 However, reconciliation to OBO is challenging, as there are many ontologies, each with slightly different contribution guidelines.
-For that reason, we decided to reconcile PanglaoDB to Wikidata, which allows simple creation of new terms, provided they follow Wikidata`s notability criteria <span class="citation" data-cites="RYLtL50O">[<a href="#ref-RYLtL50O" role="doc-biblioref">5</a>]</span>.</p>
+For that reason, we decided to reconcile PanglaoDB to Wikidata, which allows the simple creation of new terms, provided they follow Wikidata’s notability criteria <span class="citation" data-cites="RYLtL50O">[<a href="#ref-RYLtL50O" role="doc-biblioref">5</a>]</span>.</p>
 <h3 id="wikidata">Wikidata</h3>
-<p>Wikidata <span class="citation" data-cites="16U7iJVoe">[<a href="#ref-16U7iJVoe" role="doc-biblioref">6</a>]</span> is an open, freely editable, knowledge graph database within the semantic web <span class="citation" data-cites="135LkaoBw">[<a href="#ref-135LkaoBw" role="doc-biblioref">7</a>]</span> that stores knowledge across a multitude of domains, such as arts, history, chemistry and biology, using an item-property-value linked data model (Figure <a href="#fig:wdt-hep">1</a>).
+<p>Wikidata <span class="citation" data-cites="16U7iJVoe">[<a href="#ref-16U7iJVoe" role="doc-biblioref">6</a>]</span> is an open, freely editable, knowledge graph database within the semantic web <span class="citation" data-cites="135LkaoBw">[<a href="#ref-135LkaoBw" role="doc-biblioref">7</a>]</span> that stores knowledge across a multitude of domains, such as arts, history, chemistry, and biology, using an item-property-value linked data model (Figure <a href="#fig:wdt-hep">1</a>).
 It is easy to use and edit, by both humans and machines, with a rich web user interface and wrapper packages available in common programming languages such as R and Python.
-All the data within Wikidata is linked and inherently public domain, thus, it presents a great opportunity to make scientific data more FAIR (Findable, accessible, interoperable and reusable), as well as provides the necessary tools to curate and develop ontologies.</p>
+All the data within Wikidata is linked and inherently public domain.</p>
 <div id="fig:wdt-hep" class="fignos">
 <figure>
 <img src="images/wdt_hepatocyte.png" alt="" /><figcaption><span>Figure 1:</span> Wikidata item example, showing item hepatocyte (Q827450), the labels change according to the user’s language, but each item has a universal identifier, called QID.</figcaption>
 </figure>
 </div>
-<p>Several advances towards biological data integration and biological data analysis in Wikidata have been made before, yielding positive results <span class="citation" data-cites="lmhCFXiz">[<a href="#ref-lmhCFXiz" role="doc-biblioref">8</a>]</span> <span class="citation" data-cites="3GqlN9Dk">[<a href="#ref-3GqlN9Dk" role="doc-biblioref">9</a>]</span> and showcasing it’s potential for bioinformatics-related analyses, such as drug repurposing and ID conversion <span class="citation" data-cites="HUodcdz1">[<a href="#ref-HUodcdz1" role="doc-biblioref">10</a>]</span>.
+<p>Several advances towards biological data integration and biological data analysis in Wikidata have been made before, yielding positive results <span class="citation" data-cites="lmhCFXiz">[<a href="#ref-lmhCFXiz" role="doc-biblioref">8</a>]</span> <span class="citation" data-cites="3GqlN9Dk">[<a href="#ref-3GqlN9Dk" role="doc-biblioref">9</a>]</span> and showcasing its potential for bioinformatics-related analyses, such as drug repurposing and ID conversion <span class="citation" data-cites="HUodcdz1">[<a href="#ref-HUodcdz1" role="doc-biblioref">10</a>]</span>.
 Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties <span class="citation" data-cites="11iU76eUa">[<a href="#ref-11iU76eUa" role="doc-biblioref">11</a>]</span>.</p>
-<p>Wikidata is nevertheless a collaborative database, and content is available on different levels of quality.
-For example, as of August 2020, cell type information was still very lacking, with only 264 items being categorized as “instances of cell types (Q189118)” (<a href="https://w.wiki/b2w" class="uri">https://w.wiki/b2w</a>), while other projects describe over 2.000 cell types <span class="citation" data-cites="4AEy2xhQ agnqfdk6">[<a href="#ref-4AEy2xhQ" role="doc-biblioref">12</a>,<a href="#ref-agnqfdk6" role="doc-biblioref">13</a>]</span>.
-Of those 264 items, only 9 have a “Cell Ontology ID”<span class="citation" data-cites="Z3nPSmXs">[<a href="#ref-Z3nPSmXs" role="doc-biblioref">14</a>]</span> (P7963) associated, and most have a varying amount of statements (Table <a href="#tbl:cell-counts">3</a>). As an additional problem, there are also 23 items being categorized as “instances of cell (Q7868)” (<a href="https://w.wiki/b2x" class="uri">https://w.wiki/b2x</a>), an imprecision, as an instance of cell would be an individual named cell from a single named individual.</p>
+<p>Wikidata is a collaborative database, and content is available on different levels of quality.
+For example, as of August 2020, cell type information was still deficient, with only 264 items being categorized as “instances of cell types (Q189118)” (for current status, see <a href="https://w.wiki/b2w" class="uri">https://w.wiki/b2w</a>), while similar projects describe over two thousand cell types <span class="citation" data-cites="4AEy2xhQ agnqfdk6">[<a href="#ref-4AEy2xhQ" role="doc-biblioref">12</a>,<a href="#ref-agnqfdk6" role="doc-biblioref">13</a>]</span>.
+Of those 264 items on Wikidata, only 9 had a “Cell Ontology ID”<span class="citation" data-cites="Z3nPSmXs">[<a href="#ref-Z3nPSmXs" role="doc-biblioref">14</a>]</span> (P7963) associated, and most have a varying amount of statements (Table <a href="#tbl:cell-counts">9</a>).
+As an additional problem, there were also 23 items categorized as “instances of cell (Q7868)” (for current status, see <a href="https://w.wiki/b2x" class="uri">https://w.wiki/b2x</a>). This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual.</p>
 <div id="tbl:cell-counts" class="tablenos">
 <table>
 <caption><span>Table 3:</span> As of August 2020, Wikidata items regarding cell types have a varying amount of information, with most having very few statements.
@@ -220,54 +221,33 @@ Of those 264 items, only 9 have a “Cell Ontology ID”<span class="citation" d
 </tbody>
 </table>
 </div>
-<p>This study was motivated by the increasing importance of cell-type concepts in light of the Human Cell Atlas <span class="citation" data-cites="1GmbExweg">[<a href="#ref-1GmbExweg" role="doc-biblioref">15</a>]</span>, and the utter need for improved inteoperability of biological data.
-We aimed, thus, at providing a case study of the re-release PandlaoDB in a 5-star Linked Open Data Format while improving the modelling of the necessary concepts on Wikidata.</p>
+<p>This study was motivated by the increasing importance of cell-type concepts in light of the Human Cell Atlas <span class="citation" data-cites="1GmbExweg">[<a href="#ref-1GmbExweg" role="doc-biblioref">15</a>]</span>, and the utter need for improved interoperability of biological data.
+Thus, we aimed to provide a case study of making the core information of PandlaoDB available in a 5-star Linked Open Data Format while improving the modeling of the necessary concepts on Wikidata.</p>
 <h2 id="methodology">Methodology</h2>
 <h3 id="data-acquisition">Data acquisition</h3>
-<p>Gene data from Wikidata was acquired using the Wikidata Query Service <span class="citation" data-cites="2wDsXBwd">[<a href="#ref-2wDsXBwd" role="doc-biblioref">16</a>]</span> - <a href="https://w.wiki/bWc" class="uri">https://w.wiki/bWc</a> for <em>Homo sapiens</em> genes and <a href="https://w.wiki/bWe" class="uri">https://w.wiki/bWe</a> for <em>Mus musculus</em> genes.</p>
-<p>Data for quality acessment from PanglaoDB was acquired through their metadata database dump repository <span class="citation" data-cites="meybWiAP">[<a href="#ref-meybWiAP" role="doc-biblioref">17</a>]</span>.</p>
-<p>The markers dataset was dowloaded manually from PanglaoDB’s website (<a href="https://panglaodb.se/markers/PanglaoDB_markers_27_Mar_2020.tsv.gz" class="uri">https://panglaodb.se/markers/PanglaoDB_markers_27_Mar_2020.tsv.gz</a>). It contains 15 columns and 8256 rows.</p>
-<p>For the reconciliation, only the columns <code>species</code>, <code>official gene symbol</code> and <code>cell type</code> were used.</p>
-<p>All data used was handled using the Pandas <span class="citation" data-cites="Se3rrKFw">[<a href="#ref-Se3rrKFw" role="doc-biblioref">18</a>]</span> library,
-with the Seaborn <span class="citation" data-cites="MVQq5ye1">[<a href="#ref-MVQq5ye1" role="doc-biblioref">19</a>]</span> and Matplotlib <span class="citation" data-cites="1GtmSgxte">[<a href="#ref-1GtmSgxte" role="doc-biblioref">20</a>]</span> libraries being used for plotting.</p>
-<h3 id="automated-matching">Automated matching</h3>
-<p>The metadata from PanglaoDB on cell types, tissues (including germ layers) and organs was matched to Wikidata items using the reconciler <span class="citation" data-cites="tiAR9KSt">[<a href="#ref-tiAR9KSt" role="doc-biblioref">21</a>]</span> library
-with the Wikidata Reconciliation Service <span class="citation" data-cites="18pxFz2gs">[<a href="#ref-18pxFz2gs" role="doc-biblioref">22</a>]</span>,
-tools that operate under the W3C Reconciliation Service specification <span class="citation" data-cites="zuFSMij9">[<a href="#ref-zuFSMij9" role="doc-biblioref">23</a>]</span>.</p>
-<p>Further matching was done using a custom stemming function on the item labels, via PorterStemmer from the NLTK library <span class="citation" data-cites="HvkiunUe">[<a href="#ref-HvkiunUe" role="doc-biblioref">24</a>]</span>.</p>
-<p>Matches were considered perfect if the reconciliation service or the stemming function returned a value of “match” equals to “True”.
-Matches were manually analysed for false matches, such as items with same labels but used for different concepts.</p>
-<p>Gene data was matched manually using a Pandas <span class="citation" data-cites="Se3rrKFw">[<a href="#ref-Se3rrKFw" role="doc-biblioref">18</a>]</span> inner merge, since both data sources contained identifiers, which should be the same.</p>
-<h3 id="item-quality-assessment">Item quality assessment</h3>
-<p>Wikidata items were assessed for their quality by their number of statements, which were acquired using a custom wrapper on the MediaWiki API <span class="citation" data-cites="adfLgClN">[<a href="#ref-adfLgClN" role="doc-biblioref">25</a>]</span> and, in the case of gene data, via Wikidata’s own query service, as stated in the Data acquisition section.</p>
-<p>Furthermore, items were also assessed by the presence of external identifiers - all of which are Wikidata properties:</p>
-<ul>
-<li>Ensembl Gene <span class="citation" data-cites="oDiClyTE">[<a href="#ref-oDiClyTE" role="doc-biblioref">26</a>]</span> (<a href="https://www.wikidata.org/wiki/Property:P594">P594</a>)
-and Entrez Gene <span class="citation" data-cites="d5Tp72yA">[<a href="#ref-d5Tp72yA" role="doc-biblioref">27</a>]</span> (<a href="https://www.wikidata.org/wiki/Property:P351">P351</a>) IDs for genes,</li>
-<li>Cell Ontology <span class="citation" data-cites="Z3nPSmXs">[<a href="#ref-Z3nPSmXs" role="doc-biblioref">14</a>]</span> (<a href="https://www.wikidata.org/wiki/Property:P7963">P7963</a>) IDs for cell types</li>
-<li>Uberon <span class="citation" data-cites="ZimCwChP">[<a href="#ref-ZimCwChP" role="doc-biblioref">28</a>]</span> (<a href="https://www.wikidata.org/wiki/Property:P1554">P1554</a>) IDs for organs and tissues.</li>
-</ul>
+<p>Gene data from Wikidata was acquired using the Wikidata Query Service for <em>Homo sapiens</em> genes and <em>Mus musculus</em> genes, as well as their HGNC names.</p>
+<p>The markers dataset was downloaded manually from PanglaoDB’s website (<a href="https://panglaodb.se/markers/PanglaoDB_markers_27_Mar_2020.tsv.gz" class="uri">https://panglaodb.se/markers/PanglaoDB_markers_27_Mar_2020.tsv.gz</a>). It contains 15 columns and 8256 rows. Only the columns <code>species</code>, <code>official gene symbol</code>, and <code>cell type</code> were used for the reconciliation.</p>
+<p>All data used was handled using the Pandas <span class="citation" data-cites="Se3rrKFw">[<a href="#ref-Se3rrKFw" role="doc-biblioref">16</a>]</span> library.</p>
 <h3 id="class-creation-on-wikidata">Class creation on Wikidata</h3>
 <p>Classes corresponding to species-neutral classes were retrieved from Wikidata manually using Wikidata’s Graphic User Interface.
-The dictionay matching terms in PanglaoDB to Wikidata identifiers were stored in a <a href="https://github.com/jvfe/wikidata_panglaodb/blob/master/improvements/results/cell_type_reference_from_panglao_to_wikidata_31_10_2020.csv">reference csv table</a>.</p>
-<p>Cell types which were not represented on Wikidata were added to the database via the graphical user interface (<a href="https://www.wikidata.org/wiki/Special:NewItem" class="uri">https://www.wikidata.org/wiki/Special:NewItem</a>) and logged in the reference table.</p>
-<p>Species-specific cell types for human and mouse cell types were created for every entry in the reference table, connected to the species-neutral concept via a “<a href="http://www.wikidata.org/entity/P279">subclass of</a>” property (e.g. every single “<a href="http://www.wikidata.org/entity/Q101405102">human neutrophil</a>” is a also “<a href="http://www.wikidata.org/entity/Q188417">neutrophil</a>” ).
-Our approach was analogous to the one taken by the CELDA ontology to create species-specific cell-types, with the difference that they used the <code>rdfs:subClassOf</code> class to denothe the subclass relationship <span class="citation" data-cites="RLHsA1U8">[<a href="#ref-RLHsA1U8" role="doc-biblioref">29</a>]</span>.</p>
-<p>The reference sheet for species-neutral concepts was used to obtain the “subclass of” for every newly created item.
-Each item was labeled either “human” + the label for the neutral cell type, described as “cell type found in Homo sapiens” and tagged with the statement “<a href="http://www.wikidata.org/entity/P703">found in taxon</a>” <a href="https://www.wikidata.org/wiki/Q15978631"><em>Homo sapiens</em></a>.
-An analogous framework was used for mouse cell types, assuming that mouse in PanglaoDB meant <a href="http://www.wikidata.org/entity/Q83310"><em>Mus musculus</em></a>.
+The dictionary matching terms in PanglaoDB to Wikidata identifiers were stored in a <a href="https://github.com/jvfe/wikidata_panglaodb/blob/master/improvements/results/cell_type_reference_from_panglao_to_wikidata_31_10_2020.csv">reference CSV table</a>.</p>
+<p>Cell types that were not represented on Wikidata were added to the database via the graphical user interface (<a href="https://www.wikidata.org/wiki/Special:NewItem" class="uri">https://www.wikidata.org/wiki/Special:NewItem</a>) and logged in the reference table.</p>
+<p>Species-specific cell types for human and mouse cell types were created for every entry in the reference table and connected to the species-neutral concept via a “<a href="http://www.wikidata.org/entity/P279">subclass of</a>” property (e.g. every single “<a href="http://www.wikidata.org/entity/Q101405102">human neutrophil</a>” is a also “<a href="http://www.wikidata.org/entity/Q188417">neutrophil</a>”).
+Our approach was analogous to the one taken by the CELDA ontology to create species-specific cell-types, with the difference that they used <code>rdfs:subClassOf</code> to denote the subclass relationship <span class="citation" data-cites="RLHsA1U8">[<a href="#ref-RLHsA1U8" role="doc-biblioref">17</a>]</span>.</p>
+<p>Each item was labeled “human” + the label for the neutral cell type, described as “cell type found in Homo sapiens” and tagged with the statement “<a href="http://www.wikidata.org/entity/P703">found in taxon</a>” <a href="https://www.wikidata.org/wiki/Q15978631"><em>Homo sapiens</em></a>.
+An analogous framework was used for mouse cell types, assuming that “mouse” in PanglaoDB meant <a href="http://www.wikidata.org/entity/Q83310"><em>Mus musculus</em></a>.
 Batch creations were added to Wikidata via the tool Quickstatements (<a href="https://quickstatements.toolforge.org/#/" class="uri">https://quickstatements.toolforge.org/#/</a>).</p>
 <p>All genes in PanglaoDB either were already present on Wikidata or resolved to multiple entities and thus were excluded.</p>
 <h3 id="property-creation-on-wikidata">Property creation on Wikidata</h3>
 <p>Properties on Wikidata need to be supported by the users in a public forum before creation.
-To represent the cell-type marker relation, we proposed a property called <code>has marker</code> to the Wikidata community.<br />
-We posted a message in 17th of November presenting the property, domain and range constraints, as well as additional comments.</p>
-<p>The proposal was accompanied by the following motivation statement:</p>
+We proposed a property called <code>has marker</code> to the Wikidata community to represent the cell-type marker relation.<br />
+We posted a message in the 17th of November presenting the property, domain, range constraints, and additional comments.</p>
+<p>The following motivation statement accompanied the proposal:</p>
 <pre><code>&quot;Even though the concept of a marker gene/protein is not clear cut, it is very important, and widely used in databases and scientific articles.
 
 This property will help us to represent that a gene/protein has been reported as a marker by a credible source, and should always contain a reference.
 
-Some markers are reported as proteins and some as genes. Some genes don`t encode proteins, and some protein markers are actually protein complexes.
+Some markers are reported as proteins and some as genes. Some genes don&#39;t encode proteins, and some protein markers are actually protein complexes.
 
 The property would be inclusive to these slightly different markers.
 Some cell types are marked by absence of expression of genes/proteins/protein expression. As these seem to be less common than positive markers (no organized databases, for example) they are left outside the value range for this property&quot;</code></pre>
@@ -296,10 +276,10 @@ Some cell types are marked by absence of expression of genes/proteins/protein ex
 <li>Reconcile knowledge from the PanglaoDB marker database to Wikidata. In the future, expand to other trusted sources of cell type marker information.</li>
 </ul></li>
 </ul>
-<p>More details can be in the archived Wikidata:Property proposal page (<a href="https://www.wikidata.org/wiki/Wikidata:Property_proposal/has_positive_marker" class="uri">https://www.wikidata.org/wiki/Wikidata:Property_proposal/has_positive_marker</a>).</p>
+<p>More details can be found in the archived Wikidata:Property proposal page (<a href="https://www.wikidata.org/wiki/Wikidata:Property_proposal/has_positive_marker" class="uri">https://www.wikidata.org/wiki/Wikidata:Property_proposal/has_positive_marker</a>).</p>
 <h3 id="integration-to-wikidata">Integration to Wikidata</h3>
-<p>The reconciled dataset was uploaded to Wikidata via the WikidataIntegrator python package <span class="citation" data-cites="qDI8I4IJ">[<a href="#ref-qDI8I4IJ" role="doc-biblioref">30</a>]</span>, a wrapper for the Wikidata Application Programming Interface.
-The details of the integration can be seen in the accompanying Jupyter notebook.</p>
+<p>The reconciled dataset was uploaded to Wikidata via the WikidataIntegrator python package <span class="citation" data-cites="qDI8I4IJ">[<a href="#ref-qDI8I4IJ" role="doc-biblioref">18</a>]</span>, a wrapper for the Wikidata Application Programming Interface.
+The integration details can be seen in the Jupyter notebooks at the GitHub repository (https://github.com/jvfe/wikidata_panglaodb).</p>
 <h2 id="access-to-reconciled-data">Access to reconciled data</h2>
 <h3 id="wikidata-dumps">Wikidata dumps</h3>
 <p>Wikidata provides regular dumps in a variety of formats, including RDF dumps: <a href="https://www.wikidata.org/wiki/Wikidata:Database_download" class="uri">https://www.wikidata.org/wiki/Wikidata:Database_download</a>.
@@ -312,6 +292,11 @@ Updated data was immediately accessible via this endpoint, enabling integrative 
 <p>All source code used for the study and data created during the study are available in a GitHub repository,
 <a href="https://github.com/jvfe/wikidata_panglaodb" class="uri">https://github.com/jvfe/wikidata_panglaodb</a>,
 as well as archived in a zenodo repository, <a href="https://doi.org/10.5281/zenodo.4438614" class="uri">https://doi.org/10.5281/zenodo.4438614</a>.</p>
+<p># Cell types on Wikidata</p>
+<p>As of August 2020, Wikidata had 264 items being categorized as a “cell type” (Wikidata ID Q189118), considerably less than in specialized cell catalogs, which count over two thousand cell types <span class="citation" data-cites="4AEy2xhQ agnqfdk6">[<a href="#ref-4AEy2xhQ" role="doc-biblioref">12</a>,<a href="#ref-agnqfdk6" role="doc-biblioref">13</a>]</span>.
+Strikingly, there were also 23 items categorized as “instances of cell (Q7868)” . This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual.</p>
+<p>Wikidata editors often mix first-order classes such as “cells” and “organs” with second-order classes like “cell types” and “organ types” (Supplementary Information). First-order classes point to real-world individuals, like the “Dolly sheep zygote” (a real-world “cell”) and the “brain of Albert Einstein” (a real-world “organ”). Second-order classes point to classes, like “zygote” (a conceptual “cell type”) and “brain” (a conceptual “organ type”).</p>
+<p>We diligently fixed and improved information on cell types on Wikidata. As of February 2021, the Wikidata database contained 1828 instances of “cell type” (see current status at <a href="https://w.wiki/b2t" class="uri">https://w.wiki/b2t</a>) and 0 instances of “cell” (<a href="https://w.wiki/b2q" class="uri">https://w.wiki/b2q</a>) highlighting the improvements in both quantity and quality.</p>
 <h1 id="results">Results</h1>
 <h2 id="cell-marker-information-on-wikidata">Cell Marker information on Wikidata</h2>
 <p>Adding marker information on Wikidata was not possible before this study and became possible after community approval of the property “has marker” (P8872) (see Methods).
@@ -322,8 +307,8 @@ The PanglaoDB is referenced both via URL to the website (<a href="https://pangla
 <img src="images/chat_marker.png" alt="" /><figcaption><span>Figure 2:</span> Subset of the marker genes for item Q101405051 (human cholinergic neuron )</figcaption>
 </figure>
 </div>
-<p>Since Wikidata is an open system information about markers will be complemented by user contributions.
-To date, no other project has systematically integrated cell type markers to Wikidata, and most information is provenient from PanglaoDB. The tables show the marker count for the 5 cell types of humans and mice with most markers on Wikidata, for both species around two hundred marker genes.</p>
+<p>Since Wikidata is an open system, information about markers will be complemented by user contributions.
+To date, no other project has systematically integrated cell type markers to Wikidata, and, thus, most information shown here comes from PanglaoDB. The tables show the marker count for the five cell types of humans and mice with most markers on Wikidata, for both species around two hundred marker genes.</p>
 <div id="tbl:hs_markers" class="tablenos">
 <table>
 <caption><span>Table 4:</span> Top 5 <em>Homo sapiens</em> cell types with most markers on Wikidata (15/02/2020, full query on <a href="https://w.wiki/zoQ" class="uri">https://w.wiki/zoQ</a>).
@@ -393,13 +378,10 @@ To date, no other project has systematically integrated cell type markers to Wik
 </table>
 </div>
 <h1 id="wikidata-sparql-queries-enabled-by-the-integration">Wikidata SPARQL queries enabled by the integration</h1>
-<p>Now that the PanglaoDB is released as Linked Open Data, we can make queries that were not possible before, including
-federated queries with other biological databases, such as Uniprot <span class="citation" data-cites="HUJ9NzAb">[<a href="#ref-HUJ9NzAb" role="doc-biblioref">31</a>]</span>
-and Wikipathways <span class="citation" data-cites="AgOOCR24">[<a href="#ref-AgOOCR24" role="doc-biblioref">32</a>]</span>.
-Due to previous similar reconciliation projects, Wikidata already contains information about genes, including their relations to Gene Ontology (GO) terms,
-something that led to the development of an R package, go2cell <span class="citation" data-cites="19ch4Xnw1">[<a href="#ref-19ch4Xnw1" role="doc-biblioref">33</a>]</span>,
-that facilitates interconnection between cell types and GO terms via their markers.
-<!--  --></p>
+<p>Now that we re-formatted the markers on PanglaoDB as Linked Open Data, we can make queries that were not possible before, including
+federated queries with other biological databases, such as Uniprot <span class="citation" data-cites="HUJ9NzAb">[<a href="#ref-HUJ9NzAb" role="doc-biblioref">19</a>]</span>
+and Wikipathways <span class="citation" data-cites="AgOOCR24">[<a href="#ref-AgOOCR24" role="doc-biblioref">20</a>]</span>.
+Due to previous similar reconciliation projects, Wikidata already contains information about genes, including their relations to Gene Ontology (GO) terms.</p>
 <p>PanglaoDB’s integration to the Wikidata ecosystem allows us to ask a variety of questions (figure <a href="#fig:chat_marker">2</a>). The next section headers exemplify such questions.</p>
 <div id="fig:queries" class="fignos">
 <figure>
@@ -407,8 +389,8 @@ that facilitates interconnection between cell types and GO terms via their marke
 </figure>
 </div>
 <h3 id="which-human-cell-types-are-related-to-neurogenesis-via-their-markers">“Which human cell types are related to neurogenesis via their markers?”</h3>
-<p>As expected, the query below retrieved a series of neuron types, such as “<a href="https://www.wikidata.org/wiki/Q101404913">human purkinje neuron</a>” and “<a href="https://www.wikidata.org/wiki/Q101405091">human cajal-retzius cell</a>.” It did, however, also retrieved non-neural cell types such as the “<a href="https://www.wikidata.org/wiki/Q101405109">human loop of henle cell</a>, a kidney cell type, and”<a href="https://www.wikidata.org/wiki/Q101404928">human osteoclast</a>. These seemingly unrelated cell types markedly express genes that are involved in neurogenesis, but that does not mean that they are involved with this process. This reinforces the idea that one needs to be careful when using curated pathways to enrich one’s analysis, as false positives abound.</p>
-<p>The molecular process that gene products take part depends on the cell type. The SPARQL query below enables us to seamlessly compare Gene Ontology processes with cell marker data, providing a fruitful sandbox for generation of hypothesis and exploration of the biomedical knowledge landscape.</p>
+<p>As expected, the query below retrieved a series of neuron types, such as “<a href="https://www.wikidata.org/wiki/Q101404913">human purkinje neuron</a>” and “<a href="https://www.wikidata.org/wiki/Q101405091">human cajal-retzius cell</a>.” It also retrieved non-neural cell types such as the “<a href="https://www.wikidata.org/wiki/Q101405109">human loop of henle cell</a>, a kidney cell type, and”<a href="https://www.wikidata.org/wiki/Q101404928">human osteoclast</a>. These seemingly unrelated cell types markedly express genes involved in neurogenesis, but that does not mean that they are involved with this process. The seemingly confusing results reinforce the idea that one needs to be careful when using curated pathways to enrich one’s analysis, as false positives abound.</p>
+<p>The molecular process that gene products take part depends on the cell type. SPARQL allows us to seamlessly compare Gene Ontology processes with cell marker data, providing a sandbox to generate hypotheses and explore the biomedical knowledge landscape.</p>
 <div id="tbl:neuro" class="tablenos">
 <table>
 <caption><span>Table 6:</span> Top 10 cell types related to neurogenesis via markers (07/02/2020, full query on <a href="https://w.wiki/yQ6" class="uri">https://w.wiki/yQ6</a>).
@@ -463,9 +445,9 @@ that facilitates interconnection between cell types and GO terms via their marke
 </tbody>
 </table>
 </div>
-<h3 id="which-cell-types-express-markers-associated-to-parkinsons-disease">“Which cell types express markers associated to Parkinson`s disease?”</h3>
-<p>Besides integration with Gene Ontology, Wikidata reconciliation makes it possible to complement the marker gene info on PanglaoDB with information about diseases. This integration is of biomedical interest, as there is a quest for detailing of mechanisms that link genetic associations and the diseases themselves.</p>
-<p>“Disease genes” are often compiled from Genomic Wide Association Studies, which look for sequence variation in the DNA. These studies are commonly blind to the cell types related to the pathophysiology of the disease. In the query below, we can see cell types that are marked by genes genetically associated with Parkinson’s disease. Even considering the false positives (as per the previously mentioned multifunctional nature of genes) this kind of overlook can aid domain experts to come up with novel hypotheses.</p>
+<h3 id="which-cell-types-express-markers-associated-with-parkinsons-disease">“Which cell types express markers associated with Parkinson’s disease?”</h3>
+<p>Besides integration with Gene Ontology, Wikidata reconciliation makes it possible to complement the marker gene info on PanglaoDB with information about diseases. This integration is of biomedical interest, as there is a quest to detail mechanisms that link genetic associations and the diseases themselves.</p>
+<p>“Disease genes” are often compiled from Genomic Wide Association Studies, which look for sequence variation in the DNA. These studies are commonly blind to the cell types related to the pathophysiology of the disease. In the query below, we can see cell types marked by genes genetically associated with Parkinson’s disease. Even considering the false positives, the overview can aid domain experts in coming up with novel hypotheses.</p>
 <div id="tbl:parkinson" class="tablenos">
 <table>
 <caption><span>Table 7:</span> Top 5 cell types related to Parkinson’s disease via markers (07/02/2020, full query on <a href="https://w.wiki/yQD" class="uri">https://w.wiki/yQD</a>).
@@ -507,8 +489,8 @@ that facilitates interconnection between cell types and GO terms via their marke
 </table>
 </div>
 <h3 id="which-diseases-are-associated-with-the-markers-of-pancreatic-beta-cells">Which diseases are associated with the markers of pancreatic beta cells?</h3>
-<p>We can check the cell-type to disease relation in both ways. Scientists that study specific cell types (and not necessarily specific diseases) might be interested in knowing which diseases are related to their cell type of interest. In the sample query below, I looked for the diseases linked to the <a href="https://www.wikidata.org/wiki/Q101405087">human pancreatic beta cells</a>, which play an important role in controlling blood sugar levels. Reassuringly, top hits associated with markers included
-<a href="https://www.wikidata.org/wiki/Q12174">obesity</a> and <a href="https://www.wikidata.org/wiki/Q3025883">type-2 diabetes</a>. Other diseases retrieved, such as <a href="https://www.wikidata.org/wiki/Q30990046">Huntington disease-like 2</a> don’t bear a clear link with sugar function, and might merit a further look by a domain expert to see if there are any hypothesis worth pursuing.</p>
+<p>We can check the cell-type to disease relation in both ways. Scientists that study specific cell types (and not necessarily specific diseases) might be interested in knowing which diseases are related to their cell type of interest. We looked for the diseases linked on Wikidata to the <a href="https://www.wikidata.org/wiki/Q101405087">human pancreatic beta cells</a>, which play an important role in controlling blood sugar levels. Reassuringly, top hits associated with markers included
+<a href="https://www.wikidata.org/wiki/Q12174">obesity</a> and <a href="https://www.wikidata.org/wiki/Q3025883">type-2 diabetes</a>. Other diseases retrieved, such as <a href="https://www.wikidata.org/wiki/Q548719">aniridia</a> - a disturb of the iris of the eye - do not bear a clear link with classic pancreatic functions and might provide novel insights on disease pathophysiology</p>
 <div id="tbl:beta" class="tablenos">
 <table>
 <caption><span>Table 8:</span> Top 5 cell types related to Parkinson’s disease via markers (07/02/2020, full query on <a href="https://w.wiki/yQD" class="uri">https://w.wiki/yQD</a>).
@@ -555,73 +537,6 @@ that facilitates interconnection between cell types and GO terms via their marke
 </tbody>
 </table>
 </div>
-<h2 id="improvement-of-wikidata-data-on-cell-types">Improvement of Wikidata data on cell types</h2>
-<p>To reconcile a database to Wikidata, we need to match names on the databases, often in natural language, to the unique identifiers on Wikidata. We first employed an automatic approach based on Entities from PanglaoDB, that is, cell types, tissue types and organ types, were matched with Wikidata items, matching summary can be seen on Table <a href="#tbl:reconcilesummary">9</a>.</p>
-<p>Of note, Wikidata editors often mix first-order classes such as “cells” and “organs” with second-order classes like “cell types” and “organ types” (Supplementary Information). First-order classes point to real-world individuals, like the “Dolly sheep zygote” (a real-world “cell”) and the “brain of Albert Einstein” (a real-world “organ”). Second-order classes point to classes, like “zygote” (a conceptual “cell type”) and “brain” (a conceptual “organ type”).</p>
-<div id="tbl:reconcilesummary" class="tablenos">
-<table>
-<caption><span>Table 9:</span> Summary of the matched entities from PanglaoDB (August 2020).
-</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: right;">PanglaoDB (count)</th>
-<th style="text-align: right;">Automatic matches (count)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Cell types</td>
-<td style="text-align: right;">215</td>
-<td style="text-align: right;">81 (37.67 %)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Tissue types</td>
-<td style="text-align: right;">246</td>
-<td style="text-align: right;">85 (34.55 %)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Organ types</td>
-<td style="text-align: right;">29</td>
-<td style="text-align: right;">22 (75.86%)</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>The difference between first-order classes and second-order classes is notoriously tricky, and biological databases and texts often practice unintentional punning (the use of the same concept for different levels <span class="citation" data-cites="qRaMi4fT">[<a href="#ref-qRaMi4fT" role="doc-biblioref">34</a>]</span>). For adding markers on Wikidata, we assumed that all information in PanglaoDB was about instances of cell types, and not specific cells.</p>
-<p>After marker data from PanglaoDB was added to Wikidata, we tested the automatic classification method was able to detect most cell types matches for most cell types on PanglaoDB matches (Table
-<a href="#tbl:finallook_summary">10</a>). The improvement of 38% to 80% of automatically matched types is an evidence that our work improved cell type content on Wikidata, and will arguably facilitate the reconciliation of other cell-type related resources.</p>
-<div id="tbl:finallook_summary" class="tablenos">
-<table>
-<caption><span>Table 10:</span> Summary of matched PanglaoDB entities after improvements were made (December 2020).
-</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: right;">PanglaoDB (count)</th>
-<th style="text-align: right;">Automatic matches (count)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Cell types</td>
-<td style="text-align: right;">215</td>
-<td style="text-align: right;">173 (80.46 %)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Tissue types</td>
-<td style="text-align: right;">246</td>
-<td style="text-align: right;">63 (25.60 %)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Organ types</td>
-<td style="text-align: right;">29</td>
-<td style="text-align: right;">18 (62.06 %)</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>Noticeably, the proportion of automatic matches for other entity types (tissues and organs) seems reduced in relation to the first assessment (35% to 25% and 76 to 62%). These entities were not targeted by our work, but as Wikidata is a living resource, modifications in the database, such as reclassification of entities or adding of other similar concepts, may have reduced the performance of our simple reconciler.</p>
 <h1 id="discussion">Discussion</h1>
 <p>In this work, we re-released the knowledge curated in PanglaoDB on Wikidata, connecting it to the semantic web.
 Each cell-type/marker statement was added to Wikidata with a pointer to PanglaoDB and a citation of the article, providing proper provenance.
@@ -629,7 +544,7 @@ At the same time, we documented the process of database integration to Wikidata,
 <p>It is important to note that not all data on PanglaoDB was added to Wikidata.
 Fine-grained, database-specific details were too granular for a general-purpose database like Wikidata (e.g. the sensitivity and specificity attached to each marker-cell type pair).
 As Wikidata license is very permissive (CC0), content in PanglaoDB that could be protected by copyright (for example, narrative descriptions of cell types) is not suitable for integration.
-In either case, depending on the goals, these data could be released in RDF format and be connected to independent SPARQL endpoints (as done in the Bio2RDF effort <span class="citation" data-cites="P7r8Hnya">[<a href="#ref-P7r8Hnya" role="doc-biblioref">35</a>]</span>).
+In either case, depending on the goals, these data could be released in RDF format and be connected to independent SPARQL endpoints (as done in the Bio2RDF effort <span class="citation" data-cites="P7r8Hnya">[<a href="#ref-P7r8Hnya" role="doc-biblioref">21</a>]</span>).
 In this work, we focused on integration to Wikidata to take advantage of the built-in integration with various types of knowledge, as well as the tooling developed by the Wikidata community.</p>
 <p>As described in the methods session, we added species-specific terms to Wikidata for cell types of <em>Homo sapiens</em> and <em>Mus musculus</em> described in the PanglaoDB database.
 The use of species-specific cell-types is necessary because genes in Wikidata are also species-specific, connected to their taxon by the “<a href="http://www.wikidata.org/entity/P703">found in taxon</a>” properties.
@@ -646,19 +561,19 @@ Wikidata bypasses this steep learning curve by providing a web interface which r
 The reconciliation process becomes smoother, as if a concept is not previously catalogued, we can add a new one on the fly.</p>
 <p>Additionally, knowledge added to Wikidata is not locked in the ivory tower of academia.
 Data on Wikidata can be easily reused on Wikipedia, a major source of information for scientists and lay people alike.
-Wikipedia’s thriving mutualism with academia is well documented. <span class="citation" data-cites="NG1Uu3C8 1G2eJdwl6 nGwWpKL0">[<a href="#ref-NG1Uu3C8" role="doc-biblioref">36</a>,<a href="#ref-1G2eJdwl6" role="doc-biblioref">37</a>,<a href="#ref-nGwWpKL0" role="doc-biblioref">38</a>]</span>
-Wikidata information can enhance the quality of articles about life-science subjects in semi-automated ways (as has been done before <span class="citation" data-cites="864Pcm4C">[<a href="#ref-864Pcm4C" role="doc-biblioref">39</a>]</span>).
+Wikipedia’s thriving mutualism with academia is well documented. <span class="citation" data-cites="NG1Uu3C8 1G2eJdwl6 nGwWpKL0">[<a href="#ref-NG1Uu3C8" role="doc-biblioref">22</a>,<a href="#ref-1G2eJdwl6" role="doc-biblioref">23</a>,<a href="#ref-nGwWpKL0" role="doc-biblioref">24</a>]</span>
+Wikidata information can enhance the quality of articles about life-science subjects in semi-automated ways (as has been done before <span class="citation" data-cites="864Pcm4C">[<a href="#ref-864Pcm4C" role="doc-biblioref">25</a>]</span>).
 Thus, Wikidata is directly connected to the well-established science education platform of Wikipedia, a feature unrivaled by any other structured knowledge system.</p>
 <p>Of course, Wikidata has its limitations.
 Concerns with the reliability of Wikipedia are as old as the encyclopedia itself (for a discussion, see <a href="https://en.wikipedia.org/wiki/Reliability_of_Wikipedia" class="uri">https://en.wikipedia.org/wiki/Reliability_of_Wikipedia</a>) and Wikidata likely shares many of such concerns.
-The ontological modelling on Wikidata is often far from perfect, and inconsistencies and logical mistakes abound. <span class="citation" data-cites="TagEAbdG">[<a href="#ref-TagEAbdG" role="doc-biblioref">40</a>]</span>.
-It has been argued, though, that bio-ontologies generally lack “strict, explicit and well defined semantics” (at least in 2008 <span class="citation" data-cites="DDcSlAUv">[<a href="#ref-DDcSlAUv" role="doc-biblioref">41</a>]</span>).
-While a comprehensive analysis of pros and cons of scientific Wikidata is not available, we extend Don Fallis’ view on Wikipedia and argue that Wikidata has a number of “epistemic virtues (e.g., power, speed, and fecundity) that arguably outweigh any deficiency in terms of reliability.” <span class="citation" data-cites="qMozvNth">[<a href="#ref-qMozvNth" role="doc-biblioref">42</a>]</span></p>
+The ontological modelling on Wikidata is often far from perfect, and inconsistencies and logical mistakes abound. <span class="citation" data-cites="TagEAbdG">[<a href="#ref-TagEAbdG" role="doc-biblioref">26</a>]</span>.
+It has been argued, though, that bio-ontologies generally lack “strict, explicit and well defined semantics” (at least in 2008 <span class="citation" data-cites="DDcSlAUv">[<a href="#ref-DDcSlAUv" role="doc-biblioref">27</a>]</span>).
+While a comprehensive analysis of pros and cons of scientific Wikidata is not available, we extend Don Fallis’ view on Wikipedia and argue that Wikidata has a number of “epistemic virtues (e.g., power, speed, and fecundity) that arguably outweigh any deficiency in terms of reliability.” <span class="citation" data-cites="qMozvNth">[<a href="#ref-qMozvNth" role="doc-biblioref">28</a>]</span></p>
 <p>This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers, easily reachable from Wikidata’s SPARQL Query Service (<a href="https://query.wikidata.org/" class="uri">https://query.wikidata.org/</a>).
-It is not first case study of biomedical data integration to Wikidata (see <span class="citation" data-cites="mPoPwN77">[<a href="#ref-mPoPwN77" role="doc-biblioref">43</a>]</span> for example.
+It is not first case study of biomedical data integration to Wikidata (see <span class="citation" data-cites="mPoPwN77">[<a href="#ref-mPoPwN77" role="doc-biblioref">29</a>]</span> for example.
 Nevertheless, the differences among the articles in style and scope contribute to a richer ecosystem for possible contributor.
 ])
-The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker <span class="citation" data-cites="chGii6yw">[<a href="#ref-chGii6yw" role="doc-biblioref">44</a>]</span>, labome <span class="citation" data-cites="rhRRCtlA">[<a href="#ref-rhRRCtlA" role="doc-biblioref">45</a>]</span>, CellFinder <span class="citation" data-cites="4AEy2xhQ">[<a href="#ref-4AEy2xhQ" role="doc-biblioref">12</a>]</span> and SHOGoiN/CELLPEDIA <span class="citation" data-cites="6uWWsiSq">[<a href="#ref-6uWWsiSq" role="doc-biblioref">46</a>]</span>).
+The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker <span class="citation" data-cites="chGii6yw">[<a href="#ref-chGii6yw" role="doc-biblioref">30</a>]</span>, labome <span class="citation" data-cites="rhRRCtlA">[<a href="#ref-rhRRCtlA" role="doc-biblioref">31</a>]</span>, CellFinder <span class="citation" data-cites="4AEy2xhQ">[<a href="#ref-4AEy2xhQ" role="doc-biblioref">12</a>]</span> and SHOGoiN/CELLPEDIA <span class="citation" data-cites="6uWWsiSq">[<a href="#ref-6uWWsiSq" role="doc-biblioref">32</a>]</span>).
 The approach we took here can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format.</p>
 <p>We hope that the community will keep improving marker and overall biological content on Wikidata, and that the interlinked marker information will be helpful. We invite the reader to improve information on Wikidata for their favorite cell types, adding markers and a link to the reference works, and make ourselves available for aiding anyone interested in using or editing marker information on Wikidata.</p>
 <h2 class="page_break_before" id="references">References</h2>
@@ -736,166 +651,100 @@ Aviv Regev, Sarah Teichmann, Eric Lander, Ido Amit, Christophe Benoist, Ewan Bir
 <em>eLife</em> (2017-12-05) <a href="https://www.wikidata.org/wiki/Q46368626">https://www.wikidata.org/wiki/Q46368626</a> <br />
 DOI: <a href="https://doi.org/10.7554/elife.27041">10.7554/elife.27041</a></p>
 </div>
-<div id="ref-2wDsXBwd">
-<p>16. <a href="https://query.wikidata.org/">https://query.wikidata.org/</a></p>
-</div>
-<div id="ref-meybWiAP">
-<p>17. <strong>oscar-franzen/PanglaoDB</strong> <br />
-Oscar Franzén<br />
-(2020-09-02) <a href="https://github.com/oscar-franzen/PanglaoDB">https://github.com/oscar-franzen/PanglaoDB</a></p>
-</div>
 <div id="ref-Se3rrKFw">
-<p>18. <strong>pandas-dev/pandas: Pandas 1.0.0</strong> <br />
+<p>16. <strong>pandas-dev/pandas: Pandas 1.0.0</strong> <br />
 Jeff Reback, Wes McKinney, Jbrockmendel, Joris Van Den Bossche, Tom Augspurger, Phillip Cloud, Gfyoung, Sinhrks, Adam Klein, Matthew Roeschke, … Thomas Kluyver<br />
 <em>Zenodo</em> (2020-01-29) <a href="https://doi.org/gg9gtt">https://doi.org/gg9gtt</a> <br />
 DOI: <a href="https://doi.org/10.5281/zenodo.3630805">10.5281/zenodo.3630805</a></p>
 </div>
-<div id="ref-MVQq5ye1">
-<p>19. <strong>mwaskom/seaborn: v0.11.0 (Sepetmber 2020)</strong> <br />
-Michael Waskom, Olga Botvinnik, Maoz Gelbart, Joel Ostblom, Paul Hobson, Saulius Lukauskas, David C Gemperline, Tom Augspurger, Yaroslav Halchenko, Jordi Warmenhoven, … Thomas Brunner<br />
-<em>Zenodo</em> (2020-09-08) <a href="https://doi.org/ghcq2j">https://doi.org/ghcq2j</a> <br />
-DOI: <a href="https://doi.org/10.5281/zenodo.4019146">10.5281/zenodo.4019146</a></p>
-</div>
-<div id="ref-1GtmSgxte">
-<p>20. <strong>matplotlib/matplotlib: REL: v3.3.2</strong> <br />
-Thomas A Caswell, Michael Droettboom, Antony Lee, John Hunter, Elliott Sales De Andrade, Eric Firing, Tim Hoffmann, Jody Klymak, David Stansby, Nelle Varoquaux, … Paul Ivanov<br />
-<em>Zenodo</em> (2020-09-15) <a href="https://doi.org/ghcq2k">https://doi.org/ghcq2k</a> <br />
-DOI: <a href="https://doi.org/10.5281/zenodo.4030140">10.5281/zenodo.4030140</a></p>
-</div>
-<div id="ref-tiAR9KSt">
-<p>21. <strong>reconciler: Python utility to reconcile Pandas DataFrames</strong> <br />
-João Vitor F. Cavalcante<br />
-<a href="https://github.com/jvfe/reconciler">https://github.com/jvfe/reconciler</a></p>
-</div>
-<div id="ref-18pxFz2gs">
-<p>22. <strong>OpenRefine-Wikidata interface</strong> <a href="https://wikidata.reconci.link/">https://wikidata.reconci.link/</a></p>
-</div>
-<div id="ref-zuFSMij9">
-<p>23. <strong>Reconciliation Service API v0.1</strong> <a href="https://reconciliation-api.github.io/specs/0.1/">https://reconciliation-api.github.io/specs/0.1/</a></p>
-</div>
-<div id="ref-HvkiunUe">
-<p>24. <strong>Natural language processing with Python</strong> <br />
-Steven Bird, Ewan Klein, Edward Loper<br />
-<em>O’Reilly</em> (2009) <br />
-ISBN: <a href="https://worldcat.org/isbn/9780596516499">9780596516499</a></p>
-</div>
-<div id="ref-adfLgClN">
-<p>25. <strong>API:REST API - MediaWiki</strong> <a href="https://www.mediawiki.org/wiki/API:REST_API">https://www.mediawiki.org/wiki/API:REST_API</a></p>
-</div>
-<div id="ref-oDiClyTE">
-<p>26. <strong>Ensembl 2020</strong> <br />
-Andrew D Yates, Premanand Achuthan, Wasiu Akanni, James Allen, Jamie Allen, Jorge Alvarez-Jarreta, M Ridwan Amode, Irina M Armean, Andrey G Azov, Ruth Bennett, … Paul Flicek<br />
-<em>Nucleic Acids Research</em> (2019-11-06) <a href="https://doi.org/ggqp72">https://doi.org/ggqp72</a> <br />
-DOI: <a href="https://doi.org/10.1093/nar/gkz966">10.1093/nar/gkz966</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31691826">31691826</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145704">PMC7145704</a></p>
-</div>
-<div id="ref-d5Tp72yA">
-<p>27. <strong>Database resources of the National Center for Biotechnology Information</strong> <br />
-NCBI Resource Coordinators<br />
-<em>Nucleic Acids Research</em> (2012-11-26) <a href="https://doi.org/gg9gtr">https://doi.org/gg9gtr</a> <br />
-DOI: <a href="https://doi.org/10.1093/nar/gks1189">10.1093/nar/gks1189</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23193264">23193264</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531099">PMC3531099</a></p>
-</div>
-<div id="ref-ZimCwChP">
-<p>28. <strong>Uberon, an integrative multi-species anatomy ontology.</strong> <br />
-Christopher J Mungall, Carlo Torniai, Georgios V Gkoutos, Suzanna E Lewis, Melissa A Haendel<br />
-<em>Genome biology</em> (2012-01-31) <a href="https://www.ncbi.nlm.nih.gov/pubmed/22293552">https://www.ncbi.nlm.nih.gov/pubmed/22293552</a> <br />
-DOI: <a href="https://doi.org/10.1186/gb-2012-13-1-r5">10.1186/gb-2012-13-1-r5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22293552">22293552</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334586">PMC3334586</a></p>
-</div>
 <div id="ref-RLHsA1U8">
-<p>29. <strong>CELDA – an ontology for the comprehensive representation of cells in complex systems</strong> <br />
+<p>17. <strong>CELDA – an ontology for the comprehensive representation of cells in complex systems</strong> <br />
 Stefanie Seltmann, Harald Stachelscheid, Alexander Damaschun, Ludger Jansen, Fritz Lekschas, Jean-Fred Fontaine, Throng Nghia Nguyen-Dobinsky, Ulf Leser, Andreas Kurtz<br />
 <em>BMC Bioinformatics</em> (2013-07-17) <a href="https://www.wikidata.org/wiki/Q21284308">https://www.wikidata.org/wiki/Q21284308</a> <br />
 DOI: <a href="https://doi.org/10.1186/1471-2105-14-228">10.1186/1471-2105-14-228</a></p>
 </div>
 <div id="ref-qDI8I4IJ">
-<p>30. <strong>SuLab/WikidataIntegrator</strong> <br />
+<p>18. <strong>SuLab/WikidataIntegrator</strong> <br />
 Su Lab<br />
 (2021-02-14) <a href="https://github.com/SuLab/WikidataIntegrator">https://github.com/SuLab/WikidataIntegrator</a></p>
 </div>
 <div id="ref-HUJ9NzAb">
-<p>31. <strong>UniProt</strong> <a href="https://sparql.uniprot.org/sparql">https://sparql.uniprot.org/sparql</a></p>
+<p>19. <strong>UniProt</strong> <a href="https://sparql.uniprot.org/sparql">https://sparql.uniprot.org/sparql</a></p>
 </div>
 <div id="ref-AgOOCR24">
-<p>32. <strong>Portal:Semantic Web - WikiPathways</strong> <a href="https://www.wikipathways.org/index.php/Portal:Semantic_Web">https://www.wikipathways.org/index.php/Portal:Semantic_Web</a></p>
-</div>
-<div id="ref-19ch4Xnw1">
-<p>33. <strong>jvfe/go2cell</strong> <br />
-João Vitor<br />
-(2021-01-02) <a href="https://github.com/jvfe/go2cell">https://github.com/jvfe/go2cell</a></p>
-</div>
-<div id="ref-qRaMi4fT">
-<p>34. <strong>Punning - OWL</strong> <a href="https://www.w3.org/2007/OWL/wiki/Punning">https://www.w3.org/2007/OWL/wiki/Punning</a></p>
+<p>20. <strong>Portal:Semantic Web - WikiPathways</strong> <a href="https://www.wikipathways.org/index.php/Portal:Semantic_Web">https://www.wikipathways.org/index.php/Portal:Semantic_Web</a></p>
 </div>
 <div id="ref-P7r8Hnya">
-<p>35. <strong>Bio2RDF Release 2: Improved Coverage, Interoperability and Provenance of Life Science Linked Data</strong> <br />
+<p>21. <strong>Bio2RDF Release 2: Improved Coverage, Interoperability and Provenance of Life Science Linked Data</strong> <br />
 Alison Callahan, José Cruz-Toledo, Peter Ansell, Michel Dumontier<br />
 <em>Lecture Notes in Computer Science</em> (2013-01-01) <a href="https://www.wikidata.org/wiki/Q56989268">https://www.wikidata.org/wiki/Q56989268</a> <br />
 DOI: <a href="https://doi.org/10.1007/978-3-642-38288-8_14">10.1007/978-3-642-38288-8_14</a></p>
 </div>
 <div id="ref-NG1Uu3C8">
-<p>36. <strong>Science Is Shaped by Wikipedia: Evidence from a Randomized Control Trial</strong> <br />
+<p>22. <strong>Science Is Shaped by Wikipedia: Evidence from a Randomized Control Trial</strong> <br />
 Neil Thompson, Douglas Hanley<br />
 (2017-09-20) <a href="https://www.wikidata.org/wiki/Q42013239">https://www.wikidata.org/wiki/Q42013239</a> <br />
 DOI: <a href="https://doi.org/10.2139/ssrn.3039505">10.2139/ssrn.3039505</a></p>
 </div>
 <div id="ref-1G2eJdwl6">
-<p>37. <strong>The Gene Wiki in 2011: community intelligence applied to human gene annotation</strong> <br />
+<p>23. <strong>The Gene Wiki in 2011: community intelligence applied to human gene annotation</strong> <br />
 Benjamin M. Good, Erik L. Clarke, Luca de Alfaro, Andrew I. Su<br />
 <em>Nucleic Acids Research</em> (2012-01-01) <a href="https://www.wikidata.org/wiki/Q21629969">https://www.wikidata.org/wiki/Q21629969</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/gkr925">10.1093/nar/gkr925</a></p>
 </div>
 <div id="ref-nGwWpKL0">
-<p>38. <strong>Ten simple rules for editing Wikipedia</strong> <br />
+<p>24. <strong>Ten simple rules for editing Wikipedia</strong> <br />
 Darren W. Logan, Massimo Sandal, Paul P. Gardner, Magnus Manske, Alex Bateman<br />
 <em>PLOS Computational Biology</em> (2010-01-01) <a href="https://www.wikidata.org/wiki/Q21145331">https://www.wikidata.org/wiki/Q21145331</a> <br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1000941">10.1371/journal.pcbi.1000941</a></p>
 </div>
 <div id="ref-864Pcm4C">
-<p>39. <strong>Utilizing the Wikidata system to improve the quality of medical content in Wikipedia in diverse languages: a pilot study</strong> <br />
+<p>25. <strong>Utilizing the Wikidata system to improve the quality of medical content in Wikipedia in diverse languages: a pilot study</strong> <br />
 Alexander Pfundner, Tobias Schönberg, John Horn, Richard David Boyce, Matthias Samwald<br />
 <em>Journal of Medical Internet Research</em> (2015-05-05) <a href="https://www.wikidata.org/wiki/Q21503276">https://www.wikidata.org/wiki/Q21503276</a> <br />
 DOI: <a href="https://doi.org/10.2196/jmir.4163">10.2196/jmir.4163</a></p>
 </div>
 <div id="ref-TagEAbdG">
-<p>40. <strong>Applying a Multi-Level Modeling Theory to Assess Taxonomic Hierarchies in Wikidata</strong> <br />
+<p>26. <strong>Applying a Multi-Level Modeling Theory to Assess Taxonomic Hierarchies in Wikidata</strong> <br />
 Freddy Brasileiro, João Paulo A. Almeida, Victorio A. Carvalho, Giancarlo Guizzardi<br />
 <em>Proceedings of the 25th International Conference Companion on World Wide Web</em> (2016-04-01) <a href="https://www.wikidata.org/wiki/Q27037396">https://www.wikidata.org/wiki/Q27037396</a> <br />
 DOI: <a href="https://doi.org/10.1145/2872518.2891117">10.1145/2872518.2891117</a></p>
 </div>
 <div id="ref-DDcSlAUv">
-<p>41. <strong>Ontology Design Patterns for bio-ontologies: a case study on the Cell Cycle Ontology</strong> <br />
+<p>27. <strong>Ontology Design Patterns for bio-ontologies: a case study on the Cell Cycle Ontology</strong> <br />
 Mikel Egaña Aranguren, Erick Antezana, Martin Kuiper, Robert Stevens<br />
 <em>BMC Bioinformatics</em> (2008-01-01) <a href="https://www.wikidata.org/wiki/Q21093639">https://www.wikidata.org/wiki/Q21093639</a> <br />
 DOI: <a href="https://doi.org/10.1186/1471-2105-9-s5-s1">10.1186/1471-2105-9-s5-s1</a></p>
 </div>
 <div id="ref-qMozvNth">
-<p>42. <strong>Toward an epistemology of Wikipedia</strong> <br />
+<p>28. <strong>Toward an epistemology of Wikipedia</strong> <br />
 Don Fallis<br />
 <em>Journal of the Association for Information Science and Technology</em> (2008-08-01) <a href="https://www.wikidata.org/wiki/Q101955295">https://www.wikidata.org/wiki/Q101955295</a> <br />
 DOI: <a href="https://doi.org/10.1002/asi.20870">10.1002/asi.20870</a></p>
 </div>
 <div id="ref-mPoPwN77">
-<p>43. <strong>A protocol for adding knowledge to Wikidata: aligning resources on human coronaviruses</strong> <br />
+<p>29. <strong>A protocol for adding knowledge to Wikidata: aligning resources on human coronaviruses</strong> <br />
 Andra Waagmeester, Egon Willighagen, Andrew I. Su, Martina Summer-Kutmon, José Emilio Labra Gayo, Daniel Fernández-Álvarez, Quentin Groom, Peter J. Schaap, Lisa M. Verhagen, Jasper Koehorst<br />
 <em>BMC Biology</em> (2021-01-22) <a href="https://www.wikidata.org/wiki/Q105037759">https://www.wikidata.org/wiki/Q105037759</a> <br />
 DOI: <a href="https://doi.org/10.1186/s12915-020-00940-y">10.1186/s12915-020-00940-y</a></p>
 </div>
 <div id="ref-chGii6yw">
-<p>44. <strong>CellMarker: a manually curated resource of cell markers in human and mouse</strong> <br />
+<p>30. <strong>CellMarker: a manually curated resource of cell markers in human and mouse</strong> <br />
 Xinxin Zhang, Yujia Lan, Jinyuan Xu, Fei Quan, Erjie Zhao, Chunyu Deng, Tao Luo, Liwen Xu, Gaoming Liao, Min Yan, … Yun Xiao<br />
 <em>Nucleic Acids Research</em> (2019-01-01) <a href="https://www.wikidata.org/wiki/Q56984510">https://www.wikidata.org/wiki/Q56984510</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/gky900">10.1093/nar/gky900</a></p>
 </div>
 <div id="ref-rhRRCtlA">
-<p>45. <strong>Cell Markers</strong> <br />
+<p>31. <strong>Cell Markers</strong> <br />
 Konstantin Yakimchuk<br />
 <em>Materials and Methods</em> (2013-05-02) <a href="https://doi.org/ghq494">https://doi.org/ghq494</a> <br />
 DOI: <a href="https://doi.org/10.13070/mm.en.3.183">10.13070/mm.en.3.183</a></p>
 </div>
 <div id="ref-6uWWsiSq">
-<p>46. <strong>SHOGoiN: Shogoin Human Omics database for the Generation of iPS and Normal cells</strong> <a href="https://stemcellinformatics.org/">https://stemcellinformatics.org/</a></p>
+<p>32. <strong>SHOGoiN: Shogoin Human Omics database for the Generation of iPS and Normal cells</strong> <a href="https://stemcellinformatics.org/">https://stemcellinformatics.org/</a></p>
 </div>
 <div id="ref-YU9w9vL3">
-<p>47. <strong>Wikidata as a semantic framework for the Gene Wiki initiative</strong> <br />
+<p>33. <strong>Wikidata as a semantic framework for the Gene Wiki initiative</strong> <br />
 Sebastian Burgstaller-Muehlbacher, Andra Waagmeester, Elvira Mitraka, Julia Turner, Tim Putman, Justin Leong, Chinmay Naik, Paul Pavlidis, Lynn Schriml, Benjamin M Good, Andrew I Su<br />
 <em>Database</em> (2016-03-17) <a href="https://doi.org/f9bbk9">https://doi.org/f9bbk9</a> <br />
 DOI: <a href="https://doi.org/10.1093/database/baw015">10.1093/database/baw015</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26989148">26989148</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4795929">PMC4795929</a></p>
@@ -903,7 +752,7 @@ DOI: <a href="https://doi.org/10.1093/database/baw015">10.1093/database/baw015</
 </div>
 <h1 id="supplementary-text-and-figures">Supplementary text and figures</h1>
 <p>Only <em>Homo sapiens</em> genes and Organs reconciled more than 50%.
-In the case of genes, this is probably due to the Gene Wiki initiative <span class="citation" data-cites="YU9w9vL3">[<a href="#ref-YU9w9vL3" role="doc-biblioref">47</a>]</span>, a long-running project to improve biological information in Wikipedia and its sister-projects, including Wikidata.</p>
+In the case of genes, this is probably due to the Gene Wiki initiative <span class="citation" data-cites="YU9w9vL3">[<a href="#ref-YU9w9vL3" role="doc-biblioref">33</a>]</span>, a long-running project to improve biological information in Wikipedia and its sister-projects, including Wikidata.</p>
 <p>This is further illustrated by Figure <a href="#fig:gene_alt_ids">5</a>, in which we can see that all <em>Mus musculus</em> gene items - and nearly all <em>Homo sapiens</em> items - analysed had the Entrez ID alternative identifier present.
 Most of the data from the Gene Wiki project came from NCBI, creator and maintainer of Entrez.
 Nevertheless, there are still many gene items without an “Ensembl Gene ID” property,
@@ -938,6 +787,32 @@ we matched 60% of <em>Homo sapiens</em> genes, and all of them had P31.
 This disparity is not clearly shown when looking exclusively at the number of statements for these items
 (Figures <a href="#fig:histo_boxplot">7</a> and <a href="#fig:gene_violin">8</a>), but it shows there is still a great amount of missing information
 for biological data, in particular in regards to cell types.</p>
+<div id="tbl:cell-counts" class="tablenos">
+<table>
+<caption><span>Table 9:</span> As of August 2020, Wikidata items regarding cell types have a varying amount of information, with most having very few statements.
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Cell type Item</th>
+<th style="text-align: center;">Number of statements</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">red blood cell (Q37187)</td>
+<td style="text-align: center;">48</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">myocyte (Q428914)</td>
+<td style="text-align: center;">18</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">mesenchymal cell (Q66568500)</td>
+<td style="text-align: center;">2</td>
+</tr>
+</tbody>
+</table>
+</div>
 <div id="fig:histo_boxplot" class="fignos">
 <figure>
 <img src="images/histo_boxplots.png" alt="" /><figcaption><span>Figure 7:</span> The distribution of the number of statements of the matched histological entities.
@@ -957,6 +832,71 @@ Cell types performed the lowest.</figcaption>
 <img src="images/final_look_reconciled_types.png" alt="" /><figcaption><span>Figure 9:</span> Percentage of reconciled entities gathered during the second and final reconciliation, divided by which item type they belong to.</figcaption>
 </figure>
 </div>
+<h2 id="improvement-of-wikidata-data-on-cell-types">Improvement of Wikidata data on cell types</h2>
+<p>To reconcile a database to Wikidata, we need to match names on the databases, often in natural language, to the unique identifiers on Wikidata. We first employed an automatic approach based on Entities from PanglaoDB, that is, cell types, tissue types and organ types, were matched with Wikidata items, matching summary can be seen on Table <a href="#tbl:reconcilesummary">10</a>.</p>
+<div id="tbl:reconcilesummary" class="tablenos">
+<table>
+<caption><span>Table 10:</span> Summary of the matched entities from PanglaoDB (August 2020).
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">PanglaoDB (count)</th>
+<th style="text-align: right;">Automatic matches (count)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Cell types</td>
+<td style="text-align: right;">215</td>
+<td style="text-align: right;">81 (37.67 %)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tissue types</td>
+<td style="text-align: right;">246</td>
+<td style="text-align: right;">85 (34.55 %)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Organ types</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">22 (75.86%)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>After marker data from PanglaoDB was added to Wikidata, we tested the automatic classification method was able to detect most cell types matches for most cell types on PanglaoDB matches (Table
+<a href="#tbl:finallook_summary">11</a>). The improvement of 38% to 80% of automatically matched types is evidence that our work improved cell type content on Wikidata, and will arguably facilitate the reconciliation of other cell-type related resources.</p>
+<div id="tbl:finallook_summary" class="tablenos">
+<table>
+<caption><span>Table 11:</span> Summary of matched PanglaoDB entities after improvements were made (December 2020).
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">PanglaoDB (count)</th>
+<th style="text-align: right;">Automatic matches (count)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Cell types</td>
+<td style="text-align: right;">215</td>
+<td style="text-align: right;">173 (80.46 %)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tissue types</td>
+<td style="text-align: right;">246</td>
+<td style="text-align: right;">63 (25.60 %)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Organ types</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">18 (62.06 %)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Noticeably, the proportion of automatic matches for other entity types (tissues and organs) seems reduced in relation to the first assessment (35% to 25% and 76 to 62%). These entities were not targeted by our work, but as Wikidata is a living resource, modifications in the database, such as reclassification of entities or adding of other similar concepts, may have reduced the performance of our simple reconciler.</p>
 <!-- default theme -->
 
 <style>
