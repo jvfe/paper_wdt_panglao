@@ -1324,7 +1324,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1345,7 +1345,7 @@
         [
           "2021",
           2,
-          4
+          14
         ]
       ]
     },
@@ -1354,7 +1354,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     }
@@ -1388,7 +1388,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     }
@@ -1421,7 +1421,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     }
@@ -1437,7 +1437,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1462,7 +1462,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1477,7 +1477,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1493,7 +1493,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1509,7 +1509,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1526,7 +1526,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1542,7 +1542,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1558,7 +1558,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1574,7 +1574,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1590,7 +1590,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1606,7 +1606,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1622,7 +1622,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1638,7 +1638,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -1654,7 +1654,7 @@
         [
           "2021",
           2,
-          8
+          16
         ]
       ]
     },
@@ -2209,20 +2209,274 @@
   },
   {
     "id": "1GmbExweg",
-    "type": "webpage",
+    "type": "article-journal",
     "title": "The Human Cell Atlas.",
-    "abstract": "scientific article",
-    "URL": "https://www.wikidata.org/wiki/Q46368626",
-    "language": "en",
-    "accessed": {
+    "container-title": "eLife",
+    "volume": "6",
+    "source": "Wikidata",
+    "DOI": "10.7554/elife.27041",
+    "language": "English",
+    "author": [
+      {
+        "family": "Regev",
+        "given": "Aviv"
+      },
+      {
+        "family": "Teichmann",
+        "given": "Sarah"
+      },
+      {
+        "family": "Lander",
+        "given": "Eric"
+      },
+      {
+        "family": "Amit",
+        "given": "Ido"
+      },
+      {
+        "family": "Benoist",
+        "given": "Christophe"
+      },
+      {
+        "family": "Birney",
+        "given": "Ewan"
+      },
+      {
+        "family": "Bodenmiller",
+        "given": "Bernd"
+      },
+      {
+        "family": "Campbell",
+        "given": "Peter"
+      },
+      {
+        "family": "Carninci",
+        "given": "Piero"
+      },
+      {
+        "family": "Clatworthy",
+        "given": "Menna"
+      },
+      {
+        "family": "Clevers",
+        "given": "Hans"
+      },
+      {
+        "family": "Deplancke",
+        "given": "Bart"
+      },
+      {
+        "family": "Dunham",
+        "given": "Ian"
+      },
+      {
+        "family": "Eberwine",
+        "given": "James"
+      },
+      {
+        "family": "Eils",
+        "given": "Roland"
+      },
+      {
+        "family": "Enard",
+        "given": "Wolfgang"
+      },
+      {
+        "family": "Farmer",
+        "given": "Andrew"
+      },
+      {
+        "family": "Fugger",
+        "given": "Lars"
+      },
+      {
+        "family": "Gottgens",
+        "given": "Berthold"
+      },
+      {
+        "family": "Hacohen",
+        "given": "Nir"
+      },
+      {
+        "family": "Haniffa",
+        "given": "Muzlifah"
+      },
+      {
+        "family": "Hemberg",
+        "given": "Martin"
+      },
+      {
+        "family": "Kim",
+        "given": "Seung"
+      },
+      {
+        "family": "Klenerman",
+        "given": "Paul"
+      },
+      {
+        "family": "Kriegstein",
+        "given": "Arnold"
+      },
+      {
+        "family": "Lein",
+        "given": "Ed S."
+      },
+      {
+        "family": "Linnarsson",
+        "given": "Sten"
+      },
+      {
+        "family": "Lundberg",
+        "given": "Emma"
+      },
+      {
+        "family": "Lundeberg",
+        "given": "Joakim"
+      },
+      {
+        "family": "Majumder",
+        "given": "Partha"
+      },
+      {
+        "family": "Marioni",
+        "given": "John C."
+      },
+      {
+        "family": "Merad",
+        "given": "Miriam"
+      },
+      {
+        "family": "Mhlanga",
+        "given": "Musa"
+      },
+      {
+        "family": "Nawijn",
+        "given": "Martijn C."
+      },
+      {
+        "family": "Netea",
+        "given": "Mihai"
+      },
+      {
+        "family": "Nolan",
+        "given": "Garry"
+      },
+      {
+        "family": "Pe'er",
+        "given": "Dana"
+      },
+      {
+        "family": "Phillipakis",
+        "given": "Anthony"
+      },
+      {
+        "family": "Ponting",
+        "given": "Chris"
+      },
+      {
+        "family": "Quake",
+        "given": "Stephen"
+      },
+      {
+        "family": "Reik",
+        "given": "Wolf"
+      },
+      {
+        "family": "Rozenblatt-Rosen",
+        "given": "Orit"
+      },
+      {
+        "family": "Sanes",
+        "given": "Joshua R."
+      },
+      {
+        "family": "Satija",
+        "given": "Rahul"
+      },
+      {
+        "family": "Schumacher",
+        "given": "Ton"
+      },
+      {
+        "family": "Shalek",
+        "given": "Alex"
+      },
+      {
+        "family": "Shapiro",
+        "given": "Ehud"
+      },
+      {
+        "family": "Sharma",
+        "given": "Padmanee"
+      },
+      {
+        "family": "Shin",
+        "given": "Jay W."
+      },
+      {
+        "family": "Stegle",
+        "given": "Oliver"
+      },
+      {
+        "family": "Stratton",
+        "given": "Michael"
+      },
+      {
+        "family": "Stubbington",
+        "given": "Michael J. T."
+      },
+      {
+        "family": "Theis",
+        "given": "Fabian J."
+      },
+      {
+        "family": "Uhlén",
+        "given": "Mathias"
+      },
+      {
+        "family": "Oudenaarden",
+        "given": "Alexander",
+        "dropping-particle": "van"
+      },
+      {
+        "family": "Wagner",
+        "given": "Allon"
+      },
+      {
+        "family": "Watt",
+        "given": "Fiona"
+      },
+      {
+        "family": "Weissman",
+        "given": "Jonathan"
+      },
+      {
+        "family": "Wold",
+        "given": "Barbara"
+      },
+      {
+        "family": "Xavier",
+        "given": "Ramnik"
+      },
+      {
+        "family": "Yosef",
+        "given": "Nir"
+      },
+      {
+        "family": "Participants",
+        "given": "Human Cell Atlas Meeting"
+      }
+    ],
+    "issued": {
       "date-parts": [
         [
-          "2021",
-          2,
-          8
+          "2017",
+          12,
+          5
         ]
       ]
     },
+    "URL": "https://www.wikidata.org/wiki/Q46368626",
     "note": "This CSL Item was generated by Manubot v0.5.0 from its persistent identifier (standard_id).\nstandard_id: wikidata:Q46368626"
   },
   {

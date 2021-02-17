@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="João Vitor Ferreira Cavalcante" />
   <meta name="author" content="Tiago Lubiana" />
-  <meta name="dcterms.date" content="2021-02-08" />
+  <meta name="dcterms.date" content="2021-02-17" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2021-02-08" />
-  <meta name="citation_publication_date" content="2021-02-08" />
+  <meta name="dc.date" content="2021-02-17" />
+  <meta name="citation_publication_date" content="2021-02-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -49,9 +49,9 @@
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/">permalink</a>)
+(<a href="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/c762aa1c1aae17b92395030f33f37852c5661680">jvfe/paper_wdt_panglao@c762aa1</a>
-on February 8, 2021.
+from <a href="https://github.com/jvfe/paper_wdt_panglao/tree/550efafe043cff06c13f7b13a93ddf636c6cab57">jvfe/paper_wdt_panglao@550efaf</a>
+on February 17, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -323,30 +323,80 @@ The PanglaoDB is referenced both via URL to the website (<a href="https://pangla
 </figure>
 </div>
 <p>Since Wikidata is an open system information about markers will be complemented by user contributions.
-To date, no other project has systematically integrated cell type markers to Wikidata, and most information is provenient from PanglaoDB. The queries below show an update view of the marker count for cell types of humans and mice on Wikidata.</p>
-<!-- Talvez para uma versão estática role fazer uma figura com isso aqui: https://angryloki.github.io/wikidata-graph-builder/?property=P279&item=Q7868&mode=reverse -->
-<div id="three-tab-content" class="is-hidden">
-<h5 class="title is-5" style="text-align:center;">
-Marker information on Wikidata for cell types found in <i>Homo sapiens</i>
-</h5>
-<div class="columns is-centered">
-<p style="text-align: center"><iframe style="width: 90%; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fcell_type%20%3Fcell_typeLabel%20%28count%28%3Fmarker%29%20as%20%3Fmarker_count%29%0AWHERE%20%0A%7B%0A%20%20%3Fcell_type%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ189118.%0A%20%20%3Fcell_type%20wdt%3AP703%20wd%3AQ15978631.%0A%20%20%3Fcell_type%20wdt%3AP8872%20%3Fmarker.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AGROUP%20BY%20%3Fcell_type%20%3Fcell_typeLabel%0AORDER%20BY%20DESC%28%3Fmarker_count%29%20" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></p>
+To date, no other project has systematically integrated cell type markers to Wikidata, and most information is provenient from PanglaoDB. The tables show the marker count for the 5 cell types of humans and mice with most markers on Wikidata, for both species around two hundred marker genes.</p>
+<div id="tbl:hs_markers" class="tablenos">
+<table>
+<caption><span>Table 4:</span> Top 5 <em>Homo sapiens</em> cell types with most markers on Wikidata (15/02/2020, full query on <a href="https://w.wiki/zoQ" class="uri">https://w.wiki/zoQ</a>).
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">celltypeLabel</th>
+<th style="text-align: right;">marker_count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.wikidata.org/entity/Q101405035">human interneuron</a></td>
+<td style="text-align: right;">216</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.wikidata.org/entity/Q101405104">human neuron</a></td>
+<td style="text-align: right;">203</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.wikidata.org/entity/Q68621315">human endothelial cell</a></td>
+<td style="text-align: right;">187</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.wikidata.org/entity/Q101404861">human fibroblast</a></td>
+<td style="text-align: right;">170</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.wikidata.org/entity/Q101405101">human hepatocyte</a></td>
+<td style="text-align: right;">149</td>
+</tr>
+</tbody>
+</table>
 </div>
-</div>
-<div id="three-tab-content" class="is-hidden">
-<h5 class="title is-5" style="text-align:center;">
-Marker information on Wikidata for cell types found in <i>Mus musculus</i>
-</h5>
-<div class="columns is-centered">
-<p style="text-align: center"><iframe style="width: 90%; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fcell_type%20%3Fcell_typeLabel%20%28count%28%3Fmarker%29%20as%20%3Fmarker_count%29%0AWHERE%20%0A%7B%0A%20%20%3Fcell_type%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ189118.%0A%20%20%3Fcell_type%20wdt%3AP703%20wd%3AQ83310.%0A%20%20%3Fcell_type%20wdt%3AP8872%20%3Fmarker.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AGROUP%20BY%20%3Fcell_type%20%3Fcell_typeLabel%0AORDER%20BY%20DESC%28%3Fmarker_count%29%20" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></p>
-</div>
+<div id="tbl:mm_markers" class="tablenos">
+<table>
+<caption><span>Table 5:</span> Top 5 <em>Mus musculus</em> cell types with most markers on Wikidata (15/02/2020, full query on <a href="https://w.wiki/zoN" class="uri">https://w.wiki/zoN</a>).
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">celltypeLabel</th>
+<th style="text-align: right;">marker_count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.wikidata.org/entity/Q102426621">mouse neocortical interneuron</a></td>
+<td style="text-align: right;">219</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.wikidata.org/entity/Q104416243">mouse interneuron</a></td>
+<td style="text-align: right;">219</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.wikidata.org/entity/Q104416303">mouse neuron</a></td>
+<td style="text-align: right;">210</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.wikidata.org/entity/Q104416178">mouse endothelial cell</a></td>
+<td style="text-align: right;">188</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.wikidata.org/entity/Q104416140">mouse fibroblast</a></td>
+<td style="text-align: right;">176</td>
+</tr>
+</tbody>
+</table>
 </div>
 <h1 id="wikidata-sparql-queries-enabled-by-the-integration">Wikidata SPARQL queries enabled by the integration</h1>
 <p>Now that the PanglaoDB is released as Linked Open Data, we can make queries that were not possible before, including
 federated queries with other biological databases, such as Uniprot <span class="citation" data-cites="HUJ9NzAb">[<a href="#ref-HUJ9NzAb" role="doc-biblioref">31</a>]</span>
 and Wikipathways <span class="citation" data-cites="AgOOCR24">[<a href="#ref-AgOOCR24" role="doc-biblioref">32</a>]</span>.
 Due to previous similar reconciliation projects, Wikidata already contains information about genes, including their relations to Gene Ontology (GO) terms,
-<!-- você decide se quer manter essa parte ou acha que fica muita coisa -->
 something that led to the development of an R package, go2cell <span class="citation" data-cites="19ch4Xnw1">[<a href="#ref-19ch4Xnw1" role="doc-biblioref">33</a>]</span>,
 that facilitates interconnection between cell types and GO terms via their markers.
 <!--  --></p>
@@ -361,7 +411,7 @@ that facilitates interconnection between cell types and GO terms via their marke
 <p>The molecular process that gene products take part depends on the cell type. The SPARQL query below enables us to seamlessly compare Gene Ontology processes with cell marker data, providing a fruitful sandbox for generation of hypothesis and exploration of the biomedical knowledge landscape.</p>
 <div id="tbl:neuro" class="tablenos">
 <table>
-<caption><span>Table 4:</span> Top 10 cell types related to neurogenesis via markers (07/02/2020, full query on <a href="https://w.wiki/yQ6" class="uri">https://w.wiki/yQ6</a>).
+<caption><span>Table 6:</span> Top 10 cell types related to neurogenesis via markers (07/02/2020, full query on <a href="https://w.wiki/yQ6" class="uri">https://w.wiki/yQ6</a>).
 </caption>
 <thead>
 <tr class="header">
@@ -418,7 +468,7 @@ that facilitates interconnection between cell types and GO terms via their marke
 <p>“Disease genes” are often compiled from Genomic Wide Association Studies, which look for sequence variation in the DNA. These studies are commonly blind to the cell types related to the pathophysiology of the disease. In the query below, we can see cell types that are marked by genes genetically associated with Parkinson’s disease. Even considering the false positives (as per the previously mentioned multifunctional nature of genes) this kind of overlook can aid domain experts to come up with novel hypotheses.</p>
 <div id="tbl:parkinson" class="tablenos">
 <table>
-<caption><span>Table 5:</span> Top 5 cell types related to Parkinson’s disease via markers (07/02/2020, full query on <a href="https://w.wiki/yQD" class="uri">https://w.wiki/yQD</a>).
+<caption><span>Table 7:</span> Top 5 cell types related to Parkinson’s disease via markers (07/02/2020, full query on <a href="https://w.wiki/yQD" class="uri">https://w.wiki/yQD</a>).
 </caption>
 <thead>
 <tr class="header">
@@ -461,7 +511,7 @@ that facilitates interconnection between cell types and GO terms via their marke
 <a href="https://www.wikidata.org/wiki/Q12174">obesity</a> and <a href="https://www.wikidata.org/wiki/Q3025883">type-2 diabetes</a>. Other diseases retrieved, such as <a href="https://www.wikidata.org/wiki/Q30990046">Huntington disease-like 2</a> don’t bear a clear link with sugar function, and might merit a further look by a domain expert to see if there are any hypothesis worth pursuing.</p>
 <div id="tbl:beta" class="tablenos">
 <table>
-<caption><span>Table 6:</span> Top 5 cell types related to Parkinson’s disease via markers (07/02/2020, full query on <a href="https://w.wiki/yQD" class="uri">https://w.wiki/yQD</a>).
+<caption><span>Table 8:</span> Top 5 cell types related to Parkinson’s disease via markers (07/02/2020, full query on <a href="https://w.wiki/yQD" class="uri">https://w.wiki/yQD</a>).
 </caption>
 <thead>
 <tr class="header">
@@ -506,11 +556,11 @@ that facilitates interconnection between cell types and GO terms via their marke
 </table>
 </div>
 <h2 id="improvement-of-wikidata-data-on-cell-types">Improvement of Wikidata data on cell types</h2>
-<p>To reconcile a database to Wikidata, we need to match names on the databases, often in natural language, to the unique identifiers on Wikidata. We first employed an automatic approach based on Entities from PanglaoDB, that is, cell types, tissue types and organ types, were matched with Wikidata items, matching summary can be seen on Table <a href="#tbl:reconcilesummary">7</a>.</p>
+<p>To reconcile a database to Wikidata, we need to match names on the databases, often in natural language, to the unique identifiers on Wikidata. We first employed an automatic approach based on Entities from PanglaoDB, that is, cell types, tissue types and organ types, were matched with Wikidata items, matching summary can be seen on Table <a href="#tbl:reconcilesummary">9</a>.</p>
 <p>Of note, Wikidata editors often mix first-order classes such as “cells” and “organs” with second-order classes like “cell types” and “organ types” (Supplementary Information). First-order classes point to real-world individuals, like the “Dolly sheep zygote” (a real-world “cell”) and the “brain of Albert Einstein” (a real-world “organ”). Second-order classes point to classes, like “zygote” (a conceptual “cell type”) and “brain” (a conceptual “organ type”).</p>
 <div id="tbl:reconcilesummary" class="tablenos">
 <table>
-<caption><span>Table 7:</span> Summary of the matched entities from PanglaoDB (August 2020).
+<caption><span>Table 9:</span> Summary of the matched entities from PanglaoDB (August 2020).
 </caption>
 <thead>
 <tr class="header">
@@ -540,10 +590,10 @@ that facilitates interconnection between cell types and GO terms via their marke
 </div>
 <p>The difference between first-order classes and second-order classes is notoriously tricky, and biological databases and texts often practice unintentional punning (the use of the same concept for different levels <span class="citation" data-cites="qRaMi4fT">[<a href="#ref-qRaMi4fT" role="doc-biblioref">34</a>]</span>). For adding markers on Wikidata, we assumed that all information in PanglaoDB was about instances of cell types, and not specific cells.</p>
 <p>After marker data from PanglaoDB was added to Wikidata, we tested the automatic classification method was able to detect most cell types matches for most cell types on PanglaoDB matches (Table
-<a href="#tbl:finallook_summary">8</a>). The improvement of 38% to 80% of automatically matched types is an evidence that our work improved cell type content on Wikidata, and will arguably facilitate the reconciliation of other cell-type related resources.</p>
+<a href="#tbl:finallook_summary">10</a>). The improvement of 38% to 80% of automatically matched types is an evidence that our work improved cell type content on Wikidata, and will arguably facilitate the reconciliation of other cell-type related resources.</p>
 <div id="tbl:finallook_summary" class="tablenos">
 <table>
-<caption><span>Table 8:</span> Summary of matched PanglaoDB entities after improvements were made (December 2020).
+<caption><span>Table 10:</span> Summary of matched PanglaoDB entities after improvements were made (December 2020).
 </caption>
 <thead>
 <tr class="header">
@@ -681,7 +731,10 @@ Alexander D Diehl, Terrence F Meehan, Yvonne M Bradford, Matthew H Brush, Wasila
 DOI: <a href="https://doi.org/10.1186/s13326-016-0088-7">10.1186/s13326-016-0088-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27377652">27377652</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4932724">PMC4932724</a></p>
 </div>
 <div id="ref-1GmbExweg">
-<p>15. <strong>The Human Cell Atlas.</strong> <a href="https://www.wikidata.org/wiki/Q46368626">https://www.wikidata.org/wiki/Q46368626</a></p>
+<p>15. <strong>The Human Cell Atlas.</strong> <br />
+Aviv Regev, Sarah Teichmann, Eric Lander, Ido Amit, Christophe Benoist, Ewan Birney, Bernd Bodenmiller, Peter Campbell, Piero Carninci, Menna Clatworthy, … Human Cell Atlas Meeting Participants<br />
+<em>eLife</em> (2017-12-05) <a href="https://www.wikidata.org/wiki/Q46368626">https://www.wikidata.org/wiki/Q46368626</a> <br />
+DOI: <a href="https://doi.org/10.7554/elife.27041">10.7554/elife.27041</a></p>
 </div>
 <div id="ref-2wDsXBwd">
 <p>16. <a href="https://query.wikidata.org/">https://query.wikidata.org/</a></p>
@@ -756,7 +809,7 @@ DOI: <a href="https://doi.org/10.1186/1471-2105-14-228">10.1186/1471-2105-14-228
 <div id="ref-qDI8I4IJ">
 <p>30. <strong>SuLab/WikidataIntegrator</strong> <br />
 Su Lab<br />
-(2021-02-04) <a href="https://github.com/SuLab/WikidataIntegrator">https://github.com/SuLab/WikidataIntegrator</a></p>
+(2021-02-14) <a href="https://github.com/SuLab/WikidataIntegrator">https://github.com/SuLab/WikidataIntegrator</a></p>
 </div>
 <div id="ref-HUJ9NzAb">
 <p>31. <strong>UniProt</strong> <a href="https://sparql.uniprot.org/sparql">https://sparql.uniprot.org/sparql</a></p>

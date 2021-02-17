@@ -4,7 +4,7 @@ ADCYAP
 analysed
 aniridia
 biocurated
-Bioinformatics
+bioinformatics
 boxplot
 BST
 cajal
@@ -30,6 +30,7 @@ Entrez
 EPHB
 Fallis
 Ferreira
+fibroblast
 finallook
 Findable
 geneLabel
@@ -40,6 +41,7 @@ henle
 histo
 histological
 inteoperability
+interneuron
 Interoperable
 João
 Jupyter
@@ -59,6 +61,7 @@ musculus
 mutualism
 myocyte
 NCBI
+neocortical
 neuro
 neurogenesis
 neutrophil
@@ -100,7 +103,7 @@ SLC
 SPARQL
 TGFBR
 Tiago
-UBERON
+Uberon
 Uniprot
 Vitor
 wdt

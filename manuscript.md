@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-02-08'
+date-meta: '2021-02-17'
 author-meta:
 - João Vitor Ferreira Cavalcante
 - Tiago Lubiana
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="og:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
   <meta property="twitter:title" content="Wikidata to build 5-star Linked Open biological databases: A case study of PanglaoDB" />
-  <meta name="dc.date" content="2021-02-08" />
-  <meta name="citation_publication_date" content="2021-02-08" />
+  <meta name="dc.date" content="2021-02-17" />
+  <meta name="citation_publication_date" content="2021-02-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/paper_wdt_panglao/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/paper_wdt_panglao/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +63,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/paper_wdt_panglao/v/c762aa1c1aae17b92395030f33f37852c5661680/))
+([permalink](https://jvfe.github.io/paper_wdt_panglao/v/550efafe043cff06c13f7b13a93ddf636c6cab57/))
 was automatically generated
-from [jvfe/paper_wdt_panglao@c762aa1](https://github.com/jvfe/paper_wdt_panglao/tree/c762aa1c1aae17b92395030f33f37852c5661680)
-on February 8, 2021.
+from [jvfe/paper_wdt_panglao@550efaf](https://github.com/jvfe/paper_wdt_panglao/tree/550efafe043cff06c13f7b13a93ddf636c6cab57)
+on February 17, 2021.
 </em></small>
 
 ## Authors
@@ -312,27 +312,29 @@ Subset of the marker genes for item Q101405051 (human cholinergic neuron )
 
 
 Since Wikidata is an open system information about markers will be complemented by user contributions.
-To date, no other project has systematically integrated cell type markers to Wikidata, and most information is provenient from PanglaoDB. The queries below show an update view of the marker count for cell types of humans and mice on Wikidata.
+To date, no other project has systematically integrated cell type markers to Wikidata, and most information is provenient from PanglaoDB. The tables show the marker count for the 5 cell types of humans and mice with most markers on Wikidata, for both species around two hundred marker genes.
 
-<!-- Talvez para uma versão estática role fazer uma figura com isso aqui: https://angryloki.github.io/wikidata-graph-builder/?property=P279&item=Q7868&mode=reverse -->
+| celltypeLabel                                                       |   marker_count |
+|:--------------------------------------------------------------------|---------------:|
+| [human interneuron ](http://www.wikidata.org/entity/Q101405035)     |            216 |
+| [human neuron](http://www.wikidata.org/entity/Q101405104)           |            203 |
+| [human endothelial cell](http://www.wikidata.org/entity/Q68621315)  |            187 |
+| [human fibroblast](http://www.wikidata.org/entity/Q101404861)       |            170 |
+| [human hepatocyte](http://www.wikidata.org/entity/Q101405101)       |            149 |
 
-<div class="is-hidden" id="three-tab-content">
-<h5 class="title is-5" style="text-align:center;"> Marker information on Wikidata for  cell types found in  <i>Homo sapiens</i> </h5>
-<div class="columns is-centered">
-<p style="text-align: center">
-<iframe style="width: 90%; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fcell_type%20%3Fcell_typeLabel%20%28count%28%3Fmarker%29%20as%20%3Fmarker_count%29%0AWHERE%20%0A%7B%0A%20%20%3Fcell_type%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ189118.%0A%20%20%3Fcell_type%20wdt%3AP703%20wd%3AQ15978631.%0A%20%20%3Fcell_type%20wdt%3AP8872%20%3Fmarker.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AGROUP%20BY%20%3Fcell_type%20%3Fcell_typeLabel%0AORDER%20BY%20DESC%28%3Fmarker_count%29%20" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
-</p>
-</div>
-</div>
+Table: Top 5 _Homo sapiens_ cell types with most markers on Wikidata (15/02/2020, full query on <https://w.wiki/zoQ>).
+{#tbl:hs_markers}
 
-<div class="is-hidden" id="three-tab-content">
-<h5 class="title is-5" style="text-align:center;"> Marker information on Wikidata for  cell types found in  <i>Mus musculus</i> </h5>
-<div class="columns is-centered">
-<p style="text-align: center">
-<iframe style="width: 90%; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3Fcell_type%20%3Fcell_typeLabel%20%28count%28%3Fmarker%29%20as%20%3Fmarker_count%29%0AWHERE%20%0A%7B%0A%20%20%3Fcell_type%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ189118.%0A%20%20%3Fcell_type%20wdt%3AP703%20wd%3AQ83310.%0A%20%20%3Fcell_type%20wdt%3AP8872%20%3Fmarker.%20%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AGROUP%20BY%20%3Fcell_type%20%3Fcell_typeLabel%0AORDER%20BY%20DESC%28%3Fmarker_count%29%20" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
-</p>
-</div>
-</div>
+| celltypeLabel                                                              |   marker_count |
+|:---------------------------------------------------------------------------|---------------:|
+| [mouse neocortical interneuron](http://www.wikidata.org/entity/Q102426621) |            219 |
+| [mouse interneuron](http://www.wikidata.org/entity/Q104416243)             |            219 |
+| [mouse neuron](http://www.wikidata.org/entity/Q104416303)                  |            210 |
+| [mouse endothelial cell](http://www.wikidata.org/entity/Q104416178)        |            188 |
+| [mouse fibroblast](http://www.wikidata.org/entity/Q104416140)              |            176 |
+
+Table:  Top 5 _Mus musculus_ cell types with most markers on Wikidata (15/02/2020, full query on <https://w.wiki/zoN>).
+{#tbl:mm_markers}
 
 # Wikidata SPARQL queries enabled by the integration
 
@@ -340,7 +342,6 @@ Now that the PanglaoDB is released as Linked Open Data, we can make queries that
 federated queries with other biological databases, such as Uniprot [@https://sparql.uniprot.org/sparql]
 and Wikipathways [@https://www.wikipathways.org/index.php/Portal:Semantic_Web].
 Due to previous similar reconciliation projects, Wikidata already contains information about genes, including their relations to Gene Ontology (GO) terms,
-<!-- você decide se quer manter essa parte ou acha que fica muita coisa -->
 something that led to the development of an R package, go2cell [@https://github.com/jvfe/go2cell],
 that facilitates interconnection between cell types and GO terms via their markers.
 <!--  -->
